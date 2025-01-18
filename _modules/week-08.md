@@ -3,14 +3,16 @@ title: Week 8
 ---
 
 March 11
-: **Lecture 14**{: .label .label-lecture} Feature Engineering
-: **Lecture Participation 14**{: .label .label-survey } 
-: **Discussion 7**{: .label .label-disc } Gradient Descent, Feature Engineering
+: **No Lecture**{: .label .label-lecture}
+: **Discussion 7**{: .label .label-disc } OLS, Gradient Descent
+
+March 12
+: **Midterm Exam**{: .label .label-exam } Midterm (8-10 PM)
 
 March 13
 : **Lecture 15**{: .label .label-lecture} Case Study (HCE): CCAO
-: **Lecture Participation 15**{: .label .label-survey } 
+: **Lecture Participation 15**{: .label .label-survey } Lecture Participation 15
 
 March 14
-: **Lab 7**{: .label .label-lab }  Gradient descent and sklearn
-: **Project A1**{: .label .label-proj } Housing I
+: **Lab 7**{: .label .label-lab }  Gradient Descent / Sklearn (due Mar 18)
+: **Project A1**{: .label .label-proj } Housing I (due Mar 20)

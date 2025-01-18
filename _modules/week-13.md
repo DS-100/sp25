@@ -3,16 +3,16 @@ title: Week 13
 ---
 
 
-April 8
+Apr 15
 : **Lecture 22**{: .label .label-lecture} Logistic Regression I
-: **Lecture Participation 22**{: .label .label-survey} 
+: **Lecture Participation 22**{: .label .label-survey} Lecture Participation 22
 : **Discussion 11**{: .label .label-disc } SQL
     
-April 10
+Apr 17
 : **Lecture 23**{: .label .label-lecture} Logistic Regression II
-: **Lecture Participation 23**{: .label .label-survey} 
-: **Exam Prep 10**{: .label .label-examprep } Logistic Regression
+: **Lecture Participation 23**{: .label .label-survey} Lecture Participation 23
+<!-- : **Exam Prep 10**{: .label .label-examprep } Logistic Regression -->
 
-April 11
-: **Lab 11**{: .label .label-lab }  Logistic Regression
-: **Project B1**{: .label .label-proj } Spam & Ham I
+Apr 18
+: **Lab 11**{: .label .label-lab } Logistic Regression (due Apr 22)
+: **Project B1**{: .label .label-proj } Spam & Ham I (due Apr 24)

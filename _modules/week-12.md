@@ -3,16 +3,16 @@ title: Week 12
 ---
 
 
-April 1
+Apr 8
 : **Lecture 20**{: .label .label-lecture} SQL I
-: **Lecture Participation 20**{: .label .label-survey} 
+: **Lecture Participation 20**{: .label .label-survey} Lecture Participation 20
 : **Discussion 10**{: .label .label-disc } RVs, Bias, and Variance
 
-April 3
+Apr 10
 : **Lecture 21**{: .label .label-lecture} SQL II
-: **Lecture Participation 21**{: .label .label-survey} 
-: **Exam Prep 9**{: .label .label-examprep } SQL
+: **Lecture Participation 21**{: .label .label-survey} Lecture Participation 21
+<!-- : **Exam Prep 9**{: .label .label-examprep } SQL -->
 
-April 4
-: **Lab 10**{: .label .label-lab } SQL
-: **Homework 7**{: .label .label-hw } SQL
+Apr 11
+: **Lab 10**{: .label .label-lab } SQL (due Apr 15)
+: **Homework 7**{: .label .label-hw } SQL (due Apr 17)

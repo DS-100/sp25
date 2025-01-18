@@ -4,7 +4,7 @@ title: Week 1
 
 Jan 21
 : **Lecture 1**{: .label .label-lecture } Introduction
-: **Lecture Participation 1**{: .label .label-survey } 
+: **Lecture Participation 1**{: .label .label-survey } Lecture Participation 1
 
 
 Jan 22
@@ -14,4 +14,4 @@ Jan 22
 
 Jan 23
 : **Lecture 2**{: .label .label-lecture } Pandas I
-: **Lecture Participation 2**{: .label .label-survey } 
+: **Lecture Participation 2**{: .label .label-survey } Lecture Participation 2

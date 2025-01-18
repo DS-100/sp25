@@ -3,18 +3,19 @@ title: Week 4
 ---
 
 Feb 11
-: **Lecture 6**{: .label .label-lecture} Regex
-: **Lecture Participation 6**{: .label .label-survey } 
+: **Lecture 7**{: .label .label-lecture} Visualization I
+: **Lecture Participation 7**{: .label .label-survey } Lecture Participation 7
 : **Discussion 3**{: .label .label-disc } Pandas II, EDA
 
-
+Feb 12
+: **Drop Deadline (w/ fee)**{: .label .label-deadline } 11:59pm PT
 
 Feb 13
-: **Lecture 7**{: .label .label-lecture} Visualization I
-: **Lecture Participation 7**{: .label .label-survey } 
-: **Exam Prep 3**{: .label .label-examprep } RegEx
+: **Lecture 8**{: .label .label-lecture} Visualization II
+: **Lecture Participation 8**{: .label .label-survey } Lecture Participation 8
+<!-- : **Exam Prep 3**{: .label .label-examprep } RegEx -->
 
 
 Feb 14
-: **Lab 3**{: .label .label-lab } Regex, EDA
-: **Homework 3**{: .label .label-hw } Text Analysis of Bloomberg Articles
+: **Lab 3**{: .label .label-lab } Regex, EDA (due Feb 18)
+: **Homework 3**{: .label .label-hw } Text Analysis of Bloomberg Articles (due Feb 20)

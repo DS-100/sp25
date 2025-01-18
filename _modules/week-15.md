@@ -3,14 +3,15 @@ title: Week 15
 ---
 
 
-April 22
+Apr 29
 : **Lecture 26**{: .label .label-lecture} Clustering
-: **Lecture Participation 26**{: .label .label-survey}
-: **No Discussion**{: .label .label-disc }
+: **Lecture Participation 26**{: .label .label-survey} Lecture Participation 26
+: **Discussion 13**{: .label .label-disc } PCA
 
-April 24
-: **No Lecture**{: .label .label-lecture}
+May 1
+: **Lecture 27**{: .label .label-lecture} LLM + Guest + Closing
+: **Lecture Participation 27**{: .label .label-survey} Lecture Participation 27
 
 
-April 25
-: **Lab 13**{: .label .label-lab } Clustering
+May 2
+: **Lab 13**{: .label .label-lab } Clustering (due May 6)

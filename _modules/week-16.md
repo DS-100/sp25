@@ -9,7 +9,7 @@ May 6
 : RRR
 
 May 7
-: RRR
+: **Discussion 14**{: .label .label-disc } Clustering
 
 May 8
 : RRR
