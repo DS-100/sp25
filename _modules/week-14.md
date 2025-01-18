@@ -3,15 +3,16 @@ title: Week 14
 ---
 
 
-Nov 26
-: **Lecture 26**{: .label .label-lecture} [Clustering](lecture/lec26)
-    : [Note 26](https://ds100.org/course-notes/clustering/clustering.html)
-: **Lecture Participation 26**{: .label .label-survey} [Lecture Participation 26](https://app.sli.do/event/toXS5BK1PtNjLvdN4mhteR/embed/polls/24621d3f-0bdf-45ff-9dfb-11da7d10ad6f){:target="_blank"}
-: **No Discussion**{: .label .label-disc }
+April 15
+: **Lecture 24**{: .label .label-lecture} PCA I
+: **Lecture Participation 24**{: .label .label-survey} 
+: **Discussion 12**{: .label .label-disc } Logistic Regression
 
-Nov 28
-: **No Lecture**{: .label .label-lecture}
+April 17
+: **Lecture 25**{: .label .label-lecture} PCA II
+: **Lecture Participation 25**{: .label .label-survey}
+: **Exam Prep 11**{: .label .label-examprep } PCA and Clustering
 
-
-Nov 29
-: **Lab 13**{: .label .label-lab } [Clustering](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab13%2Flab13.ipynb&branch=main) (due Dec 10)
+April 18
+: **Lab 12**{: .label .label-lab }  PCA
+: **Project B2**{: .label .label-proj } Spam & Ham II
