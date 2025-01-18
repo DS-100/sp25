@@ -95,10 +95,10 @@ Below is a high-level “typical week in the course” for {{page.course.semeste
 |  Mo | Tu | We | Th | Fr |
 | --- | --- | --- | --- | --- | --- |
 | | <span style="color:Green">Live Lecture</span> |  | <span style="color:Green">Live Lecture</span> | |
-| | <span style="color:Blue">Discussion Section</span> | <span style="color:Blue">Discussion Section</span> | | | |
+| | | <span style="color:Blue">Discussion Section</span> | <span style="color:Blue">Discussion Section</span> | | | 
 | Office Hours | | Office Hours | Office Hours | Office Hours | 
 | | | | <span style="color: #c91d1d">**Homework N-1 due**</span> | <span style="color:#c91d1d">Homework N released</span> | 
-| | <span style="color:#c91d1d">**Lab N-1 due**</span> | | | <span style="color:#c91d1d">Lab N released</span> |
+| | <span style="color:#c91d1d">**Lab N-1 due**</span> | | <span style="color:#c91d1d">Lab N released</span> | |
 
 - **All deadlines are subject to change.**
 - The Office Hours schedule is on the [Calendar page](../calendar).
@@ -111,10 +111,9 @@ There are 2 live **lectures** held on Tuesdays and Thursdays, 5:00pm-6:30pm, hyb
 
 **Lecture participation**: While synchronous lecture attendance (in-person or through Zoom) is not mandatory, we expect you to "participate" in lecture by answering lecture poll questions in one of two ways: (1) synchronously during the lecture as poll questions are launched; or (2) asynchronously using a link provided after lecture.
 - Lecture participation is graded using poll responses on a 0/1 basis.
-  - Synchronous Participation: complete at least one participation poll question during the live lecture timeslot (11:00am-12:30pm, Tuesdays and Thursdays). As long as you submit a response to at least one poll question in this timeframe, you will receive synchronous attendance credit.
+  - Synchronous Participation: complete at least one participation poll question during the live lecture timeslot (5:00pm-6:30pm, Tuesdays and Thursdays). As long as you submit a response to at least one poll question in this timeframe, you will receive synchronous attendance credit.
   - Asynchronous Participation: complete all participation poll questions from the link provided on the course website within one week of the corresponding lecture.
   - In both cases, participation is graded on completion, not correctness.
-- If you submit all participation polls over the course of the semester (i.e., do not use any of the three automatic drops), you will receive +0.5% bonus points applied to your final overall grade in the class.
 - See the [Policies](#policies) section for lecture participation drops.
 
 
@@ -234,7 +233,7 @@ Slip days are automatically applied based on the additional hours you take to su
 {: .note }
 > If all 12 slip days are used for the first three homework assignments (for example), you are out of slip days and cannot ask us to not consider one of the slip days previously used. 
 
-Each project or homework can have a maximum of **4** slip days applied. After 4 days of the assignment due date, it is unlikely that we will be able to accept your submission unless you have additional accommodations. Slip days should be reserved for unforeseen circumstances. You should not plan to use your slip days regularly.
+Each project or homework can have a maximum of **4** slip days applied. After 4 days of the assignment due date, we will be not able to accept your submission unless you have additional accommodations. Slip days should be reserved for unforeseen circumstances. You should not plan to use your slip days regularly.
 
 
 ### Additional Accommodations
