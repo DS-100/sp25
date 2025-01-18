@@ -277,8 +277,24 @@ Regrade requests will **not** be considered in cases in which:
 
 We will be following the [EECS departmental policy on Academic Honesty](https://eecs.berkeley.edu/resources/students/academic-dishonesty){:target="_blank"}, which states that using work or resources that are not your own or not permitted by the course may lead to disciplinary actions, including a failing grade in the course.
 
-**Assignments:** Data science is a collaborative activity. While you may talk with others about the homework and projects, we ask that you write your solutions individually in your own words. **If you do discuss the assignments with others please include their names at the top of your notebook.** Restated, you and your friends are encouraged to discuss course content and approaches to problem-solving, but you are not allowed to share your code nor answers with other students, nor are you allowed to post your assignment solutions publicly. Doing so is considered academic misconduct. We will be running advanced plagiarism detection programs on all assignments. **Use of AI-assisted methods, such as ChatGPT, to generate written or code solutions to assignments is prohibited. Usage of past assignment solutions is also prohibited.**
+**Assignments:** Data science is a collaborative activity. While you may talk with others about the homework and projects, we ask that you write your solutions individually in your own words. **If you do discuss the assignments with others please include their names at the top of your notebook.** Restated, you and your friends are encouraged to discuss course content and approaches to problem-solving, but you are not allowed to share your code nor answers with other students, nor are you allowed to post your assignment solutions publicly. Doing so is considered academic misconduct. We will be running advanced plagiarism detection programs on all assignments. 
+
 Not only does such copying count as academic misconduct, but it also circumvents the pedagogical goals of an assignment. You must solve problems with the resources made available in the course. You should never look at or have solutions in your possession from another student or another semester.
+
+Working through challenging problems is a key step in learning. If you have an AI doing all the hard work for you, you won’t learn. Therefore, we have the following AI policy:
+
+{: .important }
+
+**Use of AI-assisted methods, such as ChatGPT, to generate written or code solutions to assignments is prohibited. Usage of past assignment solutions is also prohibited.**
+
+Copying any text directly from a homework or lab problem into ChatGPT is considered cheating in Data 100. Furthermore, engaging in this behavior is detrimental to your learning. You should break problems into steps and paraphrase those steps in your own words. If you copy problems directly into ChatGPT, **you're not learning data science**. You're learning how to ask someone else to do sloppy and unreliable data science on your behalf.
+
+However, we also know that AI assistants will be a key part of your future, and we want to encourage you to learn how to use these technologies as part of the learning process. Therefore, we encourage you to try using these technologies. Here are some prompt ideas that might help you learn:
+- “What does this error message mean? _\<error message\>_ What could I do to fix it?”
+- “Pandas is confusing me; what does the following pandas expression do? _\<weird expression\>_”
+- “How would I convert columns into separate rows in my dataframe?”
+- “Can you explain why the regular expression r’[a-z]’ only matches one character? Can you give me a few practice regular expression exercises?”
+
 
 **Exams:** Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don’t do it! Students caught cheating on any exam will fail the course.
 
