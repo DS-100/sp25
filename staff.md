@@ -19,7 +19,7 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
 ## Instructors
 
 <div class="role">
-  {% assign instructors = site.staffers | where: 'role', 'Instructor'| sort: 'order' %}
+  {% assign instructors = site.staffers | where: 'role', 'Instructor' | sort: 'order' %}
   {% for staffer in instructors %}
   {{ staffer }}
   {% endfor %}
