@@ -11,8 +11,8 @@ Apr 15
 Apr 17
 : **Lecture 23**{: .label .label-lecture} Logistic Regression II
 : **Lecture Participation 23**{: .label .label-survey} Lecture Participation 23
+: **Lab 11**{: .label .label-lab } Logistic Regression (due Apr 22)
 <!-- : **Exam Prep 10**{: .label .label-examprep } Logistic Regression -->
 
 Apr 18
-: **Lab 11**{: .label .label-lab } Logistic Regression (due Apr 22)
 : **Project B1**{: .label .label-proj } Spam & Ham I (due Apr 24)

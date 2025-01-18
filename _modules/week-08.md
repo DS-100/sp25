@@ -12,7 +12,7 @@ March 12
 March 13
 : **Lecture 15**{: .label .label-lecture} Case Study (HCE): CCAO
 : **Lecture Participation 15**{: .label .label-survey } Lecture Participation 15
+: **Lab 7**{: .label .label-lab }  Gradient Descent / Sklearn (due Mar 18)
 
 March 14
-: **Lab 7**{: .label .label-lab }  Gradient Descent / Sklearn (due Mar 18)
 : **Project A1**{: .label .label-proj } Housing I (due Mar 20)

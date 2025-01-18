@@ -11,7 +11,4 @@ Apr 29
 May 1
 : **Lecture 27**{: .label .label-lecture} LLM + Guest + Closing
 : **Lecture Participation 27**{: .label .label-survey} Lecture Participation 27
-
-
-May 2
 : **Lab 13**{: .label .label-lab } Clustering (due May 6)

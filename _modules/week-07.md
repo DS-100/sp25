@@ -10,9 +10,9 @@ March 4
 March 6
 : **Lecture 14**{: .label .label-lecture} Feature Engineering
 : **Lecture Participation 14**{: .label .label-survey } Lecture Participation 14
+: **Lab 6**{: .label .label-lab }  OLS (due Mar 11)
 <!-- : **Exam Prep 6**{: .label .label-examprep } OLS, Gradient Descent -->
 
 
 March 7
-: **Lab 6**{: .label .label-lab }  OLS (due Mar 11)
 : **Homework 5B**{: .label .label-hw }  OLS (due Mar 13)

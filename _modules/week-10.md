@@ -16,4 +16,4 @@ Mar 27
 
 Mar 28
 : Spring Break
-: **Grade Option Change**{: .label .label-deadline } 11:59pm PT
+: **Grade Option Change**{: .label .label-deadline } 11:59 PM

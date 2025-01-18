@@ -11,8 +11,8 @@ Apr 1
 Apr 3
 : **Lecture 19**{: .label .label-lecture} Parameter Inference & the Bootstrap
 : **Lecture Participation 19**{: .label .label-survey} Lecture Participation 19
+: **Lab 9**{: .label .label-lab }  Probability (due Apr 8)
 <!-- : **Exam Prep 8**{: .label .label-examprep } Probability and Bias-Variance -->
 
 Apr 4
-: **Lab 9**{: .label .label-lab }  Probability (due Apr 8)
 : **Homework 6**{: .label .label-hw } Probability (due Apr 10)
