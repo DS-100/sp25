@@ -23,8 +23,6 @@ description: Calendars with times for all course events.
 
 `Graduate project office hours` are in <span style="color:purple">**purple**</span>; we offer both in-person and virtual office hours (check the event description).
 
-<!-- Click on each event to see which GSI and/or reader is running each office hour time.   -->
-
 {: .note }
 > Almost all office hours will be held in-person in Warren Hall 101B. A small, limited portion of office hours are listed as online, primarily to accommodate online/remote students. During in-person office hours, staff members may be able to take online tickets, but will give priority to in-person tickets. From our experience in previous semesters, **the office hour experience in-person is much better (and much, much faster) than online**.
 

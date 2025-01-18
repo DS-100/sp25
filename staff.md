@@ -19,7 +19,7 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
 ## Instructors
 
 <div class="role">
-  {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+  {% assign instructors = site.staffers | where: 'role', 'Instructor'| sort: 'order' %}
   {% for staffer in instructors %}
   {{ staffer }}
   {% endfor %}
@@ -40,12 +40,6 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
       {{ staffer }}
     {% endif %}
   {% endfor %}
-  {% assign lead_teaching_assistants = site.staffers | where: 'role', 'Lead Teaching Assistant 12' %}
-  {% for staffer in lead_teaching_assistants %}
-    {% if staffer.team != 'Head TA' %}
-      {{ staffer }}
-    {% endif %}
-  {% endfor %}
 </div>
 
 <a name = 'ucs2s'></a>
@@ -53,10 +47,6 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
 ## UCS2s
 
 <div class="role">
-  {% assign ucs2s = site.staffers | where: 'role', 'UCS2 12' %}
-  {% for staffer in ucs2s %}
-    {{ staffer }}
-  {% endfor %}
   {% assign ucs2s = site.staffers | where: 'role', 'UCS2' %}
   {% for staffer in ucs2s %}
     {{ staffer }}

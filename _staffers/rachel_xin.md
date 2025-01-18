@@ -1,6 +1,6 @@
 ---
 name: Rachel Xin
-role: Lead TA (not hired)
+role: Lead TA
 email: rachelxin@berkeley.edu
 team: Grad Project
 ---
