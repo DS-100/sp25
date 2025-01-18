@@ -7,7 +7,7 @@ description: >-
 markdown: kramdown
 course:
     semester: Spring 2025
-    edstem: 
+    edstem: https://edstem.org/us/courses/74189
     bcourses: ""
     comms_email: data100.support@berkeley.edu
     email: data100.instructors@berkeley.edu
@@ -166,8 +166,8 @@ Please refer to [Grading Scheme](#grading-scheme) for a comprehensive grade brea
 There will be two exams in this course:
 
 {: .important}
-> - **Midterm** TBA
-- **Final** TBA
+> - **Midterm** on **Wednesday March 12** from 8pm-10pm
+- **Final** on **Friday May 16** from 11:30am-2:30pm
 
 **All exams must be taken in-person.** There will be no alternate exams offered.
 
@@ -187,7 +187,7 @@ We want to enable everyone to succeed in this course. We encourage you to discus
 
 Course Communication:
 
-- **EdStem**, or **Ed** for short, is our course forum this semester. **_All course announcements will be through Ed._** We are not using bCourses this semester. Please check out [Ed TBA](https://edstem.org/){:target="_blank"} or the [FAQ]({{page.course.faq}}){:target="_blank"} page first before emailing course staff directly.
+- **EdStem**, or **Ed** for short, is our course forum this semester. **_All course announcements will be through Ed._** We are not using bCourses this semester. Please check out [Ed](https://edstem.org/us/courses/74189){:target="_blank"} or the [FAQ]({{page.course.faq}}){:target="_blank"} page first before emailing course staff directly.
 
     - Ed is a formal, academic space. We must demonstrate appropriate respect, consideration, and compassion for others. Please be friendly and thoughtful; our community draws from a wide spectrum of valuable experiences. For further reading, please reference [Berkeley’s Principles of Community](https://diversity.berkeley.edu/principles-community){:target="_blank"} and the [Berkeley Campus Code of Student Conduct](https://sa.berkeley.edu/sites/default/files/Code%20of%20Conduct_January%202016.pdf){:target="_blank"}.
 
