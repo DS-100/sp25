@@ -19,6 +19,6 @@ Oct 31
 
 
 Nov 1
-: **Lab 9**{: .label .label-lab }  [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Flab%2Flab09%2Flab09.ipynb&branch=main) (due Nov 5)
-: **Homework 6**{: .label .label-hw } [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fhw%2Fhw06%2Fhw06.ipynb&branch=main) (due Nov 7)
+: **Lab 9**{: .label .label-lab }  [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab09%2Flab09.ipynb&branch=main) (due Nov 5)
+: **Homework 6**{: .label .label-hw } [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw06%2Fhw06.ipynb&branch=main) (due Nov 7)
 : **Grade Option Change Deadline**{: .label .label-deadline } 11:59pm PT

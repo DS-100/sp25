@@ -3,7 +3,7 @@ name: Malavikha Sudarshan
 role: Lead TA
 email: malavikhasudarshan@berkeley.edu 
 website: https://www.linkedin.com/in/malavikha-sudarshan/ 
-photo: Malavikha_Sudarshan.jpg
+photo: http://ds100.org/sp25/resources/assets/staff_pics/Malavikha_Sudarshan.jpg
 pronouns: She/Her
 team: Infrastructure
 ---

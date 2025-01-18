@@ -18,6 +18,6 @@ Sep 26
     : [Solutions](https://drive.google.com/file/d/1k2aXbkcPM-sndQqgdXucYpp13JUUDCyr/view?usp=sharing), [Walkthrough](https://www.youtube.com/watch?v=KVUvj5yAXt8&list=PLQCcNQgUcDfp9alGSVc_anQKPSLA5H2S_&index=1&t=33s&pp=iAQB){:target="_blank"}
 
 Sep 27
-: **Lab 4**{: .label .label-lab } [Transformations](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Flab%2Flab04%2Flab04.ipynb&branch=main) (due Oct 1)
-: **Homework 4**{: .label .label-hw } [Bike Sharing](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fhw%2Fhw04%2Fhw04.ipynb&branch=main) (due Oct 3)
+: **Lab 4**{: .label .label-lab } [Transformations](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab04%2Flab04.ipynb&branch=main) (due Oct 1)
+: **Homework 4**{: .label .label-hw } [Bike Sharing](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw04%2Fhw04.ipynb&branch=main) (due Oct 3)
 : **Add Deadline for Graduate Students**{: .label .label-deadline } 11:59pm PT

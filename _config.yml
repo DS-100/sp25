@@ -16,8 +16,8 @@
 
 title: Data 100
 description: Principles and Techniques of Data Science
-author: Joseph E. Gonzalez, Narges Norouzi
-baseurl: '/fa24' # the subpath of your site, e.g. /blog
+author: Narges Norouzi, Joshua Grossman
+baseurl: '/sp25' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 logo: 'resources/assets/favicon/panda-logo.png'
 
@@ -30,18 +30,18 @@ permalink: pretty
 
 # External navigation links
 nav_external_links:
-  - title: Course Notes
-    url: https://ds100.org/course-notes/
-    hide_icon: true
-    aria_label: "Data 100 Course Notes" 
-    # opens_in_new_tab: true
-  - title: Debugging Guide
-    url: https://ds100.org/debugging-guide/
-    hide_icon: true
-    aria_label: "Data 100 Debugging Guide" 
-    # opens_in_new_tab: true
+  # - title: Course Notes
+  #   url: https://ds100.org/course-notes/
+  #   hide_icon: true
+  #   aria_label: "Data 100 Course Notes" 
+  #   # opens_in_new_tab: true
+  # - title: Debugging Guide
+  #   url: https://ds100.org/debugging-guide/
+  #   hide_icon: true
+  #   aria_label: "Data 100 Debugging Guide" 
+      # opens_in_new_tab: true
   - title: Course FAQ
-    url: https://ds100.org/faqs/fa24/
+    url: https://ds100.org/faqs/sp25/
     hide_icon: true
 
 footer: >-

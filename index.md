@@ -4,26 +4,26 @@ title: Home / Schedule
 nav_order: 1
 description: A week-to-week description of the content covered in the course.
 course:
-  edstem: https://edstem.org/us/courses/62812
-  faq: https://ds100.org/faqs/fa24
-currWeekNumber: 17
+  edstem: https://edstem.org/us/courses/74189
+  faq: https://ds100.org/faqs/sp25
+currWeekNumber: 1
 ---
 
 # Data 100: Principles and Techniques of Data Science
 
 {: .mb-2 }
-UC Berkeley, Fall 2024
+UC Berkeley, Spring 2025
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-[Ed](https://edstem.org/us/courses/62812){:target="\_blank" .btn .btn-ed .mr-1 }
+[Ed](https://edstem.org/us/courses/74189){:target="\_blank" .btn .btn-ed .mr-1 }
 [Datahub](http://data100.datahub.berkeley.edu/){:target="\_blank" .btn .btn-datahub .mr-1 }
 [Gradescope](https://www.gradescope.com/courses/827978){:target="\_blank" .btn .btn-gradescope .mr-1 }
-[Lectures Playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqlx2UJTlv22jsPAu0Yg_kg){:target="\_blank" .btn .btn-youtube .mr-1}
-[Additional Accommodations](https://forms.gle/HYbsLwhtSvmsCefX9){:target="\_blank" .btn .btn-blue .mr-1 }
+<!-- [Lectures Playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqlx2UJTlv22jsPAu0Yg_kg){:target="\_blank" .btn .btn-youtube .mr-1} -->
+<!-- [Additional Accommodations](https://forms.gle/HYbsLwhtSvmsCefX9){:target="\_blank" .btn .btn-blue .mr-1 } -->
 [Office Hours Queue](https://oh.ds100.org/){:target="\_blank" .btn .btn-oh .mr-1}
 
 <div>
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% assign instructors = site.staffers | where: 'role', 'Instructor' | sort: 'order' %}
   <div class="role">
     {% for staffer in instructors %}
     {{ staffer }}
@@ -35,7 +35,7 @@ UC Berkeley, Fall 2024
 
 > Welcome to [Week {{page.currWeekNumber}}](#week-{{page.currWeekNumber}}) of Data 100!
 > 
-> Lectures will be webcast at: [https://berkeley.zoom.us/j/91349586134](https://berkeley.zoom.us/j/91349586134){:target="\_blank"}.
+<!-- > Lectures will be webcast at: [https://berkeley.zoom.us/j/91349586134](https://berkeley.zoom.us/j/91349586134){:target="\_blank"}. -->
 
 
 <!-- {: .note }

@@ -62,7 +62,7 @@ During EDA, you have to analyze the dataset to uncover patterns and insights. Fo
 - Do different judges have different preferences?
 - What factors make a question hard?
 
-You can get started with the following starter notebook for EDA: [`nlp-eda-starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fgrad-proj%2Fnlp-chatbot-analysis%2Fnlp-eda-starter.ipynb&branch=main).
+You can get started with the following starter notebook for EDA: [`nlp-eda-starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fgrad-proj%2Fnlp-chatbot-analysis%2Fnlp-eda-starter.ipynb&branch=main).
 
 See below in the description for [Milestone 2](#milestone-2-eda) for detailed instructions for the report.
 
@@ -303,7 +303,7 @@ The test sets for both tasks are named as follows:
 4. `arena-test-set-model_b_response-embeddings.npy`
 5. `arena-test-set-topic-modeling.jsonl.gz`
 
-All files are located in `shared/course/data100-shared-readwrite/fa24_grad_project_data/nlp-chatbot-analysis_data/test-set` directory on Data 100 Datahub.
+All files are located in `shared/course/data100-shared-readwrite/sp25_grad_project_data/nlp-chatbot-analysis_data/test-set` directory on Data 100 Datahub.
 
 Submit a single CSV file with three columns named `question_id`, `winner`, `hardness_score` to [the predictions assignment](https://www.gradescope.com/courses/827978/assignments/5159424){:target="_blank"}.
 

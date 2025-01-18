@@ -19,7 +19,7 @@ Nov 21
     : [Solutions](https://drive.google.com/file/d/1CxOYYCuGNQNGBjF7_W-sYQWLCYQerwA-/view?usp=sharing), [Walkthrough](https://youtu.be/AMuXOwcv92E){:target="_blank"}
 
 Nov 22
-: **Lab 12**{: .label .label-lab }  [PCA](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Flab%2Flab12%2Flab12.ipynb&branch=main) (due Nov 26)
+: **Lab 12**{: .label .label-lab }  [PCA](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab12%2Flab12.ipynb&branch=main) (due Nov 26)
 
 Nov 24
-: **Project B2**{: .label .label-proj } [Spam & Ham II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fproj%2FprojB2%2FprojB2.ipynb&branch=main) (due Dec 5)
+: **Project B2**{: .label .label-proj } [Spam & Ham II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fproj%2FprojB2%2FprojB2.ipynb&branch=main) (due Dec 5)

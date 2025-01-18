@@ -47,7 +47,7 @@ You are required to perform **(1) Exploratory Data Analysis (EDA)** and **(2) Mo
 
 ### Exploratory Data Analysis
 
-To help you with onboarding, the agency has provided a starter notebook [`cv_eda_starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fgrad-proj%2Fsatellite-images%2Fcv_eda_starter.ipynb&branch=main){:target="_blank"} which will introduce you to the dataset and some useful internal tools. After completing the onboarding assignment you will be comfortable with the following:
+To help you with onboarding, the agency has provided a starter notebook [`cv_eda_starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fgrad-proj%2Fsatellite-images%2Fcv_eda_starter.ipynb&branch=main){:target="_blank"} which will introduce you to the dataset and some useful internal tools. After completing the onboarding assignment you will be comfortable with the following:
 
 1. Loading and visualizing data using tools from `data_utils.py`
 2. Processing different color channels in the dataset images.
@@ -64,7 +64,7 @@ Please prepare an EDA report to present to the agency leadership with the above 
 
 ### Project Tasks
 
-Now that leadership is pleased with your initial EDA report and confident in your data science ability, they would like you to assist the agency with various tasks. *Please complete Task A first and then Task B.* To help you get started, the agency has provided a starter notebook [`cv_model_starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fgrad-proj%2Fsatellite-images%2Fcv_model_starter.ipynb&branch=main){:target="_blank"}
+Now that leadership is pleased with your initial EDA report and confident in your data science ability, they would like you to assist the agency with various tasks. *Please complete Task A first and then Task B.* To help you get started, the agency has provided a starter notebook [`cv_model_starter.ipynb`](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fgrad-proj%2Fsatellite-images%2Fcv_model_starter.ipynb&branch=main){:target="_blank"}
 
 #### *Task A: Disaster Type Classification*
 {:.no_toc}
@@ -270,7 +270,7 @@ The presentation video should provide an overview of your project, highlighting 
 
 This component of the final report will be graded based on your models' performance on the test set for both tasks of your chosen project (please find the thresholds for each task in the rubrics). You will need to submit your predictions to Gradescope to get your test performance; you will be allowed to upload up to 4 times a day. Please find the test data for each task below.
 
-`test_images_flooding-fire.npz` is the test for Task A and `test_images_hurricane-matthew.npz` is the test set for Task B; both files are located in `shared/course/data100-shared-readwrite/fa24_grad_project_data/satellite-image-data` directory on Data 100 Datahub.
+`test_images_flooding-fire.npz` is the test for Task A and `test_images_hurricane-matthew.npz` is the test set for Task B; both files are located in `shared/course/data100-shared-readwrite/sp25_grad_project_data/satellite-image-data` directory on Data 100 Datahub.
 
 Please submit two CSV files named `test_images_flooding-fire_predictions.csv`, and `test_images_hurricane-matthew_predictions.csv` to [the predictions assignment](https://www.gradescope.com/courses/827978/assignments/5159453){:target="_blank"}. Each CSV should only contain one column named `pred`.
 

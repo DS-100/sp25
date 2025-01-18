@@ -18,5 +18,5 @@ Oct 3
 
 
 Oct 4
-: **Lab 5**{: .label .label-lab }  [Modeling, Summary Statistics, and Loss Functions](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Flab%2Flab05%2Flab05.ipynb&branch=main) (due Oct 8)
+: **Lab 5**{: .label .label-lab }  [Modeling, Summary Statistics, and Loss Functions](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab05%2Flab05.ipynb&branch=main) (due Oct 8)
 : **Homework 5A**{: .label .label-hw } [Modeling](https://drive.google.com/file/d/15HiqqwDwImzfIvNnotS4ITgUMQyGioUM/view){:target="_blank"} (due Oct 10)

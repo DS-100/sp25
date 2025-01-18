@@ -17,5 +17,5 @@ Oct 10
     : [Solutions](https://drive.google.com/file/d/1u_r-jtM2FBoxFZXXHklWRFdNtyy51EAo/view?usp=sharing), [Walkthrough](https://youtu.be/-vQeuewzjgE){:target="_blank"}
 
 Oct 11
-: **Lab 6**{: .label .label-lab }  [OLS](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Flab%2Flab06%2Flab06.ipynb&branch=main) (due Oct 15)
+: **Lab 6**{: .label .label-lab }  [OLS](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab06%2Flab06.ipynb&branch=main) (due Oct 15)
 : **Homework 5B**{: .label .label-hw } [OLS](https://drive.google.com/file/d/1rAT7zcbLT8tU7VSCe1u98LpvWG7MsjPJ/view?usp=sharing){:target="_blank"} (due Oct 17)

@@ -22,5 +22,5 @@ Oct 24
 
 
 Oct 25
-: **Lab 8**{: .label .label-lab }  [Model Selection](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Flab%2Flab08%2Flab08.ipynb&branch=main) (due Oct 29)
-: **Project A2**{: .label .label-proj } [Housing II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa24-student&urlpath=lab%2Ftree%2Ffa24-student%2Fproj%2FprojA2%2FprojA2.ipynb&branch=main) (due Oct 31)
+: **Lab 8**{: .label .label-lab }  [Model Selection](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab08%2Flab08.ipynb&branch=main) (due Oct 29)
+: **Project A2**{: .label .label-proj } [Housing II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fproj%2FprojA2%2FprojA2.ipynb&branch=main) (due Oct 31)

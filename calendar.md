@@ -26,7 +26,7 @@ description: Calendars with times for all course events.
 <!-- Click on each event to see which GSI and/or reader is running each office hour time.   -->
 
 {: .note }
-> Almost all office hours will be held in-person in Warren Hall 101B. A small, limited portion of office hours are listed as online, primarily to accommodate online/remote students. From our experience in previous semesters, **the office hour experience in-person is much better (and much, much faster) than online**.
+> Almost all office hours will be held in-person in Warren Hall 101B. A small, limited portion of office hours are listed as online, primarily to accommodate online/remote students. During in-person office hours, staff members may be able to take online tickets, but will give priority to in-person tickets. From our experience in previous semesters, **the office hour experience in-person is much better (and much, much faster) than online**.
 
 To access `in-person office hours`, go to the room in the location of the office hour slot you're planning on attending.
 

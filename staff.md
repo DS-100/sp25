@@ -34,7 +34,7 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
   {% for staffer in head_teaching_assistants %}
     {{ staffer }}
   {% endfor %}
-  {% assign lead_teaching_assistants = site.staffers | where: 'role', 'Lead Teaching Assistant' %}
+  {% assign lead_teaching_assistants = site.staffers | where: 'role', 'Lead TA' %}
   {% for staffer in lead_teaching_assistants %}
     {% if staffer.team != 'Head TA' %}
       {{ staffer }}
@@ -69,6 +69,10 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
 
 <div class="role">
   {% assign ucs1s = site.staffers | where: 'role', 'UCS1' %}
+  {% for staffer in ucs1s %}
+    {{ staffer }}
+  {% endfor %}
+    {% assign ucs1s = site.staffers | where: 'role', 'UCS1 (no form)' %}
   {% for staffer in ucs1s %}
     {{ staffer }}
   {% endfor %}

@@ -2,7 +2,7 @@
 name: Rose Niousha
 role: Lead TA
 email: rose.n@berkeley.edu 
-photo: Rose_Niousha.jpeg
+photo: http://ds100.org/sp25/resources/assets/staff_pics/Rose_Niousha.jpeg
 pronouns: She/Her
 team: Grad Project
 team2: Content

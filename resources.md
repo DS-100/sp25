@@ -16,7 +16,7 @@ Jump to:
 {:toc}
 
 ## Reference Sheet
-Here is the Fall 2024 Final [Reference Sheet](assets\exams\fa24\fa24_final_reference_sheet.pdf){:target="_blank"}.
+Here is the Fall 2024 Final [Reference Sheet](assets\exams\sp25\sp25_final_reference_sheet.pdf){:target="_blank"}.
 
 ## Supplementary Course Notes
 Alongside each lecture are supplementary [Course Notes](https://ds100.org/course-notes/). 
@@ -35,7 +35,7 @@ Textbook readings are purely optional, and may contain material that is not in s
 
 | Semester | Midterm 1 | Midterm 2  | Final | Reference Sheet |
 | -- | -- | -- | -- | -- |
-|Fall 2024| [Exam](assets/exams/fa24/fa24_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/fa24/fa24_midterm_sol.pdf){:target="_blank"} | | [Exam](assets/exams/fa24/fa24_finals_qs.pdf) [(Solutions)](assets/exams/fa24/fa24_finals_sols.pdf)| [Midterm](assets\exams\fa24\fa24_mt_reference_sheet.pdf), [Final](assets\exams\fa24\fa24_final_reference_sheet.pdf) |
+|Fall 2024| [Exam](assets/exams/sp25/sp25_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/sp25/sp25_midterm_sol.pdf){:target="_blank"} | | [Exam](assets/exams/sp25/sp25_finals_qs.pdf) [(Solutions)](assets/exams/sp25/sp25_finals_sols.pdf)| [Midterm](assets\exams\sp25\sp25_mt_reference_sheet.pdf), [Final](assets\exams\sp25\sp25_final_reference_sheet.pdf) |
 |Summer 2024| [Exam](assets/exams/su24/su24_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/su24/su24_mt_sol.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfq-uOcGFHW25xUgXeK9b8Ow){:target="_blank"} | | [Exam](assets/exams/su24/su24_final.pdf){:target="_blank"} [(Solutions)](assets/exams/su24/su24_final_sol.pdf){:target="_blank"} | [Midterm](assets\exams\su24\su24_mt_reference_sheet.pdf), [Final](assets\exams\su24\su24_final_reference_sheet.pdf) |
 |Spring 2024| [Exam](assets/exams/sp24/ds100-sp24-midterm.pdf){:target="_blank"} [(Solutions)](assets/exams/sp24/ds100-sp24-midterm-sol.pdf){:target="_blank"} | | [Exam](assets/exams/sp24/ds100-sp24-final.pdf){:target="_blank"} [(Solutions)](https://ds100.org/sp24/resources/assets/exams/sp24/ds100-sp24-final-sol.pdf)| [Midterm](assets/exams/sp24/ds100-sp24-midterm-ref.pdf){:target="_blank"}, [Final](assets/exams/sp24/ds100-sp24-final-ref.pdf){:target="_blank"} |
 |Fall 2023| [Exam](assets/exams/fa23/fa23-midterm-ds100.pdf){:target="_blank"} [(Solutions)](assets/exams/fa23/fa23-midterm-ds100-sol.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpu7tvfnsip5caEOcO50r8U){:target="_blank"} | | [Exam](assets/exams/fa23/fa23-final.pdf){:target="_blank"} [(Solutions)](assets/exams/fa23/fa23-final-solutions.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqmK_hC9eQwJtTtcsKsxUdW) | [Midterm](assets/exams/fa23/fa23_mt_reference_sheet.pdf), [Final](assets/exams/fa23/fa23_final_reference_sheet.pdf) | 
@@ -62,12 +62,12 @@ Textbook readings are purely optional, and may contain material that is not in s
 <a name = 'course_website'></a>
 ## Course Website
 
-We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [GitHub repository](https://github.com/DS-100/fa24-student).
+We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [GitHub repository](https://github.com/DS-100/sp25-student).
 
 You can send us changes to the course website by
 [forking](https://help.github.com/articles/fork-a-repo/) and sending a [pull
 request](https://help.github.com/articles/about-pull-requests/) to the course
-website [GitHub repository](https://github.com/DS-100/fa24). You will then
+website [GitHub repository](https://github.com/DS-100/sp25). You will then
 become part of the history of Data 100 at Berkeley.
 
 ## Coding and Mathematics Resources
