@@ -2,7 +2,7 @@
 name: Xiaorui Liu
 role: Lead TA
 email: xiaoruiliu@berkeley.edu 
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Xiaorui_Liu.jpg
+photo: ../resources/assets/staff_pics/Xiaorui_Liu.jpg
 pronouns: He/Him
 team: Content
 ---

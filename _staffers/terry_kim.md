@@ -2,7 +2,7 @@
 name: Terry Kim
 role: UCS1
 email: terry.kim@berkeley.edu
-photo:  http://ds100.org/sp25/resources/assets/staff_pics/Terry_Kim.jpg
+photo:  ../resources/assets/staff_pics/Terry_Kim.jpg
 pronouns: He/Him
 ---
 

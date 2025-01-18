@@ -2,7 +2,7 @@
 name: Sarah Kiefer
 role: Lead TA
 email: sarahkiefer@berkeley.edu
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Sarah_Kiefer.png
+photo: ../resources/assets/staff_pics/Sarah_Kiefer.png
 pronouns: She/Her
 team: Student Support
 ---

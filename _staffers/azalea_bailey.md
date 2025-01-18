@@ -2,7 +2,7 @@
 name: Azalea Bailey
 role: UCS2
 email: azalea.mbailey@berkeley.edu
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Azalea_Bailey.jpg
+photo: ../resources/assets/staff_pics/Azalea_Bailey.jpg
 pronouns: She/Her
 team: Scholars
 ---

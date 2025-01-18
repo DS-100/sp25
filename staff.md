@@ -40,6 +40,10 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
       {{ staffer }}
     {% endif %}
   {% endfor %}
+     {% assign lead_teaching_assistants = site.staffers | where: 'role', 'Lead TA (no form)' %}
+  {% for staffer in lead_teaching_assistants %}
+    {{ staffer }}
+  {% endfor %}
 </div>
 
 <a name = 'ucs2s'></a>
@@ -48,6 +52,10 @@ Contact course staff via Ed with any questions or concerns. For sensitive matter
 
 <div class="role">
   {% assign ucs2s = site.staffers | where: 'role', 'UCS2' %}
+  {% for staffer in ucs2s %}
+    {{ staffer }}
+  {% endfor %}
+     {% assign ucs2s = site.staffers | where: 'role', 'UCS2 (no form)' %}
   {% for staffer in ucs2s %}
     {{ staffer }}
   {% endfor %}

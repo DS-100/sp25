@@ -2,7 +2,7 @@
 name: Dan Nguyen
 role: Lead Teaching Assistant
 email: danluunguyen@berkeley.edu 
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Dan_Nguyen.jpg
+photo: ../resources/assets/staff_pics/Dan_Nguyen.jpg
 pronouns: He/Him
 team: Instructional Coordination
 ---
