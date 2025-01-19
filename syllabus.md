@@ -93,9 +93,9 @@ If you are enrolled in Data 100, you have 2 options:
 - **"No Discussion" Grading Scheme:** Instead, the 5% discussion weight will be redistributed to the assignments category. If you choose this option you will not be assigned to a discussion section.
 
 {: .note }
-> There is a grace window after the onboarding form is due to switch from the graded disucssion option to the non-graded discussion option. If you are unable to submit the form on time, we will assume you have opted for the non-graded discussion option. Please refer to Ed for all information pertinent to this policy.
+> You can switch from the graded discussion option to the non-graded discussion option after the [Pre-Semester Survey](https://docs.google.com/forms/d/e/1FAIpQLSehM7P5Q56uskI00wofpOsXL4xQaYK97vY7l0AvLAlmguLgXQ/viewform?usp=header) is due (11:59AM (noon) on January 24, 2025) and before January 31, 2025, so you are able to attend one discussion to gauge your interest. To do so, please make a private Ed post or email [data100.instructors@berkeley.edu](mailto:{{page.course.email}}). You cannot switch from graded to non-graded after January 31, 2025. If you are unable to submit the form on time, we will assume you have opted for the non-graded discussion option.
 
-Students are not permitted to switch between the two grading schemes once  finalized. However, if you would like to attend discussion at a later point in the semester, please reach out to us privately via Ed or [data100.instructors@berkeley.edu](mailto:{{page.course.email}}).
+Students are not permitted to switch between the two grading schemes once finalized. However, if you would like to attend discussion at a later point in the semester, please reach out to us privately via Ed or [data100.instructors@berkeley.edu](mailto:{{page.course.email}}).
 
 Please refer to [Grading Scheme](#grading-scheme) for a comprehensive grade breakdown.
 
