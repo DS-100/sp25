@@ -30,12 +30,12 @@ an alternative to datahub.
 ## OSX
 
 1.  You will need access to the command line. On a Mac, you can open the
-    [Terminal](https://www.macworld.co.uk/how-to/mac-software/how-use-terminal-on-mac-3608274/)
+    [Terminal](https://www.macworld.co.uk/how-to/mac-software/how-use-terminal-on-mac-3608274/){:target="_blank"}
     by opening Spotlight (Cmd + Space) and typing `"Terminal"`. Alternatively, you can go to
     your `Applications` screen and select `Terminal` (it might be in the folder named
     `"Other"`)
 
-1.  [Homebrew](https://brew.sh/) is a package manager for OSX. If you haven't already, install it by
+1.  [Homebrew](https://brew.sh/){:target="_blank"} is a package manager for OSX. If you haven't already, install it by
     running the following in the command line (copy, paste, and enter):
 
          # This downloads the Ruby code of the installation script and runs it
@@ -44,7 +44,7 @@ an alternative to datahub.
     Verify your installation by making sure `brew --version` doesn't error at
     your terminal.
 
-1.  Download and install [Anaconda](https://www.anaconda.com/what-is-anaconda/):
+1.  Download and install [Anaconda](https://www.anaconda.com/what-is-anaconda/){:target="_blank"}:
 
         # Uses curl to download the installation script
         curl https://repo.continuum.io/miniconda/Miniconda2-4.5.11-MacOSX-x86_64.sh > miniconda.sh
@@ -69,9 +69,9 @@ scratch.
 
 ### Installing Anaconda:
 
-1. Visit [the Anaconda website](https://www.anaconda.com/download/#download) and download the installer
+1. Visit [the Anaconda website](https://www.anaconda.com/download/#download){:target="_blank"} and download the installer
    for **Python 3.7**. Download the 64-bit installer if your computer is 64-bit (most likely), the 32-bit
-   installer if not. See [this FAQ](https://support.microsoft.com/en-us/help/13443/windows-which-operating-system)
+   installer if not. See [this FAQ](https://support.microsoft.com/en-us/help/13443/windows-which-operating-system){:target="_blank"}
    if you are unsure.
 
 1. Run the exe file to install Anaconda.
