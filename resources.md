@@ -118,10 +118,10 @@ As a data scientist you will often need to search for information on various lib
     - Prof. Heer's [class](https://courses.cs.washington.edu/courses/cse512/19sp/).
 
 #### Calculus and Linear Algebra
+
 **Note**: None of these resources are meant to be a substitute for the appropriate requirement / co-requisite (Math 54, etc.). If you have no familiarity whatsoever with either of these topics, these may not be adequate and we strongly recommend spending time covering the prerequisite material yourself. We will assume that you have prior knowledge of these requirements and that these resources are simply to refresh your memory of concepts that you have previously learned. Please reach out to staff if you have any questions or concerns about this.
 
-**Calculus**:
-In terms of calculus, you will need to know a few things, most of which are covered within the space of the first homework and lab. Specifically, you will need to know univariate calculus rules like: Taking derivatives of a univariate function (i.e. f(x), where x is the only variable); Derivative power rule; Knowing derivatives of mathematical functions like: sinx,cosx,logx,ex; Chain rule; Product rule (rarely); Derivatives of sums. We will expect some multivariate fluency like: Taking partial derivatives of a multivariate function (i.e. f(x,y,z), where x,y,z are all variables); Gradients (the concept).
+**Calculus**: In terms of calculus, you will need to know a few things, most of which are covered within the space of the first homework and lab. Specifically, you will need to know univariate calculus rules like: Taking derivatives of a univariate function (i.e. f(x), where x is the only variable); Derivative power rule; Knowing derivatives of mathematical functions like: sinx,cosx,logx,ex; Chain rule; Product rule (rarely); Derivatives of sums. We will expect some multivariate fluency like: Taking partial derivatives of a multivariate function (i.e. f(x,y,z), where x,y,z are all variables); Gradients (the concept).
 
 - Khan Academy: 
 [Derivatives, Definitions, and Basic Rules](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules);
@@ -129,9 +129,7 @@ In terms of calculus, you will need to know a few things, most of which are cove
 
 - Math 53: [Derivatives of Vector Functions](https://www.youtube.com/watch?v=GUrHFmPn-W4&ab_channel=PeterKoroteev)
 
-**Linear Algebra**:
-
-Concepts roughly in order of importance:
+**Linear Algebra**: Concepts roughly in order of importance:
 vectors, matrices; rank/nullity;
 inner products, orthogonality, norms;
 linear independence;
@@ -140,7 +138,7 @@ vector spaces;
 projections;
 invertibility.
 
-- EE16A notes/assignments:
+- EECS 16A notes/assignments:
 Vector and Matrix Operations
 ([Note 2A](https://inst.eecs.berkeley.edu/~ee16a/fa19/lecture/Note2A.pdf), 
 [Note 2B](https://inst.eecs.berkeley.edu/~ee16a/fa19/lecture/Note2B.pdf)); 
@@ -152,7 +150,7 @@ Inner Products ([Note 21](https://inst.eecs.berkeley.edu/~ee16a/fa19/lecture/Not
 Least Squares ([Note 23](https://inst.eecs.berkeley.edu/~ee16a/fa19/lecture/Note23.pdf));
 - Math 54: Prof. Alex Paulin [Video Lectures](https://math.berkeley.edu/~apaulin/54_002(Spring2018).html)
 - Data 100 textbook: Geometric Perspective of Linear Projection ([Chapter 15](https://www.textbook.ds100.org/ch/15/linear_multi_fit.html)); Vector Spaces ([Appendix 2](https://www.textbook.ds100.org/ch/a02/vector_space_review.html))
-- 3blue1brown: [Essence of Linear Algebra](https://www.3blue1brown.com/essence-of-linear-algebra-page)
+- 3Blue1Brown: [Essence of Linear Algebra](https://www.3blue1brown.com/essence-of-linear-algebra-page)
 - Khan Academy: [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
 - MIT OpenCourseware: [Linear Algebra Video Lectures](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/video_galleries/video-lectures/)
 
