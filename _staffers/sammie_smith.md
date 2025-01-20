@@ -1,6 +1,6 @@
 ---
 name: Sammie Smith
-role: UCS2
+role: Lead TA
 email: happysammie6@berkeley.edu
 team: Scholars 
 # photo: ../resources/assets/staff_pics/Sammie_Smith.png

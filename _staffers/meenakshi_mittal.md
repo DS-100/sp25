@@ -1,6 +1,6 @@
 ---
 name: Meenakshi Mittal
-role: UCS2
+role: Lead TA
 email: meenakshi.mittal@berkeley.edu
 team: Lectures 
 # photo: ../resources/assets/staff_pics/Meenakshi_Mittal.jpeg

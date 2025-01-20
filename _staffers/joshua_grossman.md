@@ -1,5 +1,5 @@
 ---
-name: Joshua Grossman
+name: Josh Grossman
 role: Instructor
 email: jdgg@berkeley.edu
 # photo: ../resources/assets/staff_pics/Joshua_Grossman.jpg

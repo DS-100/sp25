@@ -16,7 +16,7 @@
 
 title: Data 100
 description: Principles and Techniques of Data Science
-author: Narges Norouzi, Joshua Grossman
+author: Narges Norouzi, Josh Grossman
 baseurl: '/sp25' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 logo: 'resources/assets/favicon/panda-logo.png'
