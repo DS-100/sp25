@@ -8,4 +8,4 @@ photo: http://ds100.org/sp25/resources/assets/staff_pics/Malavikha_Sudarshan.jpg
 pronouns: She/Her
 team: Infrastructure
 ---
-Hello :) I'm a 4th-yr majoring in Computer Science and Art Practice, with a minor in Data Science. I'm also from Scotland, in the UK! Looking forward to a fab semester :)
+Hiya! I’m a fourth-yr majoring in Computer Science and Art Practice, with a minor in Data Science. I’m also from Scotland, in the UK! Looking forward to a fab semester :)

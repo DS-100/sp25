@@ -21,3 +21,4 @@ node_modules/
 vendor/
 !assets/vendor/
 tmp/
+_staffers/sheets_parser.py
