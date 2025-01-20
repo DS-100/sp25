@@ -1,6 +1,6 @@
 ---
 name: Brandon Huang
-role: Lead TA
+role: UCS2
 email: dunmingbrandonhuang@berkeley.edu
 website: https://bransthre.github.io/
 # photo: ../resources/assets/staff_pics/Brandon_Huang.png
