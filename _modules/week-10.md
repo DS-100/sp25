@@ -2,18 +2,18 @@
 title: Week 10
 ---
 
-Mar 24
+Mon Mar 24
 : Spring Break
 
-Mar 25
+Tue Mar 25
 : Spring Break
 
-Mar 26
+Wed Mar 26
 : Spring Break
 
-Mar 27
+Thu Mar 27
 : Spring Break
 
-Mar 28
+Fri Mar 28
 : Spring Break
 : **Grade Option Change**{: .label .label-deadline } 11:59 PM
