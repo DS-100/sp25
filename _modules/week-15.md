@@ -11,4 +11,4 @@ Tue Apr 29
 Thu May 1
 : **Lecture 27**{: .label .label-lecture} LLM + Guest + Closing
 : **Lecture Participation 27**{: .label .label-survey} Lecture Participation 27
-: **Lab 13**{: .label .label-lab } Clustering, PCA (due Tue May 6)
+: **Lab 13**{: .label .label-lab } Clustering + PCA (due Tue May 6)
