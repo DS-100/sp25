@@ -2,16 +2,16 @@
 title: Week 9
 ---
 
-March 18
+Tue Mar 18
 : **Lecture 16**{: .label .label-lecture} Cross-Validation and Regularization
 : **Lecture Participation 16**{: .label .label-survey } Lecture Participation 16
 : **Discussion 8**{: .label .label-disc } Feature Engineering, Housing
 
-March 20
+Thu Mar 20
 : **Lecture 17**{: .label .label-lecture} Random Variables
 : **Lecture Participation 17**{: .label .label-survey } Lecture Participation 17
-: **Lab 8**{: .label .label-lab }  Model Selection (due Apr 1)
+: **Lab 8**{: .label .label-lab }  Model Selection (due Tue Apr 1)
 <!-- : **Exam Prep 7**{: .label .label-examprep } Cross Validation and Regularization -->
 
-March 21
-: **Project A2**{: .label .label-proj } Housing II (due Apr 3)
+Fri Mar 21
+: **Project A2**{: .label .label-proj } Housing II (due Thu Apr 3)

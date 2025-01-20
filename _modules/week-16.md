@@ -2,17 +2,17 @@
 title: Week 16
 ---
 
-May 5
+Mon May 5
 : RRR
 
-May 6
+Tue May 6
 : RRR
 
-May 7
-: **Discussion 14**{: .label .label-disc } Clustering
-
-May 8
+Wed May 7
 : RRR
 
-May 9
+Thu May 8
+: RRR
+
+Fri May 9
 : RRR

@@ -35,7 +35,7 @@ Textbook readings are purely optional, and may contain material that is not in s
 
 | Semester | Midterm 1 | Midterm 2  | Final | Reference Sheet |
 | -- | -- | -- | -- | -- |
-|Fall 2024| [Exam](assets/exams/sp25/sp25_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/sp25/sp25_midterm_sol.pdf){:target="_blank"} | | [Exam](assets/exams/sp25/sp25_finals_qs.pdf) [(Solutions)](assets/exams/sp25/sp25_finals_sols.pdf)| [Midterm](assets\exams\sp25\sp25_mt_reference_sheet.pdf), [Final](assets\exams\sp25\sp25_final_reference_sheet.pdf) |
+|Fall 2024| [Exam](assets/exams/fa24/fa24_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/fa24/fa24_midterm_sol.pdf){:target="_blank"} | | [Exam](assets/exams/fa24/fa24_finals_qs.pdf){:target="_blank"} [(Solutions)](assets/exams/fa24/fa24_finals_sols.pdf){:target="_blank"}| [Midterm](assets\exams\fa24\fa24_mt_reference_sheet.pdf){:target="_blank"}, [Final](assets\exams\fa24\fa24_final_reference_sheet.pdf){:target="_blank"} |
 |Summer 2024| [Exam](assets/exams/su24/su24_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/su24/su24_mt_sol.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfq-uOcGFHW25xUgXeK9b8Ow){:target="_blank"} | | [Exam](assets/exams/su24/su24_final.pdf){:target="_blank"} [(Solutions)](assets/exams/su24/su24_final_sol.pdf){:target="_blank"} | [Midterm](assets\exams\su24\su24_mt_reference_sheet.pdf), [Final](assets\exams\su24\su24_final_reference_sheet.pdf) |
 |Spring 2024| [Exam](assets/exams/sp24/ds100-sp24-midterm.pdf){:target="_blank"} [(Solutions)](assets/exams/sp24/ds100-sp24-midterm-sol.pdf){:target="_blank"} | | [Exam](assets/exams/sp24/ds100-sp24-final.pdf){:target="_blank"} [(Solutions)](https://ds100.org/sp24/resources/assets/exams/sp24/ds100-sp24-final-sol.pdf)| [Midterm](assets/exams/sp24/ds100-sp24-midterm-ref.pdf){:target="_blank"}, [Final](assets/exams/sp24/ds100-sp24-final-ref.pdf){:target="_blank"} |
 |Fall 2023| [Exam](assets/exams/fa23/fa23-midterm-ds100.pdf){:target="_blank"} [(Solutions)](assets/exams/fa23/fa23-midterm-ds100-sol.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpu7tvfnsip5caEOcO50r8U){:target="_blank"} | | [Exam](assets/exams/fa23/fa23-final.pdf){:target="_blank"} [(Solutions)](assets/exams/fa23/fa23-final-solutions.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqmK_hC9eQwJtTtcsKsxUdW) | [Midterm](assets/exams/fa23/fa23_mt_reference_sheet.pdf), [Final](assets/exams/fa23/fa23_final_reference_sheet.pdf) | 
@@ -175,7 +175,7 @@ However, we have listed a few optional books that will provide additional contex
 
 - **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)**, the Data 100 textbook.
 
-- **[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)** (Free online PDF) This book is a great reference for the machine learning and some of the statistics material in the class
+- **[Introduction to Statistical Learning](https://www.statlearning.com/)** (Free online PDF) This book is a great reference for the machine learning and some of the statistics material in the class
 
 - **[Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do)** ([Available as eBook for Berkeley students](https://www.oreilly.com/library/view/data-science-from/9781491901410/?ar)) This more applied book covers many of the topics in this class using Python but doesn't go into sufficient depth for some of the more mathematical material.
 
