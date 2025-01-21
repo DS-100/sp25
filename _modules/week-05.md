@@ -16,4 +16,4 @@ Thu Feb 20
 
 Fri Feb 21
 : **Homework 4**{: .label .label-hw } Bike Sharing (due Thu Feb 27)
-: **Add Deadline for Graduate Students**{: .label .label-deadline } 11:59 PM
+: **Add/Drop Deadline for Graduate Students**{: .label .label-deadline } 11:59 PM
