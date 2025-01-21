@@ -3,7 +3,7 @@ title: Week 1
 ---
 
 Tue Jan 21
-: **Lecture 1**{: .label .label-lecture } Introduction
+: **Lecture 1**{: .label .label-lecture } [Introduction](lecture/lec01)
 : **Lecture Participation 1**{: .label .label-survey } Lecture Participation 1
 
 
