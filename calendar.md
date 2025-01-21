@@ -45,7 +45,7 @@ This calendar contains times for
 
 To access `in-person office hours`, go to the room in the location of the office hour slot you're planning on attending.
 
-To access `virtual office hours`, place your ticket on the [queue](http://oh.ds100.org/) and then join the call with the "Join Call" button when your name is pulled.
+To access `virtual office hours`, place your ticket on the [queue](http://oh.ds100.org/){:target="_blank"} and then join the call with the "Join Call" button when your name is pulled.
 
 `Instructor office hours` with Prof. Grossman and Prof. Norouzi appear in <span style="color:red">**red**</span>. You should come to these with questions about concepts.
 
