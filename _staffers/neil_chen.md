@@ -1,6 +1,6 @@
 ---
 name: Neil Chen
-role: UCS1 (no form)
+role: UCS1
 email: neilchen@berkeley.edu
 photo: http://ds100.org/sp25/resources/assets/staff_pics/Neil_Chen.jpg
 pronouns: He/Him

@@ -1,6 +1,6 @@
 ---
 name: Dan Nguyen
-role: Lead Teaching Assistant
+role: Lead TA
 email: danluunguyen@berkeley.edu 
 # photo: ../resources/assets/staff_pics/Dan_Nguyen.jpg
 photo: http://ds100.org/sp25/resources/assets/staff_pics/Dan_Nguyen.jpg

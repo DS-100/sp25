@@ -1,6 +1,6 @@
 ---
 name: Cristina Prieto
-role: UCS1 (no form)
+role: UCS1
 email: cristinaprieto@berkeley.edu
 photo: http://ds100.org/sp25/resources/assets/staff_pics/Cristina_Prieto.jpg
 pronouns: She/Her
