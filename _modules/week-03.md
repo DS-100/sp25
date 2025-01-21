@@ -8,7 +8,7 @@ Tue Feb 4
 : **Discussion 2**{: .label .label-disc } Pandas I
 
 
-THu Feb 6
+Thu Feb 6
 : **Lecture 6**{: .label .label-lecture} Regex
 : **Lecture Participation 6**{: .label .label-survey } Lecture Participation 6
 : **Lab 2B**{: .label .label-lab } Data Cleaning and EDA (due Tue Feb 11)
