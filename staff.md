@@ -12,6 +12,7 @@ Jump to: [Instructors](#inst), [Lead Teaching Assistants](#leads), [UCS2s](#ucs2
 **Note:** Consult the [calendar]({{ site.baseurl }}/calendar) for the most up-to-date office hours. All staff office hours will be held in Warren 101B.
 
 ## Course Staff Email
+
 {: .important }
 > Contact course staff **via Ed** with any questions or concerns. For sensitive matters, the staff email address [data100.instructors@berkeley.edu](mailto:data100.instructors@berkeley.edu) is monitored by the instructors and a few lead TAs.
 
