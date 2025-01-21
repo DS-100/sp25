@@ -16,4 +16,3 @@ Thu Mar 27
 
 Fri Mar 28
 : Spring Break
-: **Grade Option Change**{: .label .label-deadline } 11:59 PM

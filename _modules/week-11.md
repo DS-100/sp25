@@ -16,3 +16,4 @@ Thu Apr 3
 
 Fri Apr 4
 : **Homework 6**{: .label .label-hw } Probability (due Thu Apr 10)
+: **Grade Option Change**{: .label .label-deadline } 11:59 PM
