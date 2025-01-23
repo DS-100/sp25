@@ -14,5 +14,5 @@ Wed Jan 22
 
 
 Thu Jan 23
-: **Lecture 2**{: .label .label-lecture } Pandas I
+: **Lecture 2**{: .label .label-lecture } [Pandas I](lecture/lec02)
 : **Lecture Participation 2**{: .label .label-survey } Lecture Participation 2
