@@ -15,4 +15,5 @@ Wed Jan 22
 
 Thu Jan 23
 : **Lecture 2**{: .label .label-lecture } [Pandas I](lecture/lec02)
+    : [Note 2](https://ds100.org/course-notes/pandas_1/pandas_1.html)
 : **Lecture Participation 2**{: .label .label-survey } Lecture Participation 2
