@@ -7,7 +7,7 @@ Tue Jan 28
 : **Lecture 3**{: .label .label-lecture} Pandas II
     : [Note 3](https://ds100.org/course-notes/pandas_2/pandas_2.html)
 : **Lecture Participation 3**{: .label .label-survey } Lecture Participation 3
-: **Discussion 1**{: .label .label-disc } Prerequisites
+: **Discussion 1**{: .label .label-disc } [Prerequisites](https://drive.google.com/file/d/1X4ZN38e0QnNdvyFq6KUPj1ecCAZn_XT5/view?usp=sharing)
     : [Mini-Lecture](https://www.youtube.com/watch?v=qXR-x19KT5w&list=PLQCcNQgUcDfplNp0itu2QqVjoDE9u5iow)
 
 
