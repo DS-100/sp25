@@ -8,6 +8,7 @@ Tue Jan 28
     : [Note 3](https://ds100.org/course-notes/pandas_2/pandas_2.html)
 : **Lecture Participation 3**{: .label .label-survey } Lecture Participation 3
 : **Discussion 1**{: .label .label-disc } Prerequisites
+    : [Mini-Lecture](https://www.youtube.com/watch?v=qXR-x19KT5w&list=PLQCcNQgUcDfplNp0itu2QqVjoDE9u5iow)
 
 
 Thu Jan 30
