@@ -16,7 +16,7 @@ Jump to:
 {:toc}
 
 ## Reference Sheet
-Here is the Fall 2024 Final [Reference Sheet](assets\exams\sp25\sp25_final_reference_sheet.pdf){:target="_blank"}.
+Here is the Fall 2024 Final [Reference Sheet](resources/assets/exams/fa24/fa24_final_reference_sheet.pdf){:target="_blank"}.
 
 ## Supplementary Course Notes
 Alongside each lecture are supplementary [Course Notes](https://ds100.org/course-notes/). 
