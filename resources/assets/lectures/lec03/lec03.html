@@ -7312,6 +7312,7 @@ a.anchor-link {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7516,7 +7517,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Lecture-3-%E2%80%93-Data-100,-Fall-2024">Lecture 3 – Data 100, Fall 2024<a class="anchor-link" href="#Lecture-3-%E2%80%93-Data-100,-Fall-2024">¶</a></h1><p>Data 100, Fall 2024</p>
+<h1 id="Lecture-3-%E2%80%93-Data-100,-Spring-2025">Lecture 3 – Data 100, Spring 2025<a class="anchor-link" href="#Lecture-3-%E2%80%93-Data-100,-Spring-2025">¶</a></h1><p>Data 100, Spring 2025</p>
 <p><a href="https://ds100.org/sp25/acks/">Acknowledgments Page</a></p>
 <p>A demonstration of advanced <code>pandas</code> syntax to accompany Lecture 3.</p>
 </div>
@@ -7647,7 +7648,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Integer-Based-Extraction-Using-iloc">Integer-Based Extraction Using <code>iloc</code><a class="anchor-link" href="#Integer-Based-Extraction-Using-iloc">¶</a></h4>
+<h3 id="Integer-Based-Extraction-Using-iloc">Integer-Based Extraction Using <code>iloc</code><a class="anchor-link" href="#Integer-Based-Extraction-Using-iloc">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7896,38 +7897,38 @@ a.anchor-link {
 <td>...</td>
 </tr>
 <tr>
-<th>177</th>
-<td>2016</td>
-<td>Jill Stein</td>
-<td>Green</td>
-</tr>
-<tr>
-<th>178</th>
-<td>2020</td>
-<td>Joseph Biden</td>
-<td>Democratic</td>
-</tr>
-<tr>
-<th>179</th>
-<td>2020</td>
+<th>182</th>
+<td>2024</td>
 <td>Donald Trump</td>
 <td>Republican</td>
 </tr>
 <tr>
-<th>180</th>
-<td>2020</td>
-<td>Jo Jorgensen</td>
-<td>Libertarian</td>
+<th>183</th>
+<td>2024</td>
+<td>Kamala Harris</td>
+<td>Democratic</td>
 </tr>
 <tr>
-<th>181</th>
-<td>2020</td>
-<td>Howard Hawkins</td>
+<th>184</th>
+<td>2024</td>
+<td>Jill Stein</td>
 <td>Green</td>
+</tr>
+<tr>
+<th>185</th>
+<td>2024</td>
+<td>Robert Kennedy</td>
+<td>Independent</td>
+</tr>
+<tr>
+<th>186</th>
+<td>2024</td>
+<td>Chase Oliver</td>
+<td>Libertarian Party</td>
 </tr>
 </tbody>
 </table>
-<p>182 rows × 3 columns</p>
+<p>187 rows × 3 columns</p>
 </div>
 </div>
 </div>
@@ -7997,7 +7998,7 @@ Name: Candidate, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Context-dependent-Extraction-using-%5B%5D">Context-dependent Extraction using <code>[]</code><a class="anchor-link" href="#Context-dependent-Extraction-using-%5B%5D">¶</a></h4>
+<h3 id="Context-dependent-Extraction-using-%5B%5D">Context-dependent Extraction using <code>[]</code><a class="anchor-link" href="#Context-dependent-Extraction-using-%5B%5D">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8214,38 +8215,38 @@ Name: Candidate, dtype: object</pre>
 <td>...</td>
 </tr>
 <tr>
-<th>177</th>
-<td>2016</td>
+<th>182</th>
+<td>2024</td>
+<td>Donald Trump</td>
+<td>win</td>
+</tr>
+<tr>
+<th>183</th>
+<td>2024</td>
+<td>Kamala Harris</td>
+<td>loss</td>
+</tr>
+<tr>
+<th>184</th>
+<td>2024</td>
 <td>Jill Stein</td>
 <td>loss</td>
 </tr>
 <tr>
-<th>178</th>
-<td>2020</td>
-<td>Joseph Biden</td>
-<td>win</td>
-</tr>
-<tr>
-<th>179</th>
-<td>2020</td>
-<td>Donald Trump</td>
+<th>185</th>
+<td>2024</td>
+<td>Robert Kennedy</td>
 <td>loss</td>
 </tr>
 <tr>
-<th>180</th>
-<td>2020</td>
-<td>Jo Jorgensen</td>
-<td>loss</td>
-</tr>
-<tr>
-<th>181</th>
-<td>2020</td>
-<td>Howard Hawkins</td>
+<th>186</th>
+<td>2024</td>
+<td>Chase Oliver</td>
 <td>loss</td>
 </tr>
 </tbody>
 </table>
-<p>182 rows × 3 columns</p>
+<p>187 rows × 3 columns</p>
 </div>
 </div>
 </div>
@@ -8289,12 +8290,12 @@ Name: Candidate, dtype: object</pre>
 3      John Quincy Adams
 4         Andrew Jackson
              ...        
-177           Jill Stein
-178         Joseph Biden
-179         Donald Trump
-180         Jo Jorgensen
-181       Howard Hawkins
-Name: Candidate, Length: 182, dtype: object</pre>
+182         Donald Trump
+183        Kamala Harris
+184           Jill Stein
+185       Robert Kennedy
+186         Chase Oliver
+Name: Candidate, Length: 187, dtype: object</pre>
 </div>
 </div>
 </div>
@@ -8985,7 +8986,7 @@ Name: 1, dtype: object</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># First, use a logical condition to generate a boolean Series</span>
-<span class="n">logical_operator</span> <span class="o">=</span> <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"F"</span><span class="p">)</span>
+<span class="n">logical_operator</span> <span class="o">=</span> <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span><span class="o">==</span><span class="s2">"F"</span><span class="p">)</span>
 <span class="n">logical_operator</span>
 </pre></div>
 </div>
@@ -9180,7 +9181,7 @@ Name: Sex, Length: 407428, dtype: bool</pre>
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Notice that we did not have to specify columns to select </span>
 <span class="c1"># If no columns are referenced, pandas will automatically select all columns</span>
-<span class="n">babynames</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"F"</span><span class="p">]</span>
+<span class="n">babynames</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span><span class="o">==</span><span class="s2">"F"</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -9365,7 +9366,7 @@ Name: Sex, Length: 407428, dtype: bool</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="p">[(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"F"</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Year"</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">2000</span><span class="p">)]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="p">[(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span><span class="o">==</span><span class="s2">"F"</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Year"</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">2000</span><span class="p">)]</span>
 </pre></div>
 </div>
 </div>
@@ -9508,7 +9509,7 @@ Name: Sex, Length: 407428, dtype: bool</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="p">[(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"F"</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Year"</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">2000</span><span class="p">)]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="p">[(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Sex"</span><span class="p">]</span><span class="o">==</span><span class="s2">"F"</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Year"</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">2000</span><span class="p">)]</span>
 </pre></div>
 </div>
 </div>
@@ -9807,7 +9808,7 @@ Name: Sex, Length: 407428, dtype: bool</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Count"</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">250</span><span class="p">,</span> <span class="p">[</span><span class="s2">"Name"</span><span class="p">,</span> <span class="s2">"Count"</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Count"</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">250</span><span class="p">,</span> <span class="p">[</span><span class="s2">"Name"</span><span class="p">,</span> <span class="s2">"Count"</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -9873,7 +9874,7 @@ Name: Sex, Length: 407428, dtype: bool</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Count"</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">250</span><span class="p">,</span> <span class="p">[</span><span class="s2">"Name"</span><span class="p">,</span> <span class="s2">"Count"</span><span class="p">]]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="p">:]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">babynames</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Count"</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">250</span><span class="p">,</span> <span class="p">[</span><span class="s2">"Name"</span><span class="p">,</span> <span class="s2">"Count"</span><span class="p">]]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="p">:]</span>
 </pre></div>
 </div>
 </div>
@@ -9938,10 +9939,10 @@ Name: Sex, Length: 407428, dtype: bool</pre>
 <span class="c1"># break the code into multiple lines for readability</span>
 
 <span class="p">(</span>
-    <span class="n">babynames</span><span class="p">[(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Bella"</span><span class="p">)</span> <span class="o">|</span> 
-              <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Alex"</span><span class="p">)</span> <span class="o">|</span>
-              <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Narges"</span><span class="p">)</span> <span class="o">|</span>
-              <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Lisa"</span><span class="p">)]</span>
+    <span class="n">babynames</span><span class="p">[(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Bella"</span><span class="p">)</span> <span class="o">|</span> 
+              <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Alex"</span><span class="p">)</span> <span class="o">|</span>
+              <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Narges"</span><span class="p">)</span> <span class="o">|</span>
+              <span class="p">(</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Lisa"</span><span class="p">)]</span>
 <span class="p">)</span>
 </pre></div>
 </div>
@@ -11119,7 +11120,7 @@ Name: Name, Length: 407428, dtype: bool</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">yash_counts</span> <span class="o">=</span> <span class="n">babynames</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Yash"</span><span class="p">][</span><span class="s2">"Count"</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">yash_counts</span> <span class="o">=</span> <span class="n">babynames</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Name"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Yash"</span><span class="p">][</span><span class="s2">"Count"</span><span class="p">]</span>
 <span class="n">yash_counts</span>
 </pre></div>
 </div>
@@ -11175,7 +11176,6 @@ Name: Count, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Average number of babies named Yash each year</span>
-
 <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">yash_counts</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -11203,7 +11203,6 @@ Name: Count, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Max number of babies named Yash born in any single year</span>
-
 <span class="nb">max</span><span class="p">(</span><span class="n">yash_counts</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -11459,11 +11458,11 @@ Name: Sex, dtype: object</pre>
 </thead>
 <tbody>
 <tr>
-<th>154936</th>
+<th>240526</th>
 <td>CA</td>
-<td>F</td>
-<td>2001</td>
-<td>Darya</td>
+<td>M</td>
+<td>1914</td>
+<td>Allan</td>
 <td>10</td>
 </tr>
 </tbody>
@@ -11520,34 +11519,34 @@ Name: Sex, dtype: object</pre>
 </thead>
 <tbody>
 <tr>
-<th>339370</th>
-<td>1998</td>
-<td>Vito</td>
+<th>149126</th>
+<td>2000</td>
+<td>Sabrina</td>
+<td>625</td>
+</tr>
+<tr>
+<th>255778</th>
+<td>1942</td>
+<td>Mack</td>
+<td>9</td>
+</tr>
+<tr>
+<th>66265</th>
+<td>1972</td>
+<td>Judi</td>
+<td>12</td>
+</tr>
+<tr>
+<th>289601</th>
+<td>1974</td>
+<td>Gabino</td>
 <td>7</td>
 </tr>
 <tr>
-<th>99351</th>
-<td>1985</td>
-<td>Janea</td>
-<td>5</td>
-</tr>
-<tr>
-<th>386376</th>
-<td>2015</td>
-<td>Reilly</td>
-<td>8</td>
-</tr>
-<tr>
-<th>15857</th>
-<td>1938</td>
-<td>Sherry</td>
-<td>40</td>
-</tr>
-<tr>
-<th>118930</th>
-<td>1991</td>
-<td>Tatum</td>
-<td>8</td>
+<th>114584</th>
+<td>1990</td>
+<td>Janeen</td>
+<td>11</td>
 </tr>
 </tbody>
 </table>
@@ -11565,7 +11564,7 @@ Name: Sex, dtype: object</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sampling with replacement.</span>
-<span class="n">babynames</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Year"</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2000</span><span class="p">]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">replace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">2</span><span class="p">:]</span>
+<span class="n">babynames</span><span class="p">[</span><span class="n">babynames</span><span class="p">[</span><span class="s2">"Year"</span><span class="p">]</span><span class="o">==</span><span class="mi">2000</span><span class="p">]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">2</span><span class="p">:]</span>
 </pre></div>
 </div>
 </div>
@@ -11603,28 +11602,28 @@ Name: Sex, dtype: object</pre>
 </thead>
 <tbody>
 <tr>
-<th>344801</th>
+<th>151976</th>
 <td>2000</td>
-<td>Justine</td>
-<td>5</td>
-</tr>
-<tr>
-<th>151714</th>
-<td>2000</td>
-<td>Cloey</td>
-<td>7</td>
-</tr>
-<tr>
-<th>342700</th>
-<td>2000</td>
-<td>Troy</td>
-<td>158</td>
-</tr>
-<tr>
-<th>152033</th>
-<td>2000</td>
-<td>Evelina</td>
+<td>Berenize</td>
 <td>6</td>
+</tr>
+<tr>
+<th>342835</th>
+<td>2000</td>
+<td>Ray</td>
+<td>78</td>
+</tr>
+<tr>
+<th>149400</th>
+<td>2000</td>
+<td>Marie</td>
+<td>123</td>
+</tr>
+<tr>
+<th>344076</th>
+<td>2000</td>
+<td>Jossue</td>
+<td>8</td>
 </tr>
 </tbody>
 </table>
@@ -12514,331 +12513,6 @@ Name: Name, Length: 407428, dtype: object</pre>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Grouping">Grouping<a class="anchor-link" href="#Grouping">¶</a></h2><p>Group rows that share a common feature, then aggregate data across the group.</p>
-<p>In this example, we count the total number of babies born in each year (considering only a small subset of the data, for simplicity).</p>
-<p><img alt="No description has been provided for this image" src="images/groupby.png" width="800"/></p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># The code below uses the full babynames dataset, which is why </span>
-<span class="c1"># some numbers are different relative to the diagram.</span>
-<span class="n">babynames</span><span class="p">[[</span><span class="s2">"Year"</span><span class="p">,</span> <span class="s2">"Count"</span><span class="p">]]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"Year"</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="nb">sum</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Count</th>
-</tr>
-<tr>
-<th>Year</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>1910</th>
-<td>9163</td>
-</tr>
-<tr>
-<th>1911</th>
-<td>9983</td>
-</tr>
-<tr>
-<th>1912</th>
-<td>17946</td>
-</tr>
-<tr>
-<th>1913</th>
-<td>22094</td>
-</tr>
-<tr>
-<th>1914</th>
-<td>26926</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-</tr>
-<tr>
-<th>2018</th>
-<td>395436</td>
-</tr>
-<tr>
-<th>2019</th>
-<td>386996</td>
-</tr>
-<tr>
-<th>2020</th>
-<td>362882</td>
-</tr>
-<tr>
-<th>2021</th>
-<td>362582</td>
-</tr>
-<tr>
-<th>2022</th>
-<td>360023</td>
-</tr>
-</tbody>
-</table>
-<p>113 rows × 1 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>There are many different aggregation functions we can use, all of which are useful in different applications.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># What is the earliest year in which each name appeared?</span>
-<span class="n">babynames</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"Name"</span><span class="p">)[[</span><span class="s2">"Year"</span><span class="p">]]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="nb">min</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Year</th>
-</tr>
-<tr>
-<th>Name</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Aadan</th>
-<td>2008</td>
-</tr>
-<tr>
-<th>Aadarsh</th>
-<td>2019</td>
-</tr>
-<tr>
-<th>Aaden</th>
-<td>2007</td>
-</tr>
-<tr>
-<th>Aadhav</th>
-<td>2014</td>
-</tr>
-<tr>
-<th>Aadhini</th>
-<td>2022</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-</tr>
-<tr>
-<th>Zymir</th>
-<td>2020</td>
-</tr>
-<tr>
-<th>Zyon</th>
-<td>1999</td>
-</tr>
-<tr>
-<th>Zyra</th>
-<td>2012</td>
-</tr>
-<tr>
-<th>Zyrah</th>
-<td>2011</td>
-</tr>
-<tr>
-<th>Zyrus</th>
-<td>2021</td>
-</tr>
-</tbody>
-</table>
-<p>20437 rows × 1 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># What is the largest single-year count of each name?</span>
-<span class="n">babynames</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"Name"</span><span class="p">)[[</span><span class="s2">"Count"</span><span class="p">]]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="nb">max</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Count</th>
-</tr>
-<tr>
-<th>Name</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Aadan</th>
-<td>7</td>
-</tr>
-<tr>
-<th>Aadarsh</th>
-<td>6</td>
-</tr>
-<tr>
-<th>Aaden</th>
-<td>158</td>
-</tr>
-<tr>
-<th>Aadhav</th>
-<td>8</td>
-</tr>
-<tr>
-<th>Aadhini</th>
-<td>6</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-</tr>
-<tr>
-<th>Zymir</th>
-<td>5</td>
-</tr>
-<tr>
-<th>Zyon</th>
-<td>17</td>
-</tr>
-<tr>
-<th>Zyra</th>
-<td>16</td>
-</tr>
-<tr>
-<th>Zyrah</th>
-<td>6</td>
-</tr>
-<tr>
-<th>Zyrus</th>
-<td>5</td>
-</tr>
-</tbody>
-</table>
-<p>20437 rows × 1 columns</p>
 </div>
 </div>
 </div>
