@@ -5,7 +5,7 @@ title: Week 2
 
 Tue Jan 28
 : **Lecture 3**{: .label .label-lecture} [Pandas II](lecture/lec03)
-    : [Note 3](https://ds100.org/course-notes/pandas_2/pandas_2.html)
+    : ([*Fa24 Note*](https://ds100.org/course-notes/pandas_2/pandas_2.html) - to be updated)
 : **Lecture Participation 3**{: .label .label-survey } Lecture Participation 3
 : **Discussion 1**{: .label .label-disc } [Prerequisites](https://drive.google.com/file/d/1X4ZN38e0QnNdvyFq6KUPj1ecCAZn_XT5/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://www.youtube.com/watch?v=qXR-x19KT5w&list=PLQCcNQgUcDfplNp0itu2QqVjoDE9u5iow){:target="_blank"}
@@ -13,7 +13,8 @@ Tue Jan 28
 
 Thu Jan 30
 : **Lecture 4**{: .label .label-lecture } Pandas III
-    : [Note 4](https://ds100.org/course-notes/pandas_3/pandas_3.html)
+    : ([*Fa24 Note*](https://ds100.org/course-notes/pandas_3/pandas_3.html) - to be updated)
+
 : **Lecture Participation 4**{: .label .label-survey } Lecture Participation 4
 : **Lab 2A**{: .label .label-lab } Pandas (due Tue Feb 4)
 <!-- : **Exam Prep 1**{: .label .label-examprep } Pandas -->
