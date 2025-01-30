@@ -6,6 +6,7 @@ Tue Feb 4
 : **Lecture 5**{: .label .label-lecture } Data Cleaning and EDA
 : **Lecture Participation 5**{: .label .label-survey } Lecture Participation 5
 : **Discussion 2**{: .label .label-disc } Pandas I
+    : [Mini-Lecture](https://www.youtube.com/watch?v=-E3j9AWkilI&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=2){:target="_blank"}
 
 
 Thu Feb 6
