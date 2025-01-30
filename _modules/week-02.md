@@ -12,7 +12,7 @@ Tue Jan 28
 
 
 Thu Jan 30
-: **Lecture 4**{: .label .label-lecture } Pandas III
+: **Lecture 4**{: .label .label-lecture } [Pandas III](lecture/lec04)
     : ([*Fa24 Note*](https://ds100.org/course-notes/pandas_3/pandas_3.html) - to be updated)
 
 : **Lecture Participation 4**{: .label .label-survey } Lecture Participation 4
