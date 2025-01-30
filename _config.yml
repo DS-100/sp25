@@ -30,16 +30,14 @@ permalink: pretty
 
 # External navigation links
 nav_external_links:
-  # - title: Course Notes
-  #   url: https://ds100.org/course-notes/
-  #   hide_icon: true
-  #   aria_label: "Data 100 Course Notes" 
-  #   # opens_in_new_tab: true
-  # - title: Debugging Guide
-  #   url: https://ds100.org/debugging-guide/
-  #   hide_icon: true
-  #   aria_label: "Data 100 Debugging Guide" 
-      # opens_in_new_tab: true
+  - title: Course Notes
+    url: https://ds100.org/course-notes/
+    hide_icon: true
+    aria_label: "Data 100 Course Notes" 
+  - title: Debugging Guide
+    url: https://ds100.org/debugging-guide/
+    hide_icon: true
+    aria_label: "Data 100 Debugging Guide" 
   - title: Course FAQ
     url: https://ds100.org/faqs/sp25/
     hide_icon: true
