@@ -16,7 +16,7 @@ Thu Jan 30
     : ([*Fa24 Note*](https://ds100.org/course-notes/pandas_3/pandas_3.html) - to be updated)
 
 : **Lecture Participation 4**{: .label .label-survey } Lecture Participation 4
-: **Lab 2A**{: .label .label-lab } Pandas (due Tue Feb 4)
+: **Lab 2A**{: .label .label-lab } [Pandas](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab02A%2Flab02A.ipynb&branch=main){:target="_blank"} (due Tue Feb 4)
 <!-- : **Exam Prep 1**{: .label .label-examprep } Pandas -->
 
 
