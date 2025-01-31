@@ -15,7 +15,6 @@ Thu Feb 6
 : **Lab 2B**{: .label .label-lab } Data Cleaning and EDA (due Tue Feb 11)
 <!-- : **Exam Prep 2**{: .label .label-examprep } Pandas and EDA -->
 
-
 Fri Feb 7
 : **Homework 2B**{: .label .label-hw } Food Safety II (due Thu Feb 13)
 : **Add Deadline (w/o fee)**{: .label .label-deadline } 11:59 PM
