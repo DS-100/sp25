@@ -21,5 +21,5 @@ Thu Jan 30
 
 
 Fri Jan 31
-: **Homework 2A**{: .label .label-hw } Food Safety (due Thu Feb 6)
+: **Homework 2A**{: .label .label-hw } [Food Safety](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw02A%2Fhw02A.ipynb&branch=main){:target="_blank"} (due Thu Feb 6)
 : **Drop Deadline (w/o fee)**{: .label .label-deadline } 11:59 PM
