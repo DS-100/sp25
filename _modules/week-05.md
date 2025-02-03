@@ -9,7 +9,7 @@ Tue Feb 18
 
 
 Thu Feb 20
-: **Lecture 9**{: .label .label-lecture} Modeling, SLR
+: **Lecture 10**{: .label .label-lecture} Modeling, SLR
 : **Lecture Participation 10**{: .label .label-survey } Lecture Participation 10
 : **Lab 4**{: .label .label-lab } Transformations (due Tue Feb 25)
 <!-- : **Exam Prep 4**{: .label .label-examprep } Data Visualization -->
