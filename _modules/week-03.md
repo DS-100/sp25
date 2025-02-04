@@ -3,7 +3,7 @@ title: Week 3
 ---
 
 Tue Feb 4
-: **Lecture 5**{: .label .label-lecture } Data Cleaning and EDA
+: **Lecture 5**{: .label .label-lecture } [Data Cleaning and EDA](lecture/lec05)
     : ([*Fa24 Note*](https://ds100.org/course-notes/eda/eda.html) to be updated)
 : **Lecture Participation 5**{: .label .label-survey } Lecture Participation 5
 : **Discussion 2**{: .label .label-disc } [Pandas I](https://drive.google.com/file/d/109KXTDAeCBjlY1egnDC5A_ntSjXbrNZh/view?usp=sharing){:target="_blank"}
@@ -12,6 +12,7 @@ Tue Feb 4
 
 Thu Feb 6
 : **Lecture 6**{: .label .label-lecture} Regex
+    : ([*Fa24 Note*](https://ds100.org/course-notes/regex/regex.html) to be updated)
 : **Lecture Participation 6**{: .label .label-survey } Lecture Participation 6
 : **Lab 2B**{: .label .label-lab } Data Cleaning and EDA (due Tue Feb 11)
 <!-- : **Exam Prep 2**{: .label .label-examprep } Pandas and EDA -->
