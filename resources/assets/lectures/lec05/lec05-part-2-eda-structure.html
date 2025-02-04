@@ -7312,6 +7312,7 @@ a.anchor-link {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7516,8 +7517,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Lecture-5-(Part-2-Examples)-%E2%80%93-Data-100,-Spring-2024">Lecture 5 (Part 2 Examples) – Data 100, Spring 2024<a class="anchor-link" href="#Lecture-5-(Part-2-Examples)-%E2%80%93-Data-100,-Spring-2024">¶</a></h1><p>Data 100, Fall 2024</p>
-<p><a href="https://ds100.org/fa23/acks/">Acknowledgments Page</a></p>
+<h1 id="%F0%9F%92%BD-Lecture-5-(Part-2,-Data-Storage-Types)-%E2%80%93-Data-100,-Spring-2025">💽 Lecture 5 (Part 2, Data Storage Types) – Data 100, Spring 2025<a class="anchor-link" href="#%F0%9F%92%BD-Lecture-5-(Part-2,-Data-Storage-Types)-%E2%80%93-Data-100,-Spring-2025">¶</a></h1><p>Data 100, Spring 2025</p>
+<p><a href="https://ds100.org/sp25/acks/">Acknowledgments Page</a></p>
 </div>
 </div>
 </div>
@@ -7555,7 +7556,7 @@ a.anchor-link {
 <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_rows'</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
 <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_columns'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.precision'</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="c1"># This option stops scientific notation for pandas</span>
+<span class="c1"># Use 2 decimal places instead of scientific notation in pandas</span>
 <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.float_format'</span><span class="p">,</span> <span class="s1">'</span><span class="si">{:.2f}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">)</span>
 
 <span class="c1"># Silence some spurious seaborn warnings</span>
@@ -7575,10 +7576,9 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><br/><br/><br/></p>
 <hr/>
-<h2 id="Structure:-Other-File-Formats">Structure: Other File Formats<a class="anchor-link" href="#Structure:-Other-File-Formats">¶</a></h2><p>There are many file types for storing structured data: CSV, TSV, JSON, XML, ASCII, SAS...</p>
+<h2 id="%F0%9F%A4%B9%E2%80%8D%E2%99%80%EF%B8%8F-File-Formats-Other-than-CSV">🤹‍♀️ File Formats Other than CSV<a class="anchor-link" href="#%F0%9F%A4%B9%E2%80%8D%E2%99%80%EF%B8%8F-File-Formats-Other-than-CSV">¶</a></h2><p>There are many file types for storing structured data: CSV, TSV, JSON, XML, ASCII, SAS...</p>
 <ul>
-<li>Documentation will be your best friend to understand how to process many of these file types.</li>
-<li>In lecture, we will cover TSV and JSON since pandas supports them out-of-box.</li>
+<li>In lecture, we will cover TSV and JSON since <code>pandas</code> supports them out-of-box.</li>
 </ul>
 </div>
 </div>
@@ -7590,7 +7590,38 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The <code>pd.read_csv</code> function also reads in TSVs if we specify the <strong>delimiter</strong> with parameter <code>sep='\t'</code> (<a href="https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html">documentation</a>).</p>
+<p>TSV stands for tab-separated values. Think CSV, but with tabs (<code>\t</code>) as the delimeter instead of commas.</p>
+<ul>
+<li><p>TSVs are <a href="https://stackoverflow.com/questions/11130120/choosing-between-tsv-and-csv">technically faster</a> to import than CSVs.</p>
+</li>
+<li><p>But, historical tradition has led to CSV being the more popular file format.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1e768a4b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<br/>
+<p>Like we did with <code>data/cdc_tuberculosis.csv</code>, you can open <code>data/cdc_tuberculosis.tsv</code> in the JupyterLab Explorer to see its contents.</p>
+<br/>
+<br/>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=21184855">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The <code>pd.read_csv</code> function also reads TSVs if we specify the <strong>delimiter</strong> with parameter <code>sep='\t'</code> (<a href="https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html">documentation</a>).</p>
 </div>
 </div>
 </div>
@@ -7602,7 +7633,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">tuberculosis_df_tsv</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"data/cdc_tuberculosis.tsv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">'</span><span class="se">\t</span><span class="s1">'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Identical data to Part 1!</span>
+<span class="n">tuberculosis_df_tsv</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"data/cdc_tuberculosis.tsv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">'</span><span class="se">\t</span><span class="s1">'</span><span class="p">)</span>
 <span class="n">tuberculosis_df_tsv</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -7638,9 +7670,6 @@ a.anchor-link {
 <th>No. of TB cases</th>
 <th>Unnamed: 2</th>
 <th>Unnamed: 3</th>
-<th>TB incidence</th>
-<th>Unnamed: 5</th>
-<th>Unnamed: 6</th>
 </tr>
 </thead>
 <tbody>
@@ -7650,9 +7679,6 @@ a.anchor-link {
 <td>2019</td>
 <td>2020</td>
 <td>2021</td>
-<td>2019.00</td>
-<td>2020.00</td>
-<td>2021.00</td>
 </tr>
 <tr>
 <th>1</th>
@@ -7660,9 +7686,6 @@ a.anchor-link {
 <td>8,900</td>
 <td>7,173</td>
 <td>7,860</td>
-<td>2.71</td>
-<td>2.16</td>
-<td>2.37</td>
 </tr>
 <tr>
 <th>2</th>
@@ -7670,9 +7693,6 @@ a.anchor-link {
 <td>87</td>
 <td>72</td>
 <td>92</td>
-<td>1.77</td>
-<td>1.43</td>
-<td>1.83</td>
 </tr>
 <tr>
 <th>3</th>
@@ -7680,9 +7700,6 @@ a.anchor-link {
 <td>58</td>
 <td>58</td>
 <td>58</td>
-<td>7.91</td>
-<td>7.92</td>
-<td>7.92</td>
 </tr>
 <tr>
 <th>4</th>
@@ -7690,13 +7707,84 @@ a.anchor-link {
 <td>183</td>
 <td>136</td>
 <td>129</td>
-<td>2.51</td>
-<td>1.89</td>
-<td>1.77</td>
 </tr>
 </tbody>
 </table>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=efb3e3dc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># CSV representation</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data/cdc_tuberculosis.csv"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">f</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span> <span class="c1"># print raw strings</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>,No. of TB cases,,
+
+U.S. jurisdiction,2019,2020,2021
+
+Total,"8,900","7,173","7,860"
+
+Alabama,87,72,92
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d6bcc7f0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># TSV representation</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data/cdc_tuberculosis.tsv"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">f</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span> <span class="c1"># print raw strings</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>	No. of TB cases		
+
+U.S. jurisdiction	2019	2020	2021
+
+Total	"8,900"	"7,173"	"7,860"
+
+Alabama	87	72	92
+
+</pre>
 </div>
 </div>
 </div>
@@ -7706,10 +7794,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data/cdc_tuberculosis.tsv"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Print literal \t instead of tabbed spaces:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data/cdc_tuberculosis.tsv"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">f</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="nb">repr</span><span class="p">(</span><span class="n">row</span><span class="p">))</span> <span class="c1"># print raw strings</span>
 </pre></div>
@@ -7724,10 +7813,10 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>'\tNo. of TB cases\t\t\tTB incidence\t\t\n'
-'U.S. jurisdiction\t2019\t2020\t2021\t2019\t2020\t2021\n'
-'Total\t"8,900"\t"7,173"\t"7,860"\t2.71\t2.16\t2.37\n'
-'Alabama\t87\t72\t92\t1.77\t1.43\t1.83\n'
+<pre>'\tNo. of TB cases\t\t\n'
+'U.S. jurisdiction\t2019\t2020\t2021\n'
+'Total\t"8,900"\t"7,173"\t"7,860"\n'
+'Alabama\t87\t72\t92\n'
 </pre>
 </div>
 </div>
@@ -7741,7 +7830,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><br/><br/></p>
-<p><strong>Return to Slides</strong></p>
+<p><strong>Instructor note: Return to Slides!</strong></p>
 </div>
 </div>
 </div>
@@ -7754,80 +7843,24 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><br/> <br/></p>
 <hr/>
-<h3 id="JSON">JSON<a class="anchor-link" href="#JSON">¶</a></h3><p>The City of Berkeley Open Data <a href="https://data.cityofberkeley.info/Health/COVID-19-Confirmed-Cases/xn6j-b766">website</a> has a dataset with COVID-19 Confirmed Cases among Berkeley residents by date.</p>
-<p>Let's first check out this website.</p>
-<p>Next, let's download this file, saving it as a JSON (note the source URL file type).</p>
-<p>In the interest of <strong>reproducible data science</strong> we will download the data programatically.  We have defined some helper functions in the <a href="ds100_utils.py">ds100_utils.py</a> file.  I can then reuse these helper functions in many different notebooks.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ef1ad7e3-1997-4608-ba45-5d9c706314ba">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># just run this cell</span>
-<span class="kn">from</span> <span class="nn">ds100_utils</span> <span class="kn">import</span> <span class="n">fetch_and_cache</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=632a1946-faa9-4454-9a04-60a24debf374">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Occasionally, you will want to modify code that you have imported from a local Python library.  To reimport those modifications you can either use the python importlib library:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">importlib</span> <span class="kn">import</span> <span class="n">reload</span>
-<span class="n">reload</span><span class="p">(</span><span class="n">utils</span><span class="p">)</span>
-</pre></div>
-<p>or use iPython magic which will intelligently import code when files change:</p>
-<div class="highlight"><pre><span></span><span class="o">%</span><span class="n">load_ext</span> <span class="n">autoreload</span>
-<span class="o">%</span><span class="n">autoreload</span> <span class="mi">2</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5fcaf1c5-9b15-4e17-a043-2e60539658cb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">covid_file</span> <span class="o">=</span> <span class="n">fetch_and_cache</span><span class="p">(</span>
-    <span class="s2">"https://data.cityofberkeley.info/api/views/xn6j-b766/rows.json?accessType=DOWNLOAD"</span><span class="p">,</span>
-    <span class="s2">"confirmed-cases.json"</span><span class="p">,</span>
-    <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">covid_file</span>          <span class="c1"># a file path wrapper object</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Using cached version that was downloaded (UTC): Mon Aug 26 16:18:21 2024
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>PosixPath('data/confirmed-cases.json')</pre>
-</div>
+<h3 id="%F0%9F%AA%86-JSON-(JavaScript-Object-Notation)">🪆 JSON (JavaScript Object Notation)<a class="anchor-link" href="#%F0%9F%AA%86-JSON-(JavaScript-Object-Notation)">¶</a></h3><p>The <a href="https://gpo.congress.gov/#/">congress.gov API</a> (Application Programming Interface) provides data about the activities and members of the United States Congress (i.e., the House of Representatives and the Senate).</p>
+<ul>
+<li>Click the link above to see the kinds of information provided by the API.</li>
+</ul>
+<br/>
+<p>To get a JSON file containing information about the current members of Congress from California, you could use the following <strong>API call</strong>:</p>
+<ul>
+<li><p><code>https://api.congress.gov/v3/member/CA?api_key=[INSERT_KEY]&amp;limit=250&amp;format=json&amp;currentMember=True</code></p>
+</li>
+<li><p>You can instantly sign up for a congress.gov <strong>API key</strong> <a href="https://gpo.congress.gov/sign-up/">here</a>. Once you have your key, replace <code>[INSERT_KEY]</code> above with your key, and enter the API call as a URL in your browser. What happens?</p>
+</li>
+<li><p>Once the JSON from the API call is visible in your browser, you can click <code>File</code> --&gt; <code>Save Page As</code> to save the JSON file to your coputer.</p>
+</li>
+<li><p>Coarsely, API keys are used to track how much a given user engages with the API. There might be limits to the number of API calls (e.g., congress.gov API limits to 5,000 calls per hour), or a cost for API calls (e.g., using the OpenAI API for programmatically using ChatGPT).</p>
+</li>
+</ul>
+<br/>
+<p>For convenience, the JSON file from the call above has already been downloaded for you and is saved at <code>data/ca-congress-members.json</code>.</p>
 </div>
 </div>
 </div>
@@ -7838,23 +7871,44 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="File-size">File size<a class="anchor-link" href="#File-size">¶</a></h4><p>Often, I like to start my analysis by getting a rough estimate of the size of the data.  This will help inform the tools I use and how I view the data.  If it is relatively small I might use a text editor or a spreadsheet to look at the data.  If it is larger, I might jump to more programmatic exploration or even used distributed computing tools.</p>
-<p>However here we will use Python tools to probe the file.</p>
+<h4 id="%F0%9F%93%81-File-contents">📁 File contents<a class="anchor-link" href="#%F0%9F%93%81-File-contents">¶</a></h4>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5731253b-2d3e-460c-ae6a-b6721ee4dd99">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a7f5a198">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Since these seem to be text files I might also want to investigate the number of lines, which often corresponds to the number of records.</p>
+<p>Let's look at <code>data/ca-congress-members.json</code> in the JupyterLab Explorer.</p>
+<ul>
+<li><p>Right-click the file, and then click <code>Open With</code> --&gt; <code>Editor</code>.</p>
+</li>
+<li><p>You'll notice that JSON looks a lot like a Python dictionary.</p>
+</li>
+<li><p>Berkeley, CA is in the 12th district. Can you find our representative in Congress?</p>
+</li>
+</ul>
+<blockquote>
+<p>Note: In general, it's a good idea to check the file size before opening a file in JupyterLab. Very large files can cause crashes. See <code>os.path.getsize</code> <a href="https://docs.python.org/3/library/os.path.html#os.path.getsize">documentation</a>.</p>
+</blockquote>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=18001389-1f08-477b-ada1-79d10faa977b">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c1c5d61d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We can programmatically view the first couple lines of the file using the same functions we used with CSVs:</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=10bc5b07">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7862,108 +7916,12 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">congress_file</span> <span class="o">=</span> <span class="s2">"data/ca-congress-members.json"</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">covid_file</span><span class="p">,</span> <span class="s2">"is"</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">getsize</span><span class="p">(</span><span class="n">covid_file</span><span class="p">)</span> <span class="o">/</span> <span class="mf">1e6</span><span class="p">,</span> <span class="s2">"MB"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>data/confirmed-cases.json is 0.205583 MB
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13adeb25-626e-4bf1-8b7c-44c536941e7e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>As part of your workflow, you should also learn some basic Unix commands, as these are often very handy (in fact, there's an entire book called <a href="https://datascienceatthecommandline.com">"Data Science at the Command Line"</a> that explores this idea in depth!).</p>
-<p>In Jupyter/IPython, you can prefix lines with <code>!</code> to execute arbitrary Unix commands, and within those lines, you can refer to Python variables and expressions with the syntax <code>{expr}</code>.</p>
-<p>Here, we use the <code>ls</code> command to list files, using the <code>-lh</code> flags, which request "long format with information in human-readable form". We also use the <code>wc</code> command for "word count", but with the <code>-l</code> flag, which asks for line counts instead of words.</p>
-<p>These two give us the same information as the code above, albeit in a slightly different form:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=476632aa-8a68-4e75-b2d2-db1ae1ab94f2">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls<span class="w"> </span>-lh<span class="w"> </span><span class="o">{</span>covid_file<span class="o">}</span>
-<span class="o">!</span>wc<span class="w"> </span>-l<span class="w"> </span><span class="o">{</span>covid_file<span class="o">}</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>-rw-r--r--  1 jegonzal  staff   201K Aug 26 16:18 data/confirmed-cases.json
-    1706 data/confirmed-cases.json
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=736ff01f-ad4d-4559-b728-25d74faeaf6e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="File-contents">File contents<a class="anchor-link" href="#File-contents">¶</a></h4><p>Because we have a text file in a visual IDE like Jupyter/DataHub, I'm going to visually explore the data via the built-in file explorer.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e41b9e72-2fd0-48af-a0f1-a750e9598770">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol>
-<li><p>To the Jupyter view!</p>
-</li>
-<li><p>To the Python view...?</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c8a3c79b-be34-422d-befd-0c2430ec95c1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">covid_file</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="c1"># Inspect the first five lines of the file</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">congress_file</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">f</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="nb">repr</span><span class="p">(</span><span class="n">row</span><span class="p">))</span> <span class="c1"># print raw strings</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">:</span> <span class="k">break</span>
 </pre></div>
 </div>
@@ -7977,70 +7935,18 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>'{\n'
-'  "meta" : {\n'
-'    "view" : {\n'
-'      "id" : "xn6j-b766",\n'
-'      "name" : "COVID-19 Confirmed Cases",\n'
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=70ab2da5-bac0-4e92-9f1a-de169bf268a7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>In the same vein, we can use the <code>head</code> Unix command (which is where Pandas' <code>head</code> method comes from!) to see the first few lines of the file:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=380cc048-1ba8-47e4-9e08-1ec9be18f27f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">!</span>head<span class="w"> </span>-5<span class="w"> </span><span class="o">{</span>covid_file<span class="o">}</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>{
-  "meta" : {
-    "view" : {
-      "id" : "xn6j-b766",
-      "name" : "COVID-19 Confirmed Cases",
+
+    "members": [
+
+        {
+
+            "bioguideId": "T000491",
+
+            "depiction": {
+
 </pre>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=10a508be-6f9f-4631-befa-973640670714">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol>
-<li><p>Back to the Python view.</p>
-<p>In order to load the JSON file into pandas, Let's first do some <strong>EDA</strong> with the Python <code>json</code> package to understand the particular structure of this JSON file so that we can decide what (if anything) to load into Pandas.</p>
-</li>
-</ol>
 </div>
 </div>
 </div>
@@ -8051,23 +7957,41 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="EDA:-Digging-into-JSON">EDA: Digging into JSON<a class="anchor-link" href="#EDA:-Digging-into-JSON">¶</a></h3><p>Python has relatively good support for JSON data since it closely matches the internal python object model.  In the following cell we import the entire JSON datafile into a python dictionary using the <code>json</code> package.</p>
+<h3 id="%F0%9F%90%8D-EDA:-Digging-into-JSON-with-Python">🐍 EDA: Digging into JSON with Python<a class="anchor-link" href="#%F0%9F%90%8D-EDA:-Digging-into-JSON-with-Python">¶</a></h3><p>JSON data closely matches the internal Python object model.</p>
+<ul>
+<li>In the following cell, we import the entire JSON datafile into a Python dictionary using the <code>json</code> package.</li>
+</ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e227500a-c56b-41c4-bbe8-60ee0f2ce088">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e227500a-c56b-41c4-bbe8-60ee0f2ce088">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
 
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">covid_file</span><span class="p">,</span> <span class="s2">"rb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-    <span class="n">covid_json</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="c1"># Import the JSON file into Python as a dictionary</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">congress_file</span><span class="p">,</span> <span class="s2">"rb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">congress_json</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
+<span class="nb">type</span><span class="p">(</span><span class="n">congress_json</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>dict</pre>
 </div>
 </div>
 </div>
@@ -8079,7 +8003,11 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The <code>covid_json</code> variable is now a dictionary encoding the data in the file:</p>
+<p>The <code>congress_json</code> variable is a dictionary encoding the data in the JSON file.</p>
+<p>Below, we access the first element of the <code>members</code> element of the <code>congress_json</code> dictionary.</p>
+<ul>
+<li>This first element is also a dictionary (and there are more dictionaries inside of it!)</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8088,10 +8016,151 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Grab the list corresponding to the `members` key in the JSON dictionary, </span>
+<span class="c1"># and then grab the first element of this list.</span>
+<span class="c1"># In a moment, we'll see how we knew to use the key `members`, and that</span>
+<span class="c1"># the resulting object is a list.</span>
+<span class="n">congress_json</span><span class="p">[</span><span class="s1">'members'</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>{'bioguideId': 'T000491',
+ 'depiction': {'attribution': 'Image courtesy of the Member',
+  'imageUrl': 'https://www.congress.gov/img/member/6774606d0b34857ecc9091a9_200.jpg'},
+ 'district': 45,
+ 'name': 'Tran, Derek',
+ 'partyName': 'Democratic',
+ 'state': 'California',
+ 'terms': {'item': [{'chamber': 'House of Representatives',
+    'startYear': 2025}]},
+ 'updateDate': '2025-01-21T18:00:52Z',
+ 'url': 'https://api.congress.gov/v3/member/T000491?format=json'}</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=efe0fb62">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>How should we probe a nested dictionary like <code>congress_json</code>?</p>
+<p>We can start by identifying the top-level <strong>keys</strong> of the dictionary:</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=35d9e1bb-6c88-46d4-9348-29aaa71596b1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Grab the top-level keys of the JSON dictionary</span>
+<span class="n">congress_json</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>dict_keys(['members', 'pagination', 'request'])</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=29129c86-329d-4fbd-b597-07636d059a12">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Looks like we have three top-level keys: <code>members</code>, <code>pagination</code>, and <code>request</code>.</p>
+<blockquote>
+<p>You'll often see a top-level <code>meta</code> key in JSON files. This does not refer to Meta (formerly Facebook). Instead, it typically refers to metadata (data about the data).  Metadata are often maintained alongside the data.</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=11f4e8a4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Let's check the type of the <code>members</code> element:</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=81df92a7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">congress_json</span><span class="p">[</span><span class="s1">'members'</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>list</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b79e9eb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Looks like a list! What are the first two elements?</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0779748d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">covid_json</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">congress_json</span><span class="p">[</span><span class="s1">'members'</span><span class="p">][:</span><span class="mi">2</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -8104,23 +8173,56 @@ a.anchor-link {
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>dict</pre>
+<pre>[{'bioguideId': 'T000491',
+  'depiction': {'attribution': 'Image courtesy of the Member',
+   'imageUrl': 'https://www.congress.gov/img/member/6774606d0b34857ecc9091a9_200.jpg'},
+  'district': 45,
+  'name': 'Tran, Derek',
+  'partyName': 'Democratic',
+  'state': 'California',
+  'terms': {'item': [{'chamber': 'House of Representatives',
+     'startYear': 2025}]},
+  'updateDate': '2025-01-21T18:00:52Z',
+  'url': 'https://api.congress.gov/v3/member/T000491?format=json'},
+ {'bioguideId': 'M001241',
+  'depiction': {'attribution': 'Image courtesy of the Member',
+   'imageUrl': 'https://www.congress.gov/img/member/67744ed90b34857ecc909155_200.jpg'},
+  'district': 47,
+  'name': 'Min, Dave',
+  'partyName': 'Democratic',
+  'state': 'California',
+  'terms': {'item': [{'chamber': 'House of Representatives',
+     'startYear': 2025}]},
+  'updateDate': '2025-01-21T18:00:52Z',
+  'url': 'https://api.congress.gov/v3/member/M001241?format=json'}]</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ab9001f7-0198-4035-9901-17e8510e1a67">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=941d7b4b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Examine-what-keys-are-in-the-top-level-json-object">Examine what keys are in the top level json object<a class="anchor-link" href="#Examine-what-keys-are-in-the-top-level-json-object">¶</a></h4><p>We can list the keys to determine what data is stored in the object.</p>
+<p>More dictionaries! You can repeat the process above to traverse the nested dictionary.</p>
+<p>You'll notice that each record of <code>congress_json['members']</code> looks like it could be a column of a DataFrame.</p>
+<ul>
+<li>The keys look a lot like column names, and the values could be the entries in each row.</li>
+</ul>
+<br/>
+<p>But, the two other elements of <code>congress_json</code> don't have the same structure as <code>congress_json['members']</code>.</p>
+<ul>
+<li><p>So, they probably don't belong in a DataFrame containing the members of Congress from CA.</p>
+</li>
+<li><p>We'll see the implications of this inconsistency in the next section.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=35d9e1bb-6c88-46d4-9348-29aaa71596b1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=542ffc7d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8128,7 +8230,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">covid_json</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">congress_json</span><span class="p">[</span><span class="s1">'pagination'</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">congress_json</span><span class="p">[</span><span class="s1">'request'</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -8138,38 +8241,31 @@ a.anchor-link {
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>dict_keys(['meta', 'data'])</pre>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>{'count': 54}
+{'contentType': 'application/json', 'format': 'json'}
+</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=29129c86-329d-4fbd-b597-07636d059a12">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=89da4483-77d0-40e1-8a68-8c3367f6ef09">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation</strong>: The JSON dictionary contains a <code>meta</code> key which likely refers to meta data (data about the data).  Meta data often maintained with the data and can be a good source of additional information.</p>
+<h3 id="%F0%9F%90%BC-JSON-with-pandas">🐼 JSON with pandas<a class="anchor-link" href="#%F0%9F%90%BC-JSON-with-pandas">¶</a></h3><p><code>pandas</code> has a built in function called <code>pd.read_json</code> for reading in JSON files.</p>
+<ul>
+<li>Uncomment the code below and see what happens.</li>
+</ul>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=57339dd9-f9c3-4f1c-81a7-8b1385205af5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><br/></p>
-<p>We can investigate the meta data further by examining the keys associated with the metadata.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9f56a912-6b8a-4c14-b061-24ff7d77fb18">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=889e7992-1e89-4df7-ba44-1da412e5aa29">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8177,36 +8273,31 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">covid_json</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pd.read_json(congress_file)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>dict_keys(['view'])</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cdb160b9-fa18-4cda-8f7f-615a3fc49581">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1e665fba">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The <code>meta</code> key contains another dictionary called <code>view</code>.  This likely refers to meta-data about a particular "view" of some underlying database.  We will learn more about views when we study SQL later in the class.</p>
+<p>Uh oh. Using the default parameters, we got an error.</p>
+<ul>
+<li><p>The code above tries to import the entire JSON file located at <code>congress_file</code> (<code>congress_json</code>), including <code>congress_json['pagination']</code> and <code>congress_json['request']</code>.</p>
+</li>
+<li><p>We only want to make a DataFrame out of <code>congress_json['members']</code>.</p>
+</li>
+</ul>
+<p>This time, let's try converting the <code>members</code> element of <code>congress_json</code> to a DataFrame by using <code>pd.DataFrame</code>:</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d744c900-e203-444f-a5f3-f251788f8412">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f61dffb3-4d0c-4e72-8b2c-dac07bdf044e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8214,7 +8305,9 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">covid_json</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">][</span><span class="s1">'view'</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Convert dictionary to DataFrame</span>
+<span class="n">congress_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">congress_json</span><span class="p">[</span><span class="s1">'members'</span><span class="p">])</span>
+<span class="n">congress_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8226,474 +8319,6 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>dict_keys(['id', 'name', 'assetType', 'attribution', 'averageRating', 'category', 'createdAt', 'description', 'displayType', 'downloadCount', 'hideFromCatalog', 'hideFromDataJson', 'newBackend', 'numberOfComments', 'oid', 'provenance', 'publicationAppendEnabled', 'publicationDate', 'publicationGroup', 'publicationStage', 'rowsUpdatedAt', 'rowsUpdatedBy', 'tableId', 'totalTimesRated', 'viewCount', 'viewLastModified', 'viewType', 'approvals', 'clientContext', 'columns', 'grants', 'metadata', 'owner', 'query', 'rights', 'tableAuthor', 'tags', 'flags'])</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ba1a46c-c8e0-4ea6-94ee-d3d18ade568c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Notice that this a nested/recursive data structure.  As we dig deeper we reveal more and more keys and the corresponding data:</p>
-<pre><code>meta
-|-&gt; data
-    | ... (haven't explored yet)
-|-&gt; view
-    | -&gt; id
-    | -&gt; name
-    | -&gt; attribution 
-    ...
-    | -&gt; description
-    ...
-    | -&gt; columns
-    ...
-</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=014476d7-76d5-4083-a4b1-269ec44e4bff">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>There is a key called description in the view sub dictionary.  This likely contains a description of the data:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a86f6ce3-1e53-44dd-98e0-bbfaa6d5483c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">covid_json</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">][</span><span class="s1">'view'</span><span class="p">][</span><span class="s1">'description'</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Counts of confirmed COVID-19 cases among Berkeley residents by date. As of 6/21/22, this dataset will be updated weekly instead of daily. As of 11/14/22, this dataset only includes PCR cases.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3dc878de-79ff-4334-9743-333913d147b1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Examining-the-Data-Field-for-Records">Examining the Data Field for Records<a class="anchor-link" href="#Examining-the-Data-Field-for-Records">¶</a></h4><p>We can look at a few entries in the <code>data</code> field. This is what we'll load into Pandas.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c08a28da-d05a-498e-8708-b57c1e254a5b">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03</span><span class="si">}</span><span class="s2"> | </span><span class="si">{</span><span class="n">covid_json</span><span class="p">[</span><span class="s1">'data'</span><span class="p">][</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>000 | ['row-yeww~gvnm.g68w', '00000000-0000-0000-386C-533081785A3A', 0, 1687370769, None, 1687370769, None, '{ }', '2019-12-01T00:00:00', '0', '0']
-001 | ['row-fsx2.86py_bzpc', '00000000-0000-0000-FF2C-E5BC42CD0EE9', 0, 1687370769, None, 1687370769, None, '{ }', '2019-12-02T00:00:00', '0', '0']
-002 | ['row-ggah~5w7b~ce8n', '00000000-0000-0000-6EFB-E68400EBBD1E', 0, 1687370769, None, 1687370769, None, '{ }', '2019-12-03T00:00:00', '0', '0']
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1d978eee-6f46-4ad1-8e58-0ea411e94741">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Observations:</p>
-<ul>
-<li>These look like equal-length records, so maybe <code>data</code> is a table!</li>
-<li>But what do each of values in the record mean? Where can we find column headers?</li>
-</ul>
-<p>Back to the metadata.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9f86fe73-51b2-4774-b68c-08600b09f424">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Columns-Metadata">Columns Metadata<a class="anchor-link" href="#Columns-Metadata">¶</a></h4><p>Another potentially useful key in the metadata dictionary is the <code>columns</code>.  This returns a list:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0dc43323-e27c-4eaa-8867-64a50215ef82">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">covid_json</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">][</span><span class="s1">'view'</span><span class="p">][</span><span class="s1">'columns'</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>[{'id': -1,
-  'name': 'sid',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':sid',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'id',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':id',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'position',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':position',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'created_at',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':created_at',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'created_meta',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':created_meta',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'updated_at',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':updated_at',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'updated_meta',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':updated_meta',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': -1,
-  'name': 'meta',
-  'dataTypeName': 'meta_data',
-  'fieldName': ':meta',
-  'position': 0,
-  'renderTypeName': 'meta_data',
-  'format': {},
-  'flags': ['hidden']},
- {'id': 542388895,
-  'name': 'Date',
-  'dataTypeName': 'calendar_date',
-  'description': 'Dates reflect the date created in CalREDIE. ',
-  'fieldName': 'date',
-  'position': 1,
-  'renderTypeName': 'calendar_date',
-  'tableColumnId': 138291427,
-  'cachedContents': {'non_null': '1297',
-   'largest': '2023-06-19T00:00:00.000',
-   'null': '0',
-   'top': [{'item': '2022-05-03T00:00:00.000', 'count': '1'},
-    {'item': '2021-06-04T00:00:00.000', 'count': '1'},
-    {'item': '2020-10-28T00:00:00.000', 'count': '1'},
-    {'item': '2021-05-04T00:00:00.000', 'count': '1'},
-    {'item': '2020-01-13T00:00:00.000', 'count': '1'},
-    {'item': '2022-03-12T00:00:00.000', 'count': '1'},
-    {'item': '2022-05-13T00:00:00.000', 'count': '1'},
-    {'item': '2021-12-15T00:00:00.000', 'count': '1'},
-    {'item': '2020-07-10T00:00:00.000', 'count': '1'},
-    {'item': '2021-09-11T00:00:00.000', 'count': '1'},
-    {'item': '2020-08-11T00:00:00.000', 'count': '1'},
-    {'item': '2020-04-19T00:00:00.000', 'count': '1'},
-    {'item': '2021-11-11T00:00:00.000', 'count': '1'},
-    {'item': '2023-03-02T00:00:00.000', 'count': '1'},
-    {'item': '2023-03-14T00:00:00.000', 'count': '1'},
-    {'item': '2022-10-30T00:00:00.000', 'count': '1'},
-    {'item': '2021-10-15T00:00:00.000', 'count': '1'},
-    {'item': '2020-11-08T00:00:00.000', 'count': '1'},
-    {'item': '2022-05-11T00:00:00.000', 'count': '1'},
-    {'item': '2021-01-28T00:00:00.000', 'count': '1'}],
-   'smallest': '2019-12-01T00:00:00.000',
-   'count': '1297',
-   'cardinality': '1297'},
-  'format': {'view': 'date'}},
- {'id': 542388893,
-  'name': 'New Cases',
-  'dataTypeName': 'number',
-  'description': 'Total number of new cases reported by date created in CalREDIE. ',
-  'fieldName': 'bklhj_newcases',
-  'position': 2,
-  'renderTypeName': 'number',
-  'tableColumnId': 98765830,
-  'cachedContents': {'non_null': '1297',
-   'largest': '325',
-   'null': '0',
-   'top': [{'item': '0', 'count': '144'},
-    {'item': '1', 'count': '88'},
-    {'item': '2', 'count': '85'},
-    {'item': '4', 'count': '74'},
-    {'item': '3', 'count': '70'},
-    {'item': '5', 'count': '62'},
-    {'item': '6', 'count': '56'},
-    {'item': '7', 'count': '45'},
-    {'item': '8', 'count': '38'},
-    {'item': '9', 'count': '37'},
-    {'item': '12', 'count': '36'},
-    {'item': '11', 'count': '36'},
-    {'item': '13', 'count': '34'},
-    {'item': '10', 'count': '32'},
-    {'item': '16', 'count': '23'},
-    {'item': '15', 'count': '22'},
-    {'item': '17', 'count': '21'},
-    {'item': '19', 'count': '21'},
-    {'item': '18', 'count': '20'},
-    {'item': '14', 'count': '19'}],
-   'smallest': '0',
-   'count': '1297',
-   'cardinality': '112'},
-  'format': {}},
- {'id': 542388894,
-  'name': 'Cumulative Cases',
-  'dataTypeName': 'number',
-  'description': 'Total number of cumulative cases reported by date created in CalREDIE. ',
-  'fieldName': 'bklhj_cumulcases',
-  'position': 3,
-  'renderTypeName': 'number',
-  'tableColumnId': 98765829,
-  'cachedContents': {'non_null': '1297',
-   'largest': '23390',
-   'null': '0',
-   'top': [{'item': '0', 'count': '35'},
-    {'item': '3', 'count': '21'},
-    {'item': '6', 'count': '15'},
-    {'item': '5', 'count': '8'},
-    {'item': '2', 'count': '6'},
-    {'item': '7', 'count': '6'},
-    {'item': '3617', 'count': '5'},
-    {'item': '68', 'count': '4'},
-    {'item': '53', 'count': '4'},
-    {'item': '8', 'count': '4'},
-    {'item': '58', 'count': '4'},
-    {'item': '9', 'count': '4'},
-    {'item': '3620', 'count': '3'},
-    {'item': '23390', 'count': '3'},
-    {'item': '100', 'count': '3'},
-    {'item': '82', 'count': '3'},
-    {'item': '3629', 'count': '3'},
-    {'item': '80', 'count': '3'},
-    {'item': '3613', 'count': '3'},
-    {'item': '35', 'count': '3'}],
-   'smallest': '0',
-   'count': '1297',
-   'cardinality': '1154'},
-  'format': {}}]</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e2a83d0b-2f21-4641-a494-8956e976ca4e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Let's go back to the file explorer.</p>
-<p>Based on the contents of this key, what are reasonable names for each column in the <code>data</code> table?</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8eb6d197-ec8a-4939-a53a-9f1b9b6a8732">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>You can also get the view that Jupyter provides in the file explorer by using Python. This displays our JSON object as an interacive graphical object with a built-in search box:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1810bddd-292e-4fa1-9357-ab2f1c6858d5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">JSON</span>
-<span class="n">JSON</span><span class="p">(</span><span class="n">covid_json</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;IPython.core.display.JSON object&gt;</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bca7574d-15b4-4f44-81b0-292ce37c8e81">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Summary-of-exploring-the-JSON-file">Summary of exploring the JSON file<a class="anchor-link" href="#Summary-of-exploring-the-JSON-file">¶</a></h4><ol>
-<li>The above <strong>metadata</strong> tells us a lot about the columns in the data including column names, potential data anomalies, and a basic statistic.</li>
-<li>Because of its non-tabular structure, JSON makes it easier (than CSV) to create <strong>self-documenting data</strong>, meaning that information about the data is stored in the same file as the data.</li>
-<li>Self documenting data can be helpful since it maintains its own description and these descriptions are more likely to be updated as data changes.</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=89da4483-77d0-40e1-8a68-8c3367f6ef09">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="JSON-with-pandas">JSON with pandas<a class="anchor-link" href="#JSON-with-pandas">¶</a></h3><p>After our above EDA, let's finally go about loading the data (not the metadata) into a pandas dataframe.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=59a68fa6-ea30-4716-b1ce-b51232534ceb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>In the following block of code we:</p>
-<ol>
-<li><p>Translate the JSON records into a dataframe:</p>
-<ul>
-<li>fields: <code>covid_json['meta']['view']['columns']</code></li>
-<li>records: <code>covid_json['data']</code></li>
-</ul>
-</li>
-<li><p>Remove columns that have no metadata description.  This would be a bad idea in general but here we remove these columns since the above analysis suggests that they are unlikely to contain useful information.</p>
-</li>
-<li><p>Examine the <code>tail</code> of the table.</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=889e7992-1e89-4df7-ba44-1da412e5aa29">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pd.read_json(covid_file)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f61dffb3-4d0c-4e72-8b2c-dac07bdf044e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load the data from JSON and assign column titles</span>
-<span class="n">covid</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
-    <span class="n">covid_json</span><span class="p">[</span><span class="s1">'data'</span><span class="p">],</span>
-    <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="n">c</span><span class="p">[</span><span class="s1">'name'</span><span class="p">]</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">covid_json</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">][</span><span class="s1">'view'</span><span class="p">][</span><span class="s1">'columns'</span><span class="p">]])</span>
-
-<span class="n">covid</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8713,94 +8338,93 @@ a.anchor-link {
 <thead>
 <tr style="text-align: right;">
 <th></th>
-<th>sid</th>
-<th>id</th>
-<th>position</th>
-<th>created_at</th>
-<th>created_meta</th>
-<th>updated_at</th>
-<th>updated_meta</th>
-<th>meta</th>
-<th>Date</th>
-<th>New Cases</th>
-<th>Cumulative Cases</th>
+<th>bioguideId</th>
+<th>depiction</th>
+<th>district</th>
+<th>name</th>
+<th>partyName</th>
+<th>state</th>
+<th>terms</th>
+<th>updateDate</th>
+<th>url</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th>1292</th>
-<td>row-zg3v~6bpx~tp8j</td>
-<td>00000000-0000-0000-7710-AECCCEB67A5A</td>
-<td>0</td>
-<td>1687370769</td>
-<td>None</td>
-<td>1687370769</td>
-<td>None</td>
-<td>{ }</td>
-<td>2023-06-15T00:00:00</td>
-<td>2</td>
-<td>23384</td>
+<th>0</th>
+<td>T000491</td>
+<td>{'attribution': 'Image courtesy of the Member'...</td>
+<td>45.00</td>
+<td>Tran, Derek</td>
+<td>Democratic</td>
+<td>California</td>
+<td>{'item': [{'chamber': 'House of Representative...</td>
+<td>2025-01-21T18:00:52Z</td>
+<td>https://api.congress.gov/v3/member/T000491?for...</td>
 </tr>
 <tr>
-<th>1293</th>
-<td>row-wean-73e3.fixn</td>
-<td>00000000-0000-0000-27C0-D21340C3F93F</td>
-<td>0</td>
-<td>1687370769</td>
-<td>None</td>
-<td>1687370769</td>
-<td>None</td>
-<td>{ }</td>
-<td>2023-06-16T00:00:00</td>
-<td>4</td>
-<td>23388</td>
+<th>1</th>
+<td>M001241</td>
+<td>{'attribution': 'Image courtesy of the Member'...</td>
+<td>47.00</td>
+<td>Min, Dave</td>
+<td>Democratic</td>
+<td>California</td>
+<td>{'item': [{'chamber': 'House of Representative...</td>
+<td>2025-01-21T18:00:52Z</td>
+<td>https://api.congress.gov/v3/member/M001241?for...</td>
 </tr>
 <tr>
-<th>1294</th>
-<td>row-cvez.6nyd.3f6y</td>
-<td>00000000-0000-0000-C1AE-C76310119F30</td>
-<td>0</td>
-<td>1687370769</td>
-<td>None</td>
-<td>1687370769</td>
-<td>None</td>
-<td>{ }</td>
-<td>2023-06-17T00:00:00</td>
-<td>2</td>
-<td>23390</td>
+<th>2</th>
+<td>K000400</td>
+<td>{'attribution': 'Image courtesy of the Member'...</td>
+<td>37.00</td>
+<td>Kamlager-Dove, Sydney</td>
+<td>Democratic</td>
+<td>California</td>
+<td>{'item': [{'chamber': 'House of Representative...</td>
+<td>2025-01-21T18:00:52Z</td>
+<td>https://api.congress.gov/v3/member/K000400?for...</td>
 </tr>
 <tr>
-<th>1295</th>
-<td>row-hzcg-24ra_7ipd</td>
-<td>00000000-0000-0000-D048-D04E71C55E3A</td>
-<td>0</td>
-<td>1687370769</td>
-<td>None</td>
-<td>1687370769</td>
-<td>None</td>
-<td>{ }</td>
-<td>2023-06-18T00:00:00</td>
-<td>0</td>
-<td>23390</td>
+<th>3</th>
+<td>G000598</td>
+<td>{'attribution': 'Image courtesy of the Member'...</td>
+<td>42.00</td>
+<td>Garcia, Robert</td>
+<td>Democratic</td>
+<td>California</td>
+<td>{'item': [{'chamber': 'House of Representative...</td>
+<td>2025-01-21T18:00:52Z</td>
+<td>https://api.congress.gov/v3/member/G000598?for...</td>
 </tr>
 <tr>
-<th>1296</th>
-<td>row-8tdn_tuw8_hujn</td>
-<td>00000000-0000-0000-3181-E8EECFBF2249</td>
-<td>0</td>
-<td>1687370769</td>
-<td>None</td>
-<td>1687370769</td>
-<td>None</td>
-<td>{ }</td>
-<td>2023-06-19T00:00:00</td>
-<td>0</td>
-<td>23390</td>
+<th>4</th>
+<td>K000397</td>
+<td>{'attribution': 'Image courtesy of the Member'...</td>
+<td>40.00</td>
+<td>Kim, Young</td>
+<td>Republican</td>
+<td>California</td>
+<td>{'item': [{'chamber': 'House of Representative...</td>
+<td>2025-01-21T18:00:52Z</td>
+<td>https://api.congress.gov/v3/member/K000397?for...</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1d035283">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We've successfully begun to rectangularize our JSON data!</p>
 </div>
 </div>
 </div>
@@ -8812,7 +8436,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><br/><br/><br/></p>
-<p><strong>Return to Slides</strong></p>
+<p><strong>Instructor Note: Return to Slides!</strong></p>
 </div>
 </div>
 </div>
@@ -8825,8 +8449,8 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><br/></p>
 <hr/>
-<h2 id="Temporality">Temporality<a class="anchor-link" href="#Temporality">¶</a></h2><p>Let's briefly look at how we can use pandas <code>dt</code> accessors to work with dates/times in a dataset.</p>
-<p>We will use the dataset from Lab 3: the Berkeley PD Calls for Service dataset.</p>
+<h2 id="%F0%9F%95%B0%EF%B8%8F-Temporality">🕰️ Temporality<a class="anchor-link" href="#%F0%9F%95%B0%EF%B8%8F-Temporality">¶</a></h2><p>Let's briefly look at how we can use pandas <code>dt</code> accessors to work with dates/times in a dataset.</p>
+<p>We will use the Berkeley Police Department (PD) Calls for Service dataset.</p>
 </div>
 </div>
 </div>
@@ -8835,7 +8459,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"data/Berkeley_PD_-_Calls_for_Service.csv"</span><span class="p">)</span>
@@ -8850,7 +8474,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8969,8 +8593,15 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Looks like there are three columns with dates/times: <code>EVENTDT</code>, <code>EVENTTM</code>, and <code>InDbDate</code>.</p>
-<p>Most likely, <code>EVENTDT</code> stands for the date when the event took place, <code>EVENTTM</code> stands for the time of day the event took place (in 24-hr format), and <code>InDbDate</code> is the date this call is recorded onto the database.</p>
-<p>If we check the data type of these columns, we will see they are stored as strings. We can convert them to <code>datetime</code> objects using pandas <code>to_datetime</code> function.</p>
+<ul>
+<li><p><code>EVENTDT</code> stands for the <strong>date</strong> when the event took place</p>
+</li>
+<li><p><code>EVENTTM</code> stands for the <strong>time of day</strong> the event took place (in 24-hr format)</p>
+</li>
+<li><p><code>InDbDate</code> is the date this call is entered into the database.</p>
+</li>
+</ul>
+<p>We can convert these string columns to <code>datetime</code> objects using the <code>pd.to_datetime</code> function.</p>
 </div>
 </div>
 </div>
@@ -8979,11 +8610,20 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">],</span>
-                                 <span class="nb">format</span> <span class="o">=</span> <span class="s2">"%m/</span><span class="si">%d</span><span class="s2">/%Y %I:%M:%S %p"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pd.to_datetime() is smart -- It can often infer what you want based on</span>
+<span class="c1"># the format of the datetime string.</span>
+<span class="c1"># But, it's not always right! It's good practice to specify the format of </span>
+<span class="c1"># your datetimes. See the documentation and the `format` argument.</span>
+
+<span class="c1"># Without format specified:</span>
+<span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">])</span>
+
+<span class="c1"># With format specified:</span>
+<span class="c1"># calls["EVENTDT"] = pd.to_datetime(calls["EVENTDT"], format='%m/%d/%Y %I:%M:%S %p')</span>
+
 <span class="n">calls</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8994,8 +8634,16 @@ a.anchor-link {
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>/tmp/ipykernel_99/2275392033.py:7: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  calls["EVENTDT"] = pd.to_datetime(calls["EVENTDT"])
+</pre>
+</div>
+</div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9123,10 +8771,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">month</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1 - January, 2 - February, ..., 12 - December</span>
+<span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">month</span>
 </pre></div>
 </div>
 </div>
@@ -9137,7 +8786,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>0        4
 1        4
@@ -9171,10 +8820,11 @@ Name: EVENTDT, Length: 2632, dtype: int32</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">dayofweek</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 0 - Monday, 1 - Tuesday, ..., 6 - Sunday</span>
+<span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">dayofweek</span>
 </pre></div>
 </div>
 </div>
@@ -9185,7 +8835,7 @@ Name: EVENTDT, Length: 2632, dtype: int32</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>0       3
 1       3
@@ -9210,7 +8860,7 @@ Name: EVENTDT, Length: 2632, dtype: int32</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Check the mimimum values to see if there are any suspicious-looking, 70s dates:</p>
+<p>We can also sort by datetime:</p>
 </div>
 </div>
 </div>
@@ -9219,10 +8869,11 @@ Name: EVENTDT, Length: 2632, dtype: int32</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"EVENTDT"</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sort the DataFrame by datetime to find the earliest call.</span>
+<span class="n">calls</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"EVENTDT"</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -9233,7 +8884,7 @@ Name: EVENTDT, Length: 2632, dtype: int32</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9351,8 +9002,397 @@ Name: EVENTDT, Length: 2632, dtype: int32</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Doesn't look like it! We are good!</p>
 <p>We can also do many things with the <code>dt</code> accessor like switching time zones and converting time back to UNIX/POSIX time. Check out the documentation on <a href="https://pandas.pydata.org/docs/user_guide/basics.html#basics-dt-accessors"><code>.dt</code> accessor</a> and <a href="https://pandas.pydata.org/docs/user_guide/timeseries.html#">time series/date functionality</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=79a8ae03">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>What type are datetime objects?</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a0871343">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span><span class="o">.</span><span class="n">dtype</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>dtype('&lt;M8[ns]')</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2e1e37a9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><code>ns</code> above stands for nanoseconds.</p>
+<ul>
+<li><code>&lt;M8</code> refers to the Numpy type <code>datetime64</code></li>
+</ul>
+<p>Under the hood, datetimes in Pandas are integers representing the number of <strong>nanoseconds</strong> since 1/1/1970 UTC.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6aa4c16c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># datetimes in pandas are stored as integers representing number of </span>
+<span class="c1"># nanoseconds since 1970-01-01</span>
+<span class="n">calls</span><span class="p">[</span><span class="s2">"EVENTDT"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>0       1617235200000000000
+1       1617235200000000000
+2       1618790400000000000
+3       1613174400000000000
+4       1612742400000000000
+               ...         
+2627    1608508800000000000
+2628    1614124800000000000
+2629    1616544000000000000
+2630    1619222400000000000
+2631    1614297600000000000
+Name: EVENTDT, Length: 2632, dtype: int64</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9237b2e5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><br/><br/><br/></p>
+<p><strong>Instructor Note: Return to Slides!</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b22c4343">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><br/></p>
+<hr/>
+<h2 id="%F0%9F%A4%B7-Faithfulness-and-missing-values">🤷 Faithfulness and missing values<a class="anchor-link" href="#%F0%9F%A4%B7-Faithfulness-and-missing-values">¶</a></h2><p>To conclude, let's <strong>very</strong> briefly explore missingness in the Berkeley PD Calls for Service dataset.</p>
+<p>Looking at the top of the dataframe, we can already see that there are missing values in the <code>BLKADDR</code> column.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fc64a710">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">calls</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>CASENO</th>
+<th>OFFENSE</th>
+<th>EVENTDT</th>
+<th>EVENTTM</th>
+<th>CVLEGEND</th>
+<th>CVDOW</th>
+<th>InDbDate</th>
+<th>Block_Location</th>
+<th>BLKADDR</th>
+<th>City</th>
+<th>State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>21014296</td>
+<td>THEFT MISD. (UNDER $950)</td>
+<td>2021-04-01</td>
+<td>10:58</td>
+<td>LARCENY</td>
+<td>4</td>
+<td>06/15/2021 12:00:00 AM</td>
+<td>Berkeley, CA\n(37.869058, -122.270455)</td>
+<td>NaN</td>
+<td>Berkeley</td>
+<td>CA</td>
+</tr>
+<tr>
+<th>1</th>
+<td>21014391</td>
+<td>THEFT MISD. (UNDER $950)</td>
+<td>2021-04-01</td>
+<td>10:38</td>
+<td>LARCENY</td>
+<td>4</td>
+<td>06/15/2021 12:00:00 AM</td>
+<td>Berkeley, CA\n(37.869058, -122.270455)</td>
+<td>NaN</td>
+<td>Berkeley</td>
+<td>CA</td>
+</tr>
+<tr>
+<th>2</th>
+<td>21090494</td>
+<td>THEFT MISD. (UNDER $950)</td>
+<td>2021-04-19</td>
+<td>12:15</td>
+<td>LARCENY</td>
+<td>1</td>
+<td>06/15/2021 12:00:00 AM</td>
+<td>2100 BLOCK HASTE ST\nBerkeley, CA\n(37.864908,...</td>
+<td>2100 BLOCK HASTE ST</td>
+<td>Berkeley</td>
+<td>CA</td>
+</tr>
+<tr>
+<th>3</th>
+<td>21090204</td>
+<td>THEFT FELONY (OVER $950)</td>
+<td>2021-02-13</td>
+<td>17:00</td>
+<td>LARCENY</td>
+<td>6</td>
+<td>06/15/2021 12:00:00 AM</td>
+<td>2600 BLOCK WARRING ST\nBerkeley, CA\n(37.86393...</td>
+<td>2600 BLOCK WARRING ST</td>
+<td>Berkeley</td>
+<td>CA</td>
+</tr>
+<tr>
+<th>4</th>
+<td>21090179</td>
+<td>BURGLARY AUTO</td>
+<td>2021-02-08</td>
+<td>6:20</td>
+<td>BURGLARY - VEHICLE</td>
+<td>1</td>
+<td>06/15/2021 12:00:00 AM</td>
+<td>2700 BLOCK GARBER ST\nBerkeley, CA\n(37.86066,...</td>
+<td>2700 BLOCK GARBER ST</td>
+<td>Berkeley</td>
+<td>CA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7732de36">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We can use the <code>.isna()</code> method to get a sense of how often values in <code>BLKADDR</code> are missing.</p>
+<ul>
+<li>The <code>.isnull()</code> method is functionally equivalent.</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3b8cd271">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># isna() returns a Series of booleans indicating whether each element </span>
+<span class="c1"># # in the Series is missing.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calls</span><span class="p">[</span><span class="s1">'BLKADDR'</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+
+<span class="c1"># The mean of a Series of booleans is the proportion of booleans that are True.</span>
+<span class="n">calls</span><span class="p">[</span><span class="s1">'BLKADDR'</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>0     True
+1     True
+2    False
+3    False
+4    False
+Name: BLKADDR, dtype: bool
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>0.007598784194528876</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6047c157">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>It looks like missing values are actually quite rare: Only 0.8% of records are missing a value in <code>BLKADDR</code>.</p>
+<p>Why are these values missing?</p>
+<ul>
+<li><p>Again, looking at just the first few rows, we see that <code>NaN</code> values in <code>BLKADDR</code> appear to be accompanied by latitude/longitude coordinates in the <code>Block_Location</code> column.</p>
+</li>
+<li><p>In all likelihood, missing values in <code>BLKADDR</code> probably correspond to locations that do not have a defined address in the officer's navigation or GPS system.</p>
+</li>
+</ul>
+<br/>
+<p>The best default approach here: Leave the rows with missing <code>BLKADDR</code> untouched, or replace the <code>NaN</code> values with a <code>MISSING</code> indicator.</p>
+<ul>
+<li>In the future, if we wanted to conduct an analysis of the streets where police incidents were most common, we might impute <code>BLKADDR</code> by using the nearest street, which we could identify with an external package.</li>
+</ul>
+<br/>
+<p>For a very rough sense of missingness in each column of a DataFrame, you can use the <code>info()</code> method.</p>
+<ul>
+<li>Based on the output, it looks like the only column with missing values is <code>BLKADDR</code>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=56104490">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># You can see the total number of rows at the top of the .info() output.</span>
+<span class="c1"># Compare this to the number of non-null values in the BLKADDR column.</span>
+<span class="n">calls</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 2632 entries, 0 to 2631
+Data columns (total 11 columns):
+ #   Column          Non-Null Count  Dtype         
+---  ------          --------------  -----         
+ 0   CASENO          2632 non-null   int64         
+ 1   OFFENSE         2632 non-null   object        
+ 2   EVENTDT         2632 non-null   datetime64[ns]
+ 3   EVENTTM         2632 non-null   object        
+ 4   CVLEGEND        2632 non-null   object        
+ 5   CVDOW           2632 non-null   int64         
+ 6   InDbDate        2632 non-null   object        
+ 7   Block_Location  2632 non-null   object        
+ 8   BLKADDR         2612 non-null   object        
+ 9   City            2632 non-null   object        
+ 10  State           2632 non-null   object        
+dtypes: datetime64[ns](1), int64(2), object(8)
+memory usage: 226.3+ KB
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ba0c9d5d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><br/><br/><br/></p>
+<p><strong>Instructor Note: Return to Slides!</strong></p>
 </div>
 </div>
 </div>
