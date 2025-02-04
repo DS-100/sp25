@@ -9,7 +9,7 @@
 Prerequisites:
 
 - You have everything that [Jekyll requires](https://jekyllrb.com/docs/installation/)
-- You have installed [Bundler](https://bundler.io/): Run `gem install jekyll bundler`
+- You have installed [Bundler](https://bundler.io/): `gem install jekyll bundler`
 
 After cloning this repository and navigating into the directory, run the following command to install dependencies
 ```
