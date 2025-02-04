@@ -35,7 +35,7 @@ module Jekyll
   class ConfigValidator
     SEMESTER_REGEXP = /(wi|sp|su|fa)\d\d$/
     VALID_COURSE_DEPARTMENT = %w[eecs dsus stat].freeze
-    VALID_COLOR_SCHEME = %w[light dark].freeze
+    VALID_COLOR_SCHEME = %w[light dark wider].freeze
 
     # To validate a key with an 'allow list':
     # Use the function :inclusion_validator

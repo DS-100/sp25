@@ -21,23 +21,16 @@ baseurl: '/sp25' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 logo: 'resources/assets/favicon/panda-logo.png'
 
-# Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.5.2
-color_scheme: light
-search_enabled: true
-permalink: pretty
-
-
 # External navigation links
 nav_external_links:
   - title: Course Notes
     url: https://ds100.org/course-notes/
     hide_icon: true
-    aria_label: "Data 100 Course Notes" 
+    aria_label: "Data 100 Course Notes"
   - title: Debugging Guide
     url: https://ds100.org/debugging-guide/
     hide_icon: true
-    aria_label: "Data 100 Debugging Guide" 
+    aria_label: "Data 100 Debugging Guide"
   - title: Course FAQ
     url: https://ds100.org/faqs/sp25/
     hide_icon: true
@@ -134,10 +127,10 @@ plugins:
   - jekyll-include-cache
 
 # # Theme settings
-# theme: just-the-docs
-# search_enabled: true
-# heading_anchors: true
-# permalink: pretty
+theme: just-the-docs
+search_enabled: true
+heading_anchors: true
+permalink: pretty
 
 ## Footer Content.
 # You should probably not change these, but may add to footer_content if necessary.
