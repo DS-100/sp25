@@ -3,11 +3,15 @@
 source 'https://rubygems.org'
 
 # Gems at the top are used to build the site.
-gem 'jekyll', '~> 4'
 
+gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 3.9' 
 gem 'faraday-retry', '~> 2.2'
 gem 'kramdown-parser-gfm'
 gem 'csv'
+source 'https://rubygems.org'
+# frozen_string_literal: true
+gem 'tzinfo-data'
 
 group :jekyll_plugins do
   gem 'jekyll-github-metadata', '~> 2.16'
