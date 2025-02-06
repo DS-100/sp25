@@ -10,8 +10,8 @@ Tue Feb 25
 Thu Feb 27
 : **Lecture 12**{: .label .label-lecture} OLS (Multiple Regression)
 : **Lecture Participation 12**{: .label .label-survey } Lecture Participation 12
-: **Lab 5**{: .label .label-lab }  Modeling, Summary Statistics, and Loss Functions (due Tue Mar 4)
+: **Lab 5**{: .label .label-lab } Modeling, Summary Statistics, Loss Functions, and OLS (due Tue Mar 4)
 <!-- : **Exam Prep 5**{: .label .label-examprep } SLR -->
 
 Fri Feb 28
-: **Homework 5A**{: .label .label-hw } Modeling (due Thu Mar 6)
+: **Homework 5**{: .label .label-hw } Modeling and OLS (due Thu Mar 6)

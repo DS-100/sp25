@@ -10,7 +10,7 @@ Tue Mar 18
 Thu Mar 20
 : **Lecture 17**{: .label .label-lecture} Random Variables
 : **Lecture Participation 17**{: .label .label-survey } Lecture Participation 17
-: **Lab 8**{: .label .label-lab }  Model Selection (due Tue Apr 1)
+: **Lab 7**{: .label .label-lab }  Model Selection (due Tue Apr 1)
 <!-- : **Exam Prep 7**{: .label .label-examprep } Cross Validation and Regularization -->
 
 Fri Mar 21
