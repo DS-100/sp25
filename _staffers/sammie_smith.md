@@ -1,7 +1,7 @@
 ---
 name: Sammie Smith
 role: Lead TA
-email: happysammie6@berkeley.edu
+email: samanthasmith@berkeley.edu
 team: Scholars 
 # photo: ../resources/assets/staff_pics/Sammie_Smith.png
 photo: http://ds100.org/sp25/resources/assets/staff_pics/Sammie_Smith.png
