@@ -3,7 +3,7 @@ title: Week 4
 ---
 
 Tue Feb 11
-: **Lecture 7**{: .label .label-lecture} Visualization I
+: **Lecture 7**{: .label .label-lecture} [Visualization I](lecture/lec07)
     : ([*Fa24 Note*](https://ds100.org/course-notes/visualization_1/visualization_1.html) to be updated)
 : **Lecture Participation 7**{: .label .label-survey } Lecture Participation 7
 : **Discussion 3**{: .label .label-disc } Pandas II, EDA
