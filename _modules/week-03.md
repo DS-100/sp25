@@ -14,7 +14,7 @@ Tue Feb 4
     [Groupwork Walkthrough](https://youtu.be/xH5Ad_tQQ4w?si=RkpF9FK5ThiTjazR){:target="_blank"},
     [Solutions](https://drive.google.com/file/d/1N7wBkHCcNdCSFNiz2a3v72lO4yDmYNYK/view?usp=sharing){:target="_blank"},
     [Notebook Solutions](https://drive.google.com/file/d/1hCJ9dddAPQPgTP8Im0Zlr0U9NMxVjOds/view?usp=sharing){:target="_blank"},
-    [Groupwork Notebbok Solutions](https://drive.google.com/file/d/1ldfQI7yz9XhgdQdWLvS1NskOBcR8FtB0/view?usp=sharing){:target="_blank"}
+    [Groupwork Notebook Solutions](https://drive.google.com/file/d/1ldfQI7yz9XhgdQdWLvS1NskOBcR8FtB0/view?usp=sharing){:target="_blank"}
 
 
 Thu Feb 6
