@@ -7,6 +7,7 @@ Tue Feb 11
     : ([*Fa24 Note*](https://ds100.org/course-notes/visualization_1/visualization_1.html) to be updated)
 : **Lecture Participation 7**{: .label .label-survey } Lecture Participation 7
 : **Discussion 3**{: .label .label-disc } Pandas II, EDA
+    : [Mini-Lecture](https://www.youtube.com/watch?v=9jFqjbPLThc&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5){:target="_blank"}
 
 Wed Feb 12
 : **Drop Deadline (w/ fee)**{: .label .label-deadline } 11:59 PM
