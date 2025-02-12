@@ -1,7 +1,7 @@
 ---
 name: Sammie Smith
 role: Lead TA
-email: happysammie6@berkeley.edu
+email: samanthasmith@berkeley.edu
 team: Scholars 
 photo: Sammie_Smith.png
 pronouns: She/Her

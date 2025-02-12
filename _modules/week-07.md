@@ -10,8 +10,9 @@ Tue Mar 4
 Thu Mar 6
 : **Lecture 14**{: .label .label-lecture} Feature Engineering
 : **Lecture Participation 14**{: .label .label-survey } Lecture Participation 14
-: **Lab 6**{: .label .label-lab }  OLS (due Tue Mar 11)
+: **NO Lab**{: .label .label-lab }
 <!-- : **Exam Prep 6**{: .label .label-examprep } OLS, Gradient Descent -->
 
 Fri Mar 7
-: **Homework 5B**{: .label .label-hw }  OLS (due Thu Mar 13)
+: **NO Homework**{: .label .label-hw }
+: **Midterm Review**{: .label .label-review}
