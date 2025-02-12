@@ -21,6 +21,31 @@
       <span class="staffer-badge">DSP</span>
       {%- endif -%}
     </h3>
+    
+    {%- if page.team -%}
+      {%- assign team_name = page.team -%}
+      {%- if team_name contains "TA" -%}
+          {%- assign stripped_name = team_name | replace: "TA", "" -%}
+          <span class="team label-{{ team_name }}">{{ stripped_name | strip }}</span>
+      {%- else -%}
+          <span class="team label-{{ team_name }}">{{ team_name }}</span>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if page.team and page.team2 -%}
+    &nbsp;
+    {%- endif -%}
+
+    {%- if page.team2 -%}
+      {%- assign team2_name = page.team2 -%}
+      {%- if team2_name contains "TA" -%}
+          {%- assign stripped_name2 = team2_name | replace: "TA", "" -%}
+          <span class="team label-{{ team2_name }}">{{ stripped_name2 | strip }}</span>
+      {%- else -%}
+          <span class="team label-{{ team2_name }}">{{ team2_name }}</span>
+      {%- endif -%}
+    {%- endif -%}
+
     {%- if page.email -%}
     <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
     {%- endif -%}

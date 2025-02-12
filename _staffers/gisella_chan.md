@@ -2,8 +2,8 @@
 name: Gisella Chan
 role: UCS1
 email: gisellachan@berkeley.edu
-# photo: ../resources/assets/staff_pics/Gisella_Chan.jpg
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Gisella_Chan.jpg
+photo: Gisella_Chan.jpg
 pronouns: She/Her
+team: Infrastructure
 ---
 Hi! I’m a junior majoring in CS + DS :)

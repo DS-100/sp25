@@ -16,7 +16,7 @@ Jump to:
 {:toc}
 
 ## Reference Sheet
-Here is the Fall 2024 Final [Reference Sheet](resources/assets/exams/fa24/fa24_final_reference_sheet.pdf){:target="_blank"}.
+Here is the Fall 2024 Final [Reference Sheet](resources/assets/exams/fa24/fa24_final_reference_sheet.pdf).
 
 ## Supplementary Course Notes
 Alongside each lecture are supplementary [Course Notes](https://ds100.org/course-notes/). 
@@ -35,10 +35,10 @@ Textbook readings are purely optional, and may contain material that is not in s
 
 | Semester | Midterm 1 | Midterm 2  | Final | Reference Sheet |
 | -- | -- | -- | -- | -- |
-|Fall 2024| [Exam](assets/exams/fa24/fa24_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/fa24/fa24_midterm_sol.pdf){:target="_blank"} | | [Exam](assets/exams/fa24/fa24_finals_qs.pdf){:target="_blank"} [(Solutions)](assets/exams/fa24/fa24_finals_sols.pdf){:target="_blank"}| [Midterm](assets\exams\fa24\fa24_mt_reference_sheet.pdf){:target="_blank"}, [Final](assets\exams\fa24\fa24_final_reference_sheet.pdf){:target="_blank"} |
-|Summer 2024| [Exam](assets/exams/su24/su24_mt.pdf){:target="_blank"} [(Solutions)](assets/exams/su24/su24_mt_sol.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfq-uOcGFHW25xUgXeK9b8Ow){:target="_blank"} | | [Exam](assets/exams/su24/su24_final.pdf){:target="_blank"} [(Solutions)](assets/exams/su24/su24_final_sol.pdf){:target="_blank"} | [Midterm](assets\exams\su24\su24_mt_reference_sheet.pdf), [Final](assets\exams\su24\su24_final_reference_sheet.pdf) |
-|Spring 2024| [Exam](assets/exams/sp24/ds100-sp24-midterm.pdf){:target="_blank"} [(Solutions)](assets/exams/sp24/ds100-sp24-midterm-sol.pdf){:target="_blank"} | | [Exam](assets/exams/sp24/ds100-sp24-final.pdf){:target="_blank"} [(Solutions)](https://ds100.org/sp24/resources/assets/exams/sp24/ds100-sp24-final-sol.pdf)| [Midterm](assets/exams/sp24/ds100-sp24-midterm-ref.pdf){:target="_blank"}, [Final](assets/exams/sp24/ds100-sp24-final-ref.pdf){:target="_blank"} |
-|Fall 2023| [Exam](assets/exams/fa23/fa23-midterm-ds100.pdf){:target="_blank"} [(Solutions)](assets/exams/fa23/fa23-midterm-ds100-sol.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpu7tvfnsip5caEOcO50r8U){:target="_blank"} | | [Exam](assets/exams/fa23/fa23-final.pdf){:target="_blank"} [(Solutions)](assets/exams/fa23/fa23-final-solutions.pdf){:target="_blank"} [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqmK_hC9eQwJtTtcsKsxUdW) | [Midterm](assets/exams/fa23/fa23_mt_reference_sheet.pdf), [Final](assets/exams/fa23/fa23_final_reference_sheet.pdf) | 
+|Fall 2024| [Exam](assets/exams/fa24/fa24_mt.pdf) [(Solutions)](assets/exams/fa24/fa24_midterm_sol.pdf)| | [Exam](assets/exams/fa24/fa24_finals_qs.pdf) [(Solutions)](assets/exams/fa24/fa24_finals_sols.pdf)| [Midterm](assets\exams\fa24\fa24_mt_reference_sheet.pdf), [Final](assets\exams\fa24\fa24_final_reference_sheet.pdf) |
+|Summer 2024| [Exam](assets/exams/su24/su24_mt.pdf) [(Solutions)](assets/exams/su24/su24_mt_sol.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfq-uOcGFHW25xUgXeK9b8Ow) | | [Exam](assets/exams/su24/su24_final.pdf) [(Solutions)](assets/exams/su24/su24_final_sol.pdf) | [Midterm](assets\exams\su24\su24_mt_reference_sheet.pdf), [Final](assets\exams\su24\su24_final_reference_sheet.pdf) |
+|Spring 2024| [Exam](assets/exams/sp24/ds100-sp24-midterm.pdf) [(Solutions)](assets/exams/sp24/ds100-sp24-midterm-sol.pdf) | | [Exam](assets/exams/sp24/ds100-sp24-final.pdf) [(Solutions)](https://ds100.org/sp24/resources/assets/exams/sp24/ds100-sp24-final-sol.pdf)| [Midterm](assets/exams/sp24/ds100-sp24-midterm-ref.pdf), [Final](assets/exams/sp24/ds100-sp24-final-ref.pdf) |
+|Fall 2023| [Exam](assets/exams/fa23/fa23-midterm-ds100.pdf) [(Solutions)](assets/exams/fa23/fa23-midterm-ds100-sol.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpu7tvfnsip5caEOcO50r8U) | | [Exam](assets/exams/fa23/fa23-final.pdf) [(Solutions)](assets/exams/fa23/fa23-final-solutions.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqmK_hC9eQwJtTtcsKsxUdW) | [Midterm](assets/exams/fa23/fa23_mt_reference_sheet.pdf), [Final](assets/exams/fa23/fa23_final_reference_sheet.pdf) | 
 |Summer 2023| [Exam](assets/exams/su23/su23_mt.pdf) [(Solutions)](assets/exams/su23/su23_mt_sol.pdf) [[Walkthrough]](https://youtube.com/playlist?list=PLQCcNQgUcDfr-6Ekq9EldsWn0iF4vE-q4&si=osRk_jjmaXoVlWYN) | | [Exam](assets/exams/su23/su23_final.pdf) [(Solutions)](assets/exams/su23/su23_final_sol.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqr0zzY8n17SmUWc64vYg_i)| [Midterm](assets/exams/su23/su23_mt_reference_sheet.pdf), [Final](assets/exams/su23/su23_final_reference_sheet.pdf)|
 |Spring 2023| [Exam](assets/exams/sp23/sp23_mt.pdf) [(Solutions)](assets/exams/sp23/sp23mtsol.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpuiDBXsimLa2DZgrarmNWu)  | | [Exam](assets/exams/sp23/sp23_final.pdf) [(Solutions)](assets/exams/sp23/sp23_final_sol.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqmjLDSxRFm6lH4w6ufupjI)|  [Midterm](assets/exams/sp23/sp23_mt_reference_sheet.pdf), [Final](assets/exams/sp23/sp23_final_reference_sheet.pdf)|
 |Fall 2022| [Exam](assets/exams/fa22/fa22_mt.pdf) [(Solutions)](assets/exams/fa22/fa22_midterm_sol.pdf) [[Walkthrough]](https://www.youtube.com/watch?v=0UbtO_VJsVU&list=PLQCcNQgUcDfrri_9cMKWfXVFbSY07KpFB)|||[Midterm](assets/exams/fa22/fa22_mt_reference_sheet.pdf)|
@@ -75,32 +75,28 @@ become part of the history of Data 100 at Berkeley.
 {: .note }
 > This section is currently under construction -- we will be adding more resources down below!
 
-#### Pandas
+### Pandas
 
   - [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
   - [The Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/): This provides a nice overview of some of the basic Pandas functions. However, it is slightly out of date.
   - [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.
   - [Python for Data Science](http://wavedatalab.github.io/datawithpython/index.html) Another set of notebook demonstrating Pandas functionality.
 
-#### SQL
+### SQL
 + We've assembled some [SQL Review Slides](https://docs.google.com/presentation/d/1mLVkQxah9asdKhnTNpcUSYBOuKGSWE_d3MJ5nYuTw9U/edit?usp=sharing) to help you brush up on SQL.
 + This [SQL Cheat Sheet](https://websitesetup.org/sql-cheat-sheet/) is an awesome resource that was created by Luke Harrison, a former Data 100 student.
 
-#### Regex
+### Regex
 + [Regex101.com](https://regex101.com). Remember to select the Python flavour of Regex!
 + [Data 100 Regex Reference Sheet](assets/other/regex_reference_fa23.pdf)
 + The official [Python3 regex guide](https://docs.python.org/3/howto/regex.html) is good!
 
-#### LaTeX
+### LaTeX
 + [Quick Guide to Overleaf and LaTeX](https://www.overleaf.com/learn)
 
-#### Other Web References
+### Other Web References
 As a data scientist you will often need to search for information on various libraries and tools. In this class we will be using several key python libraries. Here are their documentation pages:
 
-<!-- - **The Bash Command Line:**
-
-  - [Linux and Bash](https://drive.google.com/file/d/0B6nL03OcEignTGowRkNCZzN6T00/view): Intro to Linux, Cloud Computing (which you can skip for the purposes of this class), and the Bash command line. You can skip all portions that don't pertain to using the command line.
-  - [Bash Part 2](https://drive.google.com/file/d/0B6nL03OcEigncUxXNnNmV3VuN1U/view): Part 2 of the intro to command line. -->
 
 - **Python:**
   - [Python Tutorial](https://docs.python.org/3.5/tutorial/): Teach yourself python. This is a pretty comprehensive tutorial.
@@ -250,8 +246,3 @@ The [UC Berkeley Food Pantry](https://pantry.berkeley.edu/) (#68 Martin Luther K
 
 Interested in bringing the Data Science major or curriculum to your academic institution?  Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfw6iN-V58Urvg7RRfbjNQceisLULBizg0qku1_2qV8cvOtvA/viewform) if you would like support from Berkeley in offering some variant of our Data Science courses at your institution (or just to let us know that you're interested). Information about the courses appear at [data8.org](http://data8.org) and [ds100.org](http://ds100.org). Please note that this form is only for instructors. If you are only interested in learning Python or data science, please look at our Data 8 or Data 100 websites mentioned above.
 
-## Local Setup (Old)
-
-**NOTE:** This section is out of date and no longer supported by the course staff.
-
-Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our development environment locally (as an alternative to using DataHub). Please note that any autograder tests will only work on DataHub.

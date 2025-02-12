@@ -10,6 +10,8 @@
 
 @import '../color_schemes/dark_overrides';
 
+@import 'module';
+
 @if $color-scheme == dark {
   @include dark-mode-overrides;
 }
@@ -24,3 +26,43 @@ div.highlighter-rouge div.highlight {
 
 // Place all of your course-specific CSS here.
 @import './course_overrides';
+
+.site-logo {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.site-header {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  min-height: 100px !important;
+  max-height: 200px !important;
+}
+
+.side-bar {
+  max-width: 200px;
+}
+
+.btn-datahub {
+  @include btn-color($white, #FF8C00);
+}
+
+.btn-ed {
+  @include btn-color($white, #9400D3);
+}
+
+.btn-gradescope {
+  @include btn-color($white, #228B22);
+}
+
+.btn-youtube {
+  @include btn-color($white, #FF0000);
+}
+
+.btn-oh {
+  @include btn-color($white, #ff1493);
+}
+

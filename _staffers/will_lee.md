@@ -2,8 +2,8 @@
 name: William Lee
 role: UCS1
 email: will0416@berkeley.edu
-# photo: ../resources/assets/staff_pics/William_Lee.jpg
-photo: http://ds100.org/sp25/resources/assets/staff_pics/William_Lee.jpg
+photo: William_Lee.jpg
 pronouns: He/Him
+team: Infrastructure
 ---
 Hi! I'm Will, a 3rd year CS major. In my free time, I hunt for vinyls and try to run as fast as I did in high school (spoiler: I can't).

@@ -59,10 +59,13 @@ defaults:
     values:
       layout: announcement
   - scope:
-      path: ''
+      path: '_staffers'
       type: staffers
     values:
       layout: staffer
+      height: 300
+      width: 300
+      subpath: '/resources/assets/staff_pics/'
 
 callouts:
   highlight:
