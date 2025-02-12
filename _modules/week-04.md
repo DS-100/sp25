@@ -5,7 +5,7 @@ title: Week 4
 Tue Feb 11
 : **Lecture 7**{: .label .label-lecture} [Visualization I](lecture/lec07)
     : ([*Fa24 Note*](https://ds100.org/course-notes/visualization_1/visualization_1.html) to be updated)
-: **Lecture Participation 7**{: .label .label-survey } Lecture Participation 7
+: **Lecture Participation 7**{: .label .label-survey } [Lecture Participation 7](https://app.sli.do/event/jTBZeoyMeSdxuxpSVFT3t3){:target="_blank"}
 : **Discussion 3**{: .label .label-disc } [Pandas II, EDA](https://drive.google.com/file/d/1vKIYh5PJM42QXpDuCnHTzzrdQ9TFGjou/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://www.youtube.com/watch?v=9jFqjbPLThc&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5){:target="_blank"}
 
