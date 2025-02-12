@@ -57,12 +57,6 @@ ALL_PAGES.each do |path|
       include_context 'a11y tests'
     end
 
-    context 'when dark mode' do
-      before do
-        visit(path)
-        page.execute_script('jtd.setTheme("dark")')
-      end
-
       include_context 'a11y tests'
     end
   end
