@@ -11,7 +11,7 @@ Tue Apr 15
 Thu Apr 17
 : **Lecture 23**{: .label .label-lecture} Logistic Regression II
 : **Lecture Participation 23**{: .label .label-survey} Lecture Participation 23
-: **Lab 11**{: .label .label-lab } Logistic Regression (due Tue Apr 22)
+: **Lab 10**{: .label .label-lab } Logistic Regression (due Tue Apr 22)
 <!-- : **Exam Prep 10**{: .label .label-examprep } Logistic Regression -->
 
 Fri Apr 18
