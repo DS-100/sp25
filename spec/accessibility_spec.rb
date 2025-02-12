@@ -56,8 +56,5 @@ ALL_PAGES.each do |path|
 
       include_context 'a11y tests'
     end
-
-      include_context 'a11y tests'
-    end
   end
 end
