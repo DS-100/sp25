@@ -2,7 +2,7 @@
 name: Rachel Xin
 role: Lead TA
 email: rachelxin@berkeley.edu
-team: Grad Project
+# team: Grad Project
 photo: Rachel_Xin.jpg
 pronouns: She/Her
 ---

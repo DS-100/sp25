@@ -2,7 +2,7 @@
 name: James Geronimo
 role: UCS2
 email: jegeronimo@berkeley.edu
-team: Infrastructure
+# team: Infrastructure
 photo: James_Geronimo.jpg
 pronouns: He/Him
 website: https://jegeronimo.github.io/

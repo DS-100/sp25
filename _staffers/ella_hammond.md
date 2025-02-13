@@ -4,6 +4,6 @@ role: UCS1
 email: ellahammond@berkeley.edu
 photo: Ella_Hammond.jpg
 pronouns: Any Pronouns
-team: Grading
+# team: Grading
 ---
 Hi everyone, I'm a junior majoring in CS. I hope you enjoy this semester of Data 100!

@@ -2,7 +2,7 @@
 name: Sarika Pasumarthy
 role: UCS2
 email: sarikapasumarthy@berkeley.edu
-team: Student Support
+# team: Student Support
 photo: Sarika_Pasumarthy.png
 pronouns: She/Her
 ---

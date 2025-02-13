@@ -2,7 +2,7 @@
 name: Meenakshi Mittal
 role: Lead TA
 email: meenakshi.mittal@berkeley.edu
-team: Lectures 
+# team: Lectures 
 photo: Meenakshi_Mittal.jpeg
 pronouns: She/Her
 ---

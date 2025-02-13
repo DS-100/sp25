@@ -1,7 +1,7 @@
 ---
 name: Shreya Gupta
 role: Lead TA
-team: Exams
+# team: Exams
 email: shreya.g@berkeley.edu
 photo: Shreya_Gupta.jpg
 pronouns: She/Her
