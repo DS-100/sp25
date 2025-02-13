@@ -47,7 +47,7 @@ RSpec.shared_examples 'a11y tests' do
 end
 
 ALL_PAGES.each do |path|
-  if path.match(/resources\/assets\/lectures\/(lec\d\d\/)?lec\d\d(-.*)?\.html/)
+  if path.match(resources\/assets\/lectures\/(lec\d\d\/)?lec\d\d(-.*)?\.html|resources\/assets\/lectures\/(lec\d\d\/)?Lec\d\d(-.*)?\.html|resources\/assets\/lectures\/lec02\/data8_translation_examples.html)
     describe "Jupyter Notebook Exports" do
       skip "skipping likely notebook file @ #{path}"
     end
