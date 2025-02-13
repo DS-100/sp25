@@ -5,7 +5,7 @@ title: Week 7
 Tue Mar 4
 : **Lecture 13**{: .label .label-lecture} Gradient Descent / Sklearn
 : **Lecture Participation 13**{: .label .label-survey } Lecture Participation 13
-: **Discussion 6**{: .label .label-disc } Models
+: **Discussion 6**{: .label .label-disc } Models, OLS
 
 Thu Mar 6
 : **Lecture 14**{: .label .label-lecture} Feature Engineering

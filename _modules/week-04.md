@@ -21,4 +21,4 @@ Thu Feb 13
 
 
 Fri Feb 14
-: **Homework 3**{: .label .label-hw } Text Analysis of Bloomberg Articles (due Thu Feb 20)
+: **Homework 3**{: .label .label-hw } Text Analysis of New York Times Articles (due Thu Feb 20)
