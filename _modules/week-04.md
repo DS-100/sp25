@@ -7,7 +7,8 @@ Tue Feb 11
     : [Note 7](https://ds100.org/course-notes/visualization_1/visualization_1.html)
 : **Lecture Participation 7**{: .label .label-survey } [Lecture Participation 7](https://app.sli.do/event/jTBZeoyMeSdxuxpSVFT3t3){:target="_blank"}
 : **Discussion 3**{: .label .label-disc } [Pandas II, EDA](https://drive.google.com/file/d/1vKIYh5PJM42QXpDuCnHTzzrdQ9TFGjou/view?usp=sharing){:target="_blank"}
-    : [Mini-Lecture](https://www.youtube.com/watch?v=9jFqjbPLThc&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5){:target="_blank"}
+    : [Mini-Lecture](https://www.youtube.com/watch?v=9jFqjbPLThc&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5){:target="_blank"}, 
+    [Walkthrough](https://www.youtube.com/watch?v=7ldQo1c43Tk){:target="_blank"}
 
 Wed Feb 12
 : **Drop Deadline (w/ fee)**{: .label .label-deadline } 11:59 PM
