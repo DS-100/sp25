@@ -19,7 +19,8 @@ Thu Feb 13
     : ([*Fa24 Note*](https://ds100.org/course-notes/visualization_2/visualization_2.html) to be updated)
 : **Lecture Participation 8**{: .label .label-survey } Lecture Participation 8
 : **Lab 3**{: .label .label-lab } Regex, EDA (due Tue Feb 18)
-<!-- : **Exam Prep 3**{: .label .label-examprep } RegEx -->
+: **Exam Prep 3**{: .label .label-examprep } [RegEx](https://drive.google.com/file/d/1jCgdlt_lQZ-0BWcQmvvmOAPNhZ4pqND2/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1STSj_ti-Ai169Zng-vA-Q0ZwQ6JGm-DM/view?usp=sharing){:target="_blank"}
 
 
 Fri Feb 14
