@@ -26,7 +26,7 @@
       {%- assign team_name = page.team -%}
       {%- if team_name contains "TA" -%}
           {%- assign stripped_name = team_name | replace: "TA", "" -%}
-          <span class="team label-{{ team_name }}">{{ stripped_name | strip }}</span>
+          <span class="team label-{{ team_name }}">{{ team_name }}</span>
       {%- else -%}
           <span class="team label-{{ team_name }}">{{ team_name }}</span>
       {%- endif -%}
