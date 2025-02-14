@@ -2,8 +2,8 @@
 name: Anshul Jambula
 role: UCS1
 email: ajambula@berkeley.edu
-# photo: ../resources/assets/staff_pics/Anshul_Jambula.jpg
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Anshul_Jambula.jpg
+photo: Anshul_Jambula.jpg
 pronouns: He/Him
+# team: Content
 ---
 Hi everyone! I’m a junior double majoring in Computer Science and Data Science. Looking forward to a great semester!

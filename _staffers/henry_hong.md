@@ -2,8 +2,8 @@
 name: Henry Hong
 role: UCS1
 email: hhong@berkeley.edu
-# photo: ../resources/assets/staff_pics/Henry_Hong.jpg
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Henry_Hong.jpg
+photo: Henry_Hong.jpg
 pronouns: He/Him
+# team: Grading
 ---
 Hey guys! I'm a sophomore double majoring in computer science and cognitive science, and I enjoy playing the piano and saxophone. Excited for a great semester!

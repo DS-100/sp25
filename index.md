@@ -11,9 +11,11 @@ currWeekNumber: 4
 
 # Data 100: Principles and Techniques of Data Science
 
-{: .mb-2 }
-UC Berkeley, Spring 2025
-{: .mb-0 .fs-6 .text-grey-dk-000 }
+## UC Berkeley, Spring 2025 
+{: .mb-2 .fs-6 .text-grey-dk-000 style="margin-top: 0;"  }
+
+
+
 
 [Ed](https://edstem.org/us/courses/74189){:target="\_blank" .btn .btn-ed .mr-1 }
 [Datahub](http://data100.datahub.berkeley.edu/){:target="\_blank" .btn .btn-datahub .mr-1 }

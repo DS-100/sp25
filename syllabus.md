@@ -50,13 +50,14 @@ Please consult the [Resources](../resources) page for additional resources for r
 
 Below is a high-level “typical week in the course” for {{page.course.semester}}.
 
-|  Mo | Tu | We | Th | Fr |
-| --- | --- | --- | --- | --- | --- |
-| | <span style="color:Green">Live Lecture</span> |  | <span style="color:Green">Live Lecture</span> | |
-| | | <span style="color:Blue">Discussion Section</span> | <span style="color:Blue">Discussion Section</span> | | | 
-| Office Hours | | Office Hours | Office Hours | Office Hours | 
-| | | | <span style="color: #c91d1d">**Homework N-1 due**</span> | <span style="color:#c91d1d">Homework N released</span> | 
-| | <span style="color:#c91d1d">**Lab N-1 due**</span> | | <span style="color:#c91d1d">Lab N released</span> | |
+| Mo | Tu | We | Th | Fr |
+| --- | --- | --- | --- | --- | 
+|  | <span style="color:Green">Live Lecture</span> |  | <span style="color:Green">Live Lecture</span> |  |
+|  |  | <span style="color:Blue">Discussion Section</span> | <span style="color:Blue">Discussion Section</span> |  |
+| Office Hours |  | Office Hours | Office Hours | Office Hours |
+|  |  |  | <span style="color: #c91d1d">**Homework N-1 due**</span> | <span style="color:#c91d1d">Homework N released</span> |
+|  | <span style="color:#c91d1d">**Lab N-1 due**</span> |  | <span style="color:#c91d1d">Lab N released</span> |  |
+
 
 - **All deadlines are subject to change.**
 - The Office Hours schedule is on the [Calendar page](../calendar).

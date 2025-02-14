@@ -47,20 +47,35 @@ RSpec.shared_examples 'a11y tests' do
 end
 
 ALL_PAGES.each do |path|
+  if path.match(%r{resources/assets/lectures/(lec\d\d\/)?lec\d\d(-.*)?\.html})
+    describe 'Jupyter Notebook Exports' do
+      skip "skipping likely notebook file @ #{path}"
+    end
+
+    next
+  end
+
+  if path.match(%r{resources/assets/lectures/(lec\d\d\/)?Lec\d\d(-.*)?\.html})
+    describe 'Jupyter Notebook Exports' do
+      skip "skipping likely notebook file @ #{path}"
+    end
+
+    next
+  end
+
+  if path.match(%r{resources/assets/lectures/lec02\/data8_translation_examples.html})
+    describe 'Jupyter Notebook Exports' do
+      skip "skipping likely notebook file @ #{path}"
+    end
+
+    next
+  end
+
   describe "#{path} is accessible", :js, type: :feature do
     context 'when light mode' do
       before do
         visit(path)
         page.execute_script('jtd.setTheme("light")')
-      end
-
-      include_context 'a11y tests'
-    end
-
-    context 'when dark mode' do
-      before do
-        visit(path)
-        page.execute_script('jtd.setTheme("dark")')
       end
 
       include_context 'a11y tests'

@@ -2,9 +2,8 @@
 name: Sam Bobick
 role: Lead TA
 email: samuelbobick@berkeley.edu 
-# photo: ../resources/assets/staff_pics/Sam_Bobick.png
-photo: http://ds100.org/sp25/resources/assets/staff_pics/Sam_Bobick.png
+photo: Sam_Bobick.png
 pronouns: He/Him
-team: Head TA
+# team: Head TA
 ---
 Hi! I'm a senior computer science major and I like trains, chocolate, and sunsets. 
