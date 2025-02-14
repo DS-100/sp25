@@ -24,4 +24,4 @@ Thu Feb 13
 
 
 Fri Feb 14
-: **Homework 3**{: .label .label-hw } Text Analysis of New York Times Articles (due Thu Feb 20)
+: **Homework 3**{: .label .label-hw } [Text Analysis of New York Times Articles](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw03%2Fhw03.ipynb&branch=main){:target="_blank"} (due Thu Feb 20)
