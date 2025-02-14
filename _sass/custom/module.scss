@@ -13,6 +13,10 @@
     }
   }
 
+  .a {
+    font-weight: normal !important;
+  }
+
   >dl {
     border-bottom: $border $border-color;
     border-top: $border $border-color;
@@ -29,7 +33,7 @@
     }
 
     @include mq(lg) {
-      grid-template-columns: 1.5fr 6.5fr;
+      grid-template-columns: 1.25fr 8fr;
     }
 
     %module-item {
