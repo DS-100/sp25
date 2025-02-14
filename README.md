@@ -1,6 +1,6 @@
 # Data 100 Spring 2025 Website
 
-[![Pages Deployment](https://github.com/DS-100/sp25/actions/workflows/jekyll.yml/badge.svg)](https://github.com/DS-100/sp25/actions/workflows/jekyll.yml) •
+[![Deploy Jekyll site to Pages](https://github.com/DS-100/sp25/actions/workflows/jekyll.yml/badge.svg)](https://github.com/DS-100/sp25/actions/workflows/jekyll.yml) •
 [![a11y specs](https://github.com/DS-100/sp25/actions/workflows/rspec.yml/badge.svg)](https://github.com/DS-100/sp25/actions/workflows/rspec.yml)
 
 
