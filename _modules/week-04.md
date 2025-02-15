@@ -20,7 +20,8 @@ Thu Feb 13
 : **Lecture Participation 8**{: .label .label-survey } [Lecture Participation 8](https://app.sli.do/event/j4fgv2TfB7wgDETmJoed8b){:target="_blank"}
 : **Lab 3**{: .label .label-lab } [Regex, EDA](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab03%2Flab03.ipynb&branch=main){:target="_blank"} (due Tue Feb 18)
 : **Exam Prep 3**{: .label .label-examprep } [RegEx](https://drive.google.com/file/d/1jCgdlt_lQZ-0BWcQmvvmOAPNhZ4pqND2/view?usp=sharing){:target="_blank"}
-    : [Solutions](https://drive.google.com/file/d/1STSj_ti-Ai169Zng-vA-Q0ZwQ6JGm-DM/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1STSj_ti-Ai169Zng-vA-Q0ZwQ6JGm-DM/view?usp=sharing){:target="_blank"},
+    [Walkthrough](https://youtu.be/0GiW-AY8Jts){:target="_blank"}
 
 
 Fri Feb 14
