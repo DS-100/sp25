@@ -36,6 +36,8 @@ The purpose of the project is to give students experience in both open-ended dat
 
 For each milestone listed above, detailed expectations can be found in the "Milestone" section under each of the project topics (Computer Vision or Natural Language Processing) which is explained above. Please refer to these sections for specific requirements and guidelines related to your chosen project topic.
 
+In addition to these milestones, you will have weekly internal peer reviews to fill out, each accounting for 1% of your grade (6 internal reviews in total). Internal reviews are important to understand how each member of the group is contributing to the project and how the tasks are distributed among members. This is graded on completion and submitted via Gradescope each week.
+
 ### Late Policy
 - **No Extensions for Milestones**: Must be submitted on time; no extensions are permitted. Milestones cannot be submitted late as they are crucial for the peer review process.
 - **Final Report and Presentation Video**: Late submissions incur a 10% daily penalty, up to a maximum of two days. Submissions are rounded to the nearest day (e.g., 2 minutes late counts as 1 day late).
@@ -46,7 +48,7 @@ All of the provided datasets can be found in the Datahub directory `shared/cours
 
 ## Project Topics
 
-Please choose one of the following projects (CV or NLP) and its associated datasets to work on. You will be expected to complete all (2) tasks provided for your chosen dataset. Click the below links to go to the project description pages.
+Please choose one of the following projects (CV or NLP) and its associated datasets to work on. You will be expected to complete both Task A and B provided for your chosen dataset. Click the below links to go to the details of each project.
 
 [Project 1: Computer Vision](/sp25/gradproject-cv){:target="_blank"}
 

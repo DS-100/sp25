@@ -116,9 +116,11 @@ Resources
 
 ## Milestone Descriptions
 
-### Milestone 1: Group Formation + Research Proposal (5%) - October 14, 2024
+In addition to each Milestone description below, you will have to fill out an internal peer review form every week starting March 17. The internal peer review is for checking if each member of the group is contributing to the project and how the tasks are distributed among members. This is graded on completion and submitted via Gradescope each week.
 
-The first deliverable of your group project is just to form your group, choose a dataset, and submit your implementation plan to [this Google form](https://forms.gle/5FHyda3m7J4Dbu58A){:target="_blank"} by **11:59 pm on October 14**. The implementation plan should consist of a series of steps for completing the project along with a timeline. You may form groups of 2 or 3 people with any Data 200/200A/200S student.
+### Milestone 1: Group Formation + Research Proposal (5%) - Monday March 3, 2025
+
+The first deliverable of your group project is just to form your group, choose a dataset, and submit your implementation plan to [this Google form](https://forms.gle/qNjrRSrGHDTAzBoa9){:target="_blank"} by **11:59 pm on Monday March 3, 2025**. The implementation plan should consist of a series of steps for completing the project along with a timeline. You may form groups of 2 or 3 people with any Data 200/200A/200S student.
 
 The rubric for this milestone is as follows:
 - Short paragraph description of implementation plan and timeline (2%).
@@ -126,9 +128,9 @@ The rubric for this milestone is as follows:
 
 <a name = 'milestone-2-eda'></a>
 
-### Milestone 2: EDA + Internal Peer Review (10%) - October 28, 2024
+### Milestone 2: EDA (10%) - Monday March 17, 2025
 
-The milestone is intended to keep you on track to meet your project goals. You will need to submit an exploratory data analysis report to [this Gradescope assignment](https://www.gradescope.com/courses/827978/assignments/5159878){:target="_blank"} by **11:59 pm on October 28**. This will include submitting both a report of your results so far as well as all code necessary to replicate your results. Please answer all the questions below. Your submission should include:
+The milestone is intended to keep you on track to meet your project goals. You will need to submit an exploratory data analysis report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717504){:target="_blank"} as a PDF file by **11:59 pm on March 17**. This will include submitting both a report of your results so far as well as all code necessary to replicate your results. Please answer all the questions below. Your report should answer the following questions (note these questions should be answered in the form of a report and not as bullet points):
 
 - **Data Sampling and Collection**
   - How was the data read and sampled for your EDA process?
@@ -158,15 +160,14 @@ Concretely, here are the minimal requirements for EDA for each project. Using yo
 Every member of the group also needs to submit the internal peer review [Gradescope assignment](https://www.gradescope.com/courses/827978/assignments/5159798){:target="_blank"} for this checkpoint by **11:59 pm on October 28**. This form is intended to record your and your group members' progress in the project. The records will be confidential to the teaching staff and will not be shared with other students.
 
 The rubric for this milestone is as follows:
-- Data Sampling and Collection (0.5%).
+- Data Sampling and Collection (1%).
 - Data Cleaning (3%).
 - Exploratory Data Analysis (3%).
 - Figures (tables, plots, etc.) (3%).
-- Internal Peer Review (0.5%).
 
-### Milestone 3: Mandatory Check-In (7.5%) - November 8, 2024
+### Milestone 3: Progress-report Draft (10%) - Monday March 31, 2025
 
-The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/827978/assignments/5045723){:target="_blank"} by **11:59 pm on November 8**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
+The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 31**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
 
 For the check-in we would like for you to prepare brief answers to the following questions about the modeling process:
 - What model do you plan on using and why?
@@ -178,29 +179,30 @@ For the check-in we would like for you to prepare brief answers to the following
 - How would you improve your model based on the outcome?
 - Are there any further extensions to your model that would be worth exploring?
 
+More information about the check-in meeting will be shared on Ed near the check-in meeting week.
+
 The rubric for this milestone is as follows:
-- Exploratory Data Analysis (1.5%).
-- Feature Engineering (2%).
-- Modeling Approaches (3%).
-- Preliminary Results (1%).
+- Report (7%) - due March 30, 2025
+  - Exploratory Data Analysis (1%).
+  - Feature Engineering (2%).
+  - Modeling Approaches (2%).
+  - Preliminary Results (2%).
+- Meeting (3%) - Happening through sign-up and will be held between March 31 and April 4, 2025
+  - All members' participation in the meeting and proper explanation of the work completed, as well as a clear plan for future steps the team will take in completing the project.
 
-### Milestone 4: Internal Peer Review (2%) - November 22, 2024
+### Milestone 4: Project Report First Draft (20%) - Monday April 14, 2025
 
-The internal peer review is for checking if each member of the group is contributing to the project and how the tasks are distributed among members. This is graded on completion.  The internal peer review [Gradescope assignment](https://www.gradescope.com/courses/827978/assignments/5159827){:target="_blank"} for this milestone is due by **11:59 pm on November 22**.
+Please see the information below on what you should aim to submit. You do not need to submit the code, video, and test set performance components for Milestone 6, but you are expected to submit a comprehensive written report summarizing your analysis.
 
-### Milestone 5: Project Report First Draft (18%) - December 2, 2024
+Please refer to the section on the [Final Project Report](#final-project-report) for more information on how your first draft will roughly be graded. Your first draft will be graded more leniently than your final submission, but we’re still looking for largely the same elements.
 
-The first draft of your final report, please see below for more information on what you should aim to submit. You do not need to submit the video and test set performance components for milestone 5, but you are expected to submit a comprehensive written report that summarizes your analysis.
+Submit to the [first draft project report assignment](https://www.gradescope.com/courses/949942/assignments/5718707) on Gradescope by **11:59 pm on April 14**.
 
-Please refer to the section on the [Final Project Report](#final-project-report) for more information on how your first draft will roughly be graded. Your first draft will be graded more leniently than your final submission, but we’re still looking for largely the same elements. You do not need to submit the video and test set performance components for milestone 5, but you are expected to submit a comprehensive written report that summarizes your analysis.
-
-Submit to the [first draft project report assignment](https://www.gradescope.com/courses/827978/assignments/5045727/) on Gradescope by **11:59pm on December 2**.
-
-### Milestone 6: External Peer Review (7.5%) - December 6, 2024
+### Milestone 5: External Peer Review (7%) - Monday April 21, 2025
 
 Each group will peer review a project from another group; each group will be graded together based on the feedback they provide in their review. Each review should include the following components:
 
-1. (1.5%) A summary of the report. The summary should address at least the following:
+1. (1%) A summary of the report. The summary should address at least the following:
 - What is the conclusion drawn from the EDA and modeling results?
 - What data modeling/inference techniques do the group primarily use to gain insights into their research question? Why are these techniques suitable for the task?
 - What are the next steps a researcher can take if they want to improve their model further based on the work in the project?
@@ -213,15 +215,15 @@ Each group will peer review a project from another group; each group will be gra
 - Inference (do the results from the model sufficiently support the conclusion within the report?)
 - Discussion (does the report effectively discuss the limitations of the methods used and the implications of the results?)
 
-The external peer review is also a great chance to learn from other people's work and reflect on your own work. Submit one combined review to the [external peer review assignment](https://www.gradescope.com/courses/827978/assignments/5392834){:target="_blank"} on Gradescope by **11:59pm on December 6**. Remember to add your group members on your submission.
+The external peer review is also a great chance to learn from other people's work and reflect on your own work. Submit one combined review to the [external peer review assignment](https://www.gradescope.com/courses/949942/assignments/5717521){:target="_blank"} on Gradescope by **11:59pm on April 21**. Remember to add your group members on your submission.
 
 <a name = 'final-project-report'></a>
 
-## Final Project Report (50%) - December 13, 2024
+## Final Project Report (42%) - Monday April 28, 2025
 
 **The project submission should include the following four components, submitted across three Gradescope assignments.** For all three assignments, submit one per group. Make sure to add your group members on the Gradescope submission.
 
-**Please submit component 1 as a zip file to the [final project code submission assignment](https://www.gradescope.com/courses/827978/assignments/5412929){:target="_blank"} on Gradescope.** Please make sure the folder in the zip file has the following structure:
+**Please submit component 1 as a zip file to the [final project code submission assignment](https://www.gradescope.com/courses/949942/assignments/5717525){:target="_blank"} on Gradescope.** Please make sure the folder in the zip file has the following structure:
 
 ```
 [your studentIDs joined by _]/
@@ -233,9 +235,9 @@ The external peer review is also a great chance to learn from other people's wor
 
 Please use student IDs joined by `_` as the name for the top-level directory. The analysis notebooks must be runnable within this directory structure. If the narrative PDF includes any figures that are created in the analysis notebooks, the figures should be saved to `figures/` by the analysis notebooks.
 
-**Please also submit components 2-3 as a PDF to the [final project report submission assignment](https://www.gradescope.com/courses/827978/assignments/5045744){:target="_blank"} on Gradescope.** Make sure that the link to the video is included somewhere in your PDF.
+**Please also submit components 2-3 as a PDF to the [final project report submission assignment](https://www.gradescope.com/courses/949942/assignments/5718693){:target="_blank"} on Gradescope.** Make sure that the link to the video is included somewhere in your PDF.
 
-**For component 4, you will submit your test set predictions to the [NLP predictions assignment](https://www.gradescope.com/courses/827978/assignments/5159424){:target="_blank"}.** See below for more details.
+**For component 4, you will submit your test set predictions to the [NLP predictions assignment](https://www.gradescope.com/courses/949942/assignments/5717482){:target="_blank"}.** See below for more details.
 
 ### [Component 1] Analysis Notebooks (10%)
 
@@ -305,7 +307,7 @@ The test sets for both tasks are named as follows:
 
 All files are located in `shared/course/data100-shared-readwrite/sp25_grad_project_data/nlp-chatbot-analysis_data/test-set` directory on Data 100 Datahub.
 
-Submit a single CSV file with three columns named `question_id`, `winner`, `hardness_score` to [the predictions assignment](https://www.gradescope.com/courses/827978/assignments/5159424){:target="_blank"}.
+Submit a single CSV file with three columns named `question_id`, `winner`, `hardness_score` to [the predictions assignment](https://www.gradescope.com/courses/949942/assignments/5717482){:target="_blank"}.
 
 The maximum for each task is 5 points; please see the thresholds for the tasks below.
 
