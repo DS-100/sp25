@@ -26,13 +26,13 @@ The purpose of the project is to give students experience in both open-ended dat
 
 | Milestones  | Deadline (11:59 PM Pacific) | Event | Deliverables | Submission Link | Grading Weight |
 | ----------- | --------------------------- | ----- | ------------ | --------------- | -------------- |
-| Milestone 1 | October 14 | Group Formation + Research Proposal | Project Proposal Form | [Google Form](https://forms.gle/BciHSskLdmGrX6ZXA){:target="_blank"} | 5% |
-| Milestone 2 | October 28 | EDA + Internal Peer Review 1 | EDA Write-Up + Notebook, Internal Peer Review 1 | [EDA Gradescope](https://www.gradescope.com/courses/827978/assignments/5159878){:target="_blank"} <br> [Peer Review Gradescope](https://www.gradescope.com/courses/827978/assignments/5159798){:target="_blank"} | 10% |
-| Milestone 3 | November 8 | Mandatory Check-In | One-Page Progress Report | [Gradescope](https://www.gradescope.com/courses/827978/assignments/5045723){:target="_blank"} | 7.5% |
-| Milestone 4 | November 22 | Internal Peer Review 2 | Second Internal Peer Review | [Gradescope](https://www.gradescope.com/courses/827978/assignments/5159827){:target="_blank"} | 2% |
-| Milestone 5 | December 2 | Project Report First Draft | Final Report Draft Write-Up + Notebook | [Gradescope](https://www.gradescope.com/courses/827978/assignments/5045727){:target="_blank"} | 18% |
-| Milestone 6 | December 6 | External Peer-Review | External Peer Review | [Gradescope](https://www.gradescope.com/courses/827978/assignments/5392834){:target="_blank"} | 7.5% |
-| Final Submission | December 13 | Final Project Report | Final Project Report + Presentation Video | [Project Report PDF Gradescope](https://www.gradescope.com/courses/827978/assignments/5045744){:target="_blank"} <br> [Project Report Code Gradescope](https://www.gradescope.com/courses/827978/assignments/5412929){:target="_blank"} <br> [CV Predictions Gradescope](https://www.gradescope.com/courses/827978/assignments/5159453){:target="_blank"} <br> [NLP Predictions Gradescope](https://www.gradescope.com/courses/827978/assignments/5159424){:target="_blank"} | 50% |
+| Milestone 1 | March 3 | Group Formation + Research Proposal | Project Proposal Form | [Google Form](https://forms.gle/qNjrRSrGHDTAzBoa9){:target="_blank"} | 5% |
+| Milestone 2 | March 17 | EDA | EDA Write-Up + Notebook | [EDA Gradescope](https://www.gradescope.com/courses/949942/assignments/5717504){:target="_blank"} | 10% |
+| Milestone 3 | March 30 | Mandatory Check-In | Progress Report + Meeting Booking | [Gradescope](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} | 10% |
+| Milestone 4 | April 14 | Project Report First Draft | Final Report Draft Write-Up + Notebook | [Gradescope](https://www.gradescope.com/courses/949942/assignments/5718707){:target="_blank"} | 20% |
+| Milestone 5 | April 21 | External Peer-Review | External Peer Review | [Gradescope](https://www.gradescope.com/courses/949942/assignments/5717521){:target="_blank"} | 7% |
+| Final Submission | April 28 | Final Project Report | Final Project Report + Presentation Video | [Project Report PDF Gradescope](https://www.gradescope.com/courses/949942/assignments/5718693){:target="_blank"} <br> [Project Report Code Gradescope](https://www.gradescope.com/courses/949942/assignments/5717525){:target="_blank"} <br> [CV Predictions Gradescope](https://www.gradescope.com/courses/949942/assignments/5717156){:target="_blank"} <br> [NLP Predictions Gradescope](https://www.gradescope.com/courses/949942/assignments/5717482){:target="_blank"} | 42% |
+| Weekly Internal Peer Reviews | Every Monday After M2 | Internal Peer-Review | Internal Peer Review | [Gradescope] (Please refer to corresponding link each week) | 6% |
 
 For each milestone listed above, detailed expectations can be found in the "Milestone" section under each of the project topics (Computer Vision or Natural Language Processing) which is explained above. Please refer to these sections for specific requirements and guidelines related to your chosen project topic.
 
