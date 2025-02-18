@@ -6,7 +6,7 @@ Tue Feb 18
 : **Lecture 9**{: .label .label-lecture} Sampling
     : ([*Fa24 Note*](https://ds100.org/course-notes/sampling/sampling.html) to be updated)
 : **Lecture Participation 9**{: .label .label-survey } Lecture Participation 9
-: **Discussion 4**{: .label .label-disc } Regex, Visualization, and Transformation
+: **Discussion 4**{: .label .label-disc } [Regex, Visualization, and Transformation](https://drive.google.com/file/d/17qU-mPNc3Bw6c3spPmTptMu4w2iRQVJh/view?usp=sharing){:target="_blank"}
 
 
 Thu Feb 20
