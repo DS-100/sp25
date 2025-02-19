@@ -7,7 +7,8 @@ Tue Feb 18
     : ([*Fa24 Note*](https://ds100.org/course-notes/sampling/sampling.html) to be updated)
 : **Lecture Participation 9**{: .label .label-survey } Lecture Participation 9
 : **Discussion 4**{: .label .label-disc } [Regex, Visualization, and Transformation](https://drive.google.com/file/d/17qU-mPNc3Bw6c3spPmTptMu4w2iRQVJh/view?usp=sharing){:target="_blank"}
-    : [Mini-Lecture](https://youtu.be/r7lxybfJK5c){:target="_blank"}
+    : [Mini-Lecture](https://youtu.be/r7lxybfJK5c){:target="_blank"}, 
+    [Notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&branch=main&urlpath=lab%2Ftree%2Fsp25-student%2Fdisc%2Fdisc04%2Fdisc04_coding_exercises-blank.ipynb){:target="_blank"}
 
 Thu Feb 20
 : **Lecture 10**{: .label .label-lecture} Modeling, SLR
