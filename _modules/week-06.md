@@ -5,7 +5,7 @@ title: Week 6
 Tue Feb 25
 : **Lecture 11**{: .label .label-lecture} Constant Model, Loss, and Transformations
 : **Lecture Participation 11**{: .label .label-survey } Lecture Participation 11
-: **Discussion 5**{: .label .label-disc } Probability, Sampling, and Visualization
+: **Discussion 5**{: .label .label-disc } Transformations, Sampling, and SLR
 
 Thu Feb 27
 : **Lecture 12**{: .label .label-lecture} OLS (Multiple Regression)
