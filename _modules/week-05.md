@@ -11,7 +11,7 @@ Tue Feb 18
     [Notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&branch=main&urlpath=lab%2Ftree%2Fsp25-student%2Fdisc%2Fdisc04%2Fdisc04_coding_exercises-blank.ipynb){:target="_blank"}
 
 Thu Feb 20
-: **Lecture 10**{: .label .label-lecture} Modeling, SLR
+: **Lecture 10**{: .label .label-lecture} [Modeling, SLR](lecture/lec10)
     : ([*Fa24 Note*](https://ds100.org/course-notes/intro_to_modeling/intro_to_modeling.html) to be updated)
 : **Lecture Participation 10**{: .label .label-survey } Lecture Participation 10
 : **Lab 4**{: .label .label-lab } Transformations (due Tue Feb 25)
