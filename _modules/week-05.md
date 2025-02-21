@@ -16,7 +16,8 @@ Thu Feb 20
     : ([*Fa24 Note*](https://ds100.org/course-notes/intro_to_modeling/intro_to_modeling.html) to be updated)
 : **Lecture Participation 10**{: .label .label-survey } Lecture Participation 10
 : **Lab 4**{: .label .label-lab } Transformations (due Tue Feb 25)
-<!-- : **Exam Prep 4**{: .label .label-examprep } Data Visualization -->
+: **Exam Prep 4**{: .label .label-examprep } [Data Visualization](https://drive.google.com/file/d/13DZHVg6_r2ypk-nouYRpKcCgngoiuzAt/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1k2aXbkcPM-sndQqgdXucYpp13JUUDCyr/view?usp=sharing){:target="_blank"}
 
 Fri Feb 21
 : **Homework 4**{: .label .label-hw } Bike Sharing (due Thu Feb 27)
