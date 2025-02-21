@@ -22,5 +22,5 @@ Thu Feb 20
     : [Solutions](https://drive.google.com/file/d/1k2aXbkcPM-sndQqgdXucYpp13JUUDCyr/view?usp=sharing){:target="_blank"}
 
 Fri Feb 21
-: **Homework 4**{: .label .label-hw } Bike Sharing (due Thu Feb 27)
+: **Homework 4**{: .label .label-hw } [Bike Sharing](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw04%2Fhw04.ipynb&branch=main){:target="_blank"} (due Thu Feb 27)
 : **Add/Drop Deadline for Graduate Students**{: .label .label-deadline } 11:59 PM
