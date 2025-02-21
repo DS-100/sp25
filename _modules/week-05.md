@@ -16,7 +16,7 @@ Tue Feb 18
 Thu Feb 20
 : **Lecture 10**{: .label .label-lecture} [Modeling, SLR](lecture/lec10)
     : [Note 10](https://ds100.org/course-notes/modeling_slr/modeling_slr.html)
-: **Lecture Participation 10**{: .label .label-survey } Lecture Participation 10
+: **Lecture Participation 10**{: .label .label-survey } [Lecture Participation 10](https://app.sli.do/event/p8uLhSCrwG3NZZmp1tF7tD){:target="_blank"}
 : **Lab 4**{: .label .label-lab } [Transformations](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab04%2Flab04.ipynb&branch=main){:target="_blank"} (due Tue Feb 25)
 : **Exam Prep 4**{: .label .label-examprep } [Data Visualization](https://drive.google.com/file/d/13DZHVg6_r2ypk-nouYRpKcCgngoiuzAt/view?usp=sharing){:target="_blank"}
     : [Solutions](https://drive.google.com/file/d/1k2aXbkcPM-sndQqgdXucYpp13JUUDCyr/view?usp=sharing){:target="_blank"}
