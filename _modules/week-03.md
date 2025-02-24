@@ -10,8 +10,8 @@ Tue Feb 4
     : [Mini-Lecture](https://www.youtube.com/watch?v=-E3j9AWkilI&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=2){:target="_blank"}, 
     [Notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fdisc%2Fdisc02%2Fdisc02-worksheet-blank.ipynb&branch=main){:target="_blank"}, 
     [Groupwork Notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fdisc%2Fdisc02%2Fdisc02_groupwork_blank.ipynb&branch=main){:target="_blank"},
-    [Regular Walkthrough](https://youtu.be/dtA2MDPZmB0?si=-GBFBBXe8YNFzzFf){:target="_blank"}, 
-    [Groupwork Walkthrough](https://youtu.be/xH5Ad_tQQ4w?si=RkpF9FK5ThiTjazR){:target="_blank"},
+    <!-- [Regular Walkthrough](https://youtu.be/dtA2MDPZmB0?si=-GBFBBXe8YNFzzFf){:target="_blank"}, 
+    [Groupwork Walkthrough](https://youtu.be/xH5Ad_tQQ4w?si=RkpF9FK5ThiTjazR){:target="_blank"}, -->
     [Solutions](https://drive.google.com/file/d/1N7wBkHCcNdCSFNiz2a3v72lO4yDmYNYK/view?usp=sharing){:target="_blank"},
     [Notebook Solutions](https://drive.google.com/file/d/1hCJ9dddAPQPgTP8Im0Zlr0U9NMxVjOds/view?usp=sharing){:target="_blank"},
     [Groupwork Notebook Solutions](https://drive.google.com/file/d/1ldfQI7yz9XhgdQdWLvS1NskOBcR8FtB0/view?usp=sharing){:target="_blank"}

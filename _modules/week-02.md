@@ -8,7 +8,8 @@ Tue Jan 28
     : [Note 3](https://ds100.org/course-notes/pandas_2/pandas_2.html)
 : **Lecture Participation 3**{: .label .label-survey } [Lecture Participation 3](https://app.sli.do/event/jhdFsqLRJWt3UnKdfQpqn8)
 : **Discussion 1**{: .label .label-disc } [Prerequisites](https://drive.google.com/file/d/1X4ZN38e0QnNdvyFq6KUPj1ecCAZn_XT5/view?usp=sharing)
-    : [Mini-Lecture](https://www.youtube.com/watch?v=qXR-x19KT5w&list=PLQCcNQgUcDfplNp0itu2QqVjoDE9u5iow), [Solutions](https://drive.google.com/file/d/1vQmtCOyA2aHQSuSlwj1k0eHRQ_FXfq6w/view?usp=sharing), [Walkthrough](https://www.youtube.com/watch?v=x86xeSyS_8A)
+    : [Mini-Lecture](https://www.youtube.com/watch?v=qXR-x19KT5w&list=PLQCcNQgUcDfplNp0itu2QqVjoDE9u5iow), [Solutions](https://drive.google.com/file/d/1vQmtCOyA2aHQSuSlwj1k0eHRQ_FXfq6w/view?usp=sharing)
+    <!-- , [Walkthrough](https://www.youtube.com/watch?v=x86xeSyS_8A) -->
 
 
 Thu Jan 30

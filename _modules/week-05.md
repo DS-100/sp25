@@ -10,8 +10,8 @@ Tue Feb 18
     : [Mini-Lecture](https://youtu.be/r7lxybfJK5c){:target="_blank"}, 
     [Notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&branch=main&urlpath=lab%2Ftree%2Fsp25-student%2Fdisc%2Fdisc04%2Fdisc04_coding_exercises-blank.ipynb){:target="_blank"},
     [Solutions](https://drive.google.com/file/d/1b0Q3MOGFEjnwr9pkCyAEOAmZB0JLFZnO/view?usp=sharing){:target="_blank"},
-    [Notebook Solutions](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&branch=main&urlpath=tree%2Fsp25-student%2Fdisc%2Fdisc04%2Fdisc04_coding_exercises_gsi.ipynb){:target="_blank"},
-    [Walkthrough](https://youtu.be/jlvkz8Y-zSQ){:target="_blank"}
+    [Notebook Solutions](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&branch=main&urlpath=tree%2Fsp25-student%2Fdisc%2Fdisc04%2Fdisc04_coding_exercises_gsi.ipynb){:target="_blank"}
+    <!-- , [Walkthrough](https://youtu.be/jlvkz8Y-zSQ){:target="_blank"} -->
 
 Thu Feb 20
 : **Lecture 10**{: .label .label-lecture} [Modeling, SLR](lecture/lec10)
