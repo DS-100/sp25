@@ -156,8 +156,8 @@ Concretely, here are the minimal requirements for EDA for each project. Using yo
   - Hardness score distribution and its correlation with the models (e.g. GPT4 wins on hardest prompts).
   - (Open-ended) Visualize the "variance" in model performance (see [LMSys Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard){:target="_blank"} for an example).
   - (Open-ended) Explore the prompt topics in the dataset (topic modeling).
-
-Every member of the group also needs to submit the internal peer review [Gradescope assignment](https://www.gradescope.com/courses/827978/assignments/5159798){:target="_blank"} for this checkpoint by **11:59 pm on October 28**. This form is intended to record your and your group members' progress in the project. The records will be confidential to the teaching staff and will not be shared with other students.
+<!-- 
+Every member of the group also needs to submit the internal peer review [Gradescope assignment](https://www.gradescope.com/courses/827978/assignments/5159798){:target="_blank"} for this checkpoint by **11:59 pm on October 28**. This form is intended to record your and your group members' progress in the project. The records will be confidential to the teaching staff and will not be shared with other students. -->
 
 The rubric for this milestone is as follows:
 - Data Sampling and Collection (1%).
