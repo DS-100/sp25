@@ -4,7 +4,7 @@ title: Week 6
 
 Tue Feb 25
 : **Lecture 11**{: .label .label-lecture} [Constant Model, Loss, and Transformations](lecture/lec11)
-    : ([*Fa24 Note*](https://ds100.org/course-notes/constant_model_loss_transformations/loss_transformations.html) to be updated)
+    : [Note 11](https://ds100.org/course-notes/constant_model_loss_transformations/loss_transformations.html)
 : **Lecture Participation 11**{: .label .label-survey } [Lecture Participation 11](https://app.sli.do/event/2wgBqMLv8RaVN8s5GQMrhf){:target="_blank"}
 : **Discussion 5**{: .label .label-disc } [Transformations, Sampling, and SLR](https://drive.google.com/file/d/1_Bk_nsEdmXglnzznzmCprhYghQGd4iYr/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://www.youtube.com/watch?v=-KLgs84P4AE&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5&pp=iAQBsAQB){:target="_blank"}
