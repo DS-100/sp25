@@ -14,7 +14,8 @@ Thu Feb 27
     : ([*Fa24 Note*](https://ds100.org/course-notes/ols/ols.html) to be updated)
 : **Lecture Participation 12**{: .label .label-survey } Lecture Participation 12
 : **Lab 5**{: .label .label-lab } Modeling, Summary Statistics, Loss Functions, and OLS (due Tue Mar 4)
-<!-- : **Exam Prep 5**{: .label .label-examprep } SLR -->
+: **Exam Prep 5**{: .label .label-examprep } [SLR](https://drive.google.com/file/d/1ZHFVU8p_pN0k22gwbm4ZB6gnvEKL-Pqg/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1stSQlEXO4TcsJREVPMRFCcA8hviVTQ7C/view?usp=sharing){:target="_blank"}
 
 Fri Feb 28
 : **Homework 5**{: .label .label-hw } Modeling and OLS (due Thu Mar 6)
