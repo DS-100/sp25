@@ -10,7 +10,7 @@ Tue Feb 25
     : [Mini-Lecture](https://www.youtube.com/watch?v=-KLgs84P4AE&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5&pp=iAQBsAQB){:target="_blank"}
 
 Thu Feb 27
-: **Lecture 12**{: .label .label-lecture} OLS (Multiple Regression)
+: **Lecture 12**{: .label .label-lecture} [OLS (Multiple Regression)](lecture/lec12)
     : ([*Fa24 Note*](https://ds100.org/course-notes/ols/ols.html) to be updated)
 : **Lecture Participation 12**{: .label .label-survey } Lecture Participation 12
 : **Lab 5**{: .label .label-lab } Modeling, Summary Statistics, Loss Functions, and OLS (due Tue Mar 4)
