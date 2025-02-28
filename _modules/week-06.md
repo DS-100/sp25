@@ -7,7 +7,8 @@ Tue Feb 25
     : [Note 11](https://ds100.org/course-notes/constant_model_loss_transformations/loss_transformations.html)
 : **Lecture Participation 11**{: .label .label-survey } [Lecture Participation 11](https://app.sli.do/event/2wgBqMLv8RaVN8s5GQMrhf){:target="_blank"}
 : **Discussion 5**{: .label .label-disc } [Transformations, Sampling, and SLR](https://drive.google.com/file/d/1_Bk_nsEdmXglnzznzmCprhYghQGd4iYr/view?usp=sharing){:target="_blank"}
-    : [Mini-Lecture](https://www.youtube.com/watch?v=-KLgs84P4AE&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5&pp=iAQBsAQB){:target="_blank"}
+    : [Mini-Lecture](https://www.youtube.com/watch?v=-KLgs84P4AE&list=PLQCcNQgUcDfoUXRtrHc9TUx2pBYNfToVN&index=5&pp=iAQBsAQB){:target="_blank"}, 
+    [Solutions](https://drive.google.com/file/d/1RIYT0W3ZNjRcBcWfxEUd63vWMfe_W6wq/view?usp=sharing){:target="_blank"}
 
 Thu Feb 27
 : **Lecture 12**{: .label .label-lecture} [OLS (Multiple Regression)](lecture/lec12)
