@@ -19,4 +19,4 @@ Thu Feb 27
     : [Solutions](https://drive.google.com/file/d/1stSQlEXO4TcsJREVPMRFCcA8hviVTQ7C/view?usp=sharing){:target="_blank"}
 
 Fri Feb 28
-: **Homework 5**{: .label .label-hw } Modeling and OLS (due Fri Mar 7)
+: **Homework 5**{: .label .label-hw } [Modeling and OLS](https://drive.google.com/file/d/1LKM-0WC_jWXkKrM8pwZTXKQTUTepBM7j/view?usp=drive_link){:target="_blank"} (due Fri Mar 7)
