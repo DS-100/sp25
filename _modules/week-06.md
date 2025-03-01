@@ -16,7 +16,8 @@ Thu Feb 27
 : **Lecture Participation 12**{: .label .label-survey } [Lecture Participation 12](https://app.sli.do/event/mn6jxumKzJZor2AWreyhKL){:target="_blank"}
 : **Lab 5**{: .label .label-lab } [Modeling, Summary Statistics, Loss Functions, and OLS](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab05%2Flab05.ipynb&branch=main){:target="_blank"} (due Tue Mar 4)
 : **Exam Prep 5**{: .label .label-examprep } [SLR](https://drive.google.com/file/d/1ZHFVU8p_pN0k22gwbm4ZB6gnvEKL-Pqg/view?usp=sharing){:target="_blank"}
-    : [Solutions](https://drive.google.com/file/d/1stSQlEXO4TcsJREVPMRFCcA8hviVTQ7C/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1stSQlEXO4TcsJREVPMRFCcA8hviVTQ7C/view?usp=sharing){:target="_blank"},
+    [Walkthrough](https://youtu.be/awxZWI_9yTA){:target="_blank"}
 
 Fri Feb 28
 : **Homework 5**{: .label .label-hw } [Modeling and OLS](https://drive.google.com/file/d/1EuuKBy20swgKq9MH-PK8bpwzYYNf8E6k/view?usp=drive_link){:target="_blank"} (due Fri Mar 7)
