@@ -95,7 +95,7 @@ In addition to each Milestone description below, you will have to fill out an in
 
 ### Milestone 1: Group Formation + Research Proposal (5%) - Monday March 3, 2025
 
-The first deliverable of your group project is just to form your group, choose a dataset, and submit your implementation plan to [this Google form](https://forms.gle/qNjrRSrGHDTAzBoa9){:target="_blank"} by **Monday March 3, 2025**. The implementation plan should consist of a series of steps for completing the project along with a timeline. You may form groups of 2 or 3 people with any Data 200/200A/200S student.
+The first deliverable of your group project is just to form your group, choose a dataset, and submit your implementation plan to [this Gradescope](https://www.gradescope.com/courses/949942/assignments/5717518){:target="_blank"} by **Monday March 3, 2025**. The implementation plan should consist of a series of steps for completing the project along with a timeline. You may form groups of 2 or 3 people with any Data 200/200A/200S student.
 
 The rubric for this milestone is as follows:
 - Short paragraph description of implementation plan and timeline (2%).
@@ -138,9 +138,9 @@ The rubric for this milestone is as follows:
 - Exploratory Data Analysis (3%).
 - Figures (tables, plots, etc.) (3%).
 
-### Milestone 3: Progress-report Draft (10%) - Monday March 31, 2025
+### Milestone 3: Progress-report Draft (10%) - Sunday March 30, 2025
 
-The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 31**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
+The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 30**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
 
 For the check-in we would like for you to prepare brief answers to the following questions about the modeling process:
 - What model do you plan on using and why?
