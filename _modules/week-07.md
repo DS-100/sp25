@@ -7,10 +7,12 @@ Tue Mar 4
 : **Lecture Participation 13**{: .label .label-survey } Lecture Participation 13
 : **Discussion 6**{: .label .label-disc } Models, OLS
 
+Wed Mar 5
+: **Lab 6**{: .label .label-lab } OLS (due Tue Mar 11)
+
 Thu Mar 6
 : **Lecture 14**{: .label .label-lecture} Feature Engineering
 : **Lecture Participation 14**{: .label .label-survey } Lecture Participation 14
-: **NO Lab**{: .label .label-lab }
 <!-- : **Exam Prep 6**{: .label .label-examprep } OLS, Gradient Descent -->
 
 Fri Mar 7
