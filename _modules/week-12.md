@@ -11,7 +11,7 @@ Tue Apr 8
 Thu Apr 10
 : **Lecture 21**{: .label .label-lecture} SQL II
 : **Lecture Participation 21**{: .label .label-survey} Lecture Participation 21
-: **Lab 9**{: .label .label-lab } SQL (due Tue Apr 15)
+: **Lab 10**{: .label .label-lab } SQL (due Tue Apr 15)
 <!-- : **Exam Prep 9**{: .label .label-examprep } SQL -->
 
 Fri Apr 11

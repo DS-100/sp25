@@ -11,7 +11,7 @@ Tue Apr 22
 Thu Apr 24
 : **Lecture 25**{: .label .label-lecture} PCA II
 : **Lecture Participation 25**{: .label .label-survey} Lecture Participation 25
-: **Lab 11**{: .label .label-lab }  PCA (due Tue Apr 29)
+: **Lab 12**{: .label .label-lab }  PCA (due Tue Apr 29)
 <!-- : **Exam Prep 11**{: .label .label-examprep } PCA and Clustering -->
 
 Fri Apr 25
