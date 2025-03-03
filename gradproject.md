@@ -25,7 +25,7 @@ The purpose of the project is to give students experience in both open-ended dat
 
 | Milestones  | Deadline (11:59 PM Pacific) | Event | Deliverables | Submission Link | Grading Weight |
 | ----------- | --------------------------- | ----- | ------------ | --------------- | -------------- |
-| Milestone 1 | March 3 | Group Formation + Research Proposal | Project Proposal Form | [Google Form](https://forms.gle/qNjrRSrGHDTAzBoa9){:target="_blank"} | 5% |
+| Milestone 1 | March 3 | Group Formation + Research Proposal | Project Proposal Form | [Gradescope](https://www.gradescope.com/courses/949942/assignments/5717518){:target="_blank"} | 5% |
 | Milestone 2 | March 17 | EDA | EDA Write-Up + Notebook | [EDA Gradescope](https://www.gradescope.com/courses/949942/assignments/5717504){:target="_blank"} | 10% |
 | Milestone 3 | March 30 | Mandatory Check-In | Progress Report + Meeting Booking | [Gradescope](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} | 10% |
 | Milestone 4 | April 14 | Project Report First Draft | Final Report Draft Write-Up + Notebook | [Gradescope](https://www.gradescope.com/courses/949942/assignments/5718707){:target="_blank"} | 20% |
