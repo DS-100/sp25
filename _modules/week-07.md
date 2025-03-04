@@ -3,7 +3,7 @@ title: Week 7
 ---
 
 Tue Mar 4
-: **Lecture 13**{: .label .label-lecture} Gradient Descent / Sklearn
+: **Lecture 13**{: .label .label-lecture} [Gradient Descent / Sklearn](lecture/lec13)
     : ([*Fa24 Note*](https://ds100.org/course-notes/gradient_descent/gradient_descent.html) - to be updated)
 : **Lecture Participation 13**{: .label .label-survey } Lecture Participation 13
 : **Discussion 6**{: .label .label-disc } [Models, OLS](https://drive.google.com/file/d/1oD5ES5-JAmeMJSseLzaY7GjEQPcXsBtZ/view?usp=sharing){:target="_blank"}
