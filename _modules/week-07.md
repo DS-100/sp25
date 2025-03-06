@@ -4,7 +4,7 @@ title: Week 7
 
 Tue Mar 4
 : **Lecture 13**{: .label .label-lecture} [Gradient Descent / Sklearn](lecture/lec13)
-    : ([*Fa24 Note*](https://ds100.org/course-notes/gradient_descent/gradient_descent.html) - to be updated)
+    : [Note 13](https://ds100.org/course-notes/gradient_descent/gradient_descent.html)
 : **Lecture Participation 13**{: .label .label-survey } [Lecture Participation 13](https://app.sli.do/event/c4DNqXkM2r27joQ7AFMn4u){:target="_blank"}
 : **Discussion 6**{: .label .label-disc } [Models, OLS](https://drive.google.com/file/d/1oD5ES5-JAmeMJSseLzaY7GjEQPcXsBtZ/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://youtu.be/2pStLwJDghc){:target="_blank"}
