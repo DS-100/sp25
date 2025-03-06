@@ -16,7 +16,8 @@ Thu Mar 6
 : **Lecture 14**{: .label .label-lecture} [Feature Engineering](lecture/lec14)
     : ([*Fa24 Note*](https://ds100.org/course-notes/feature_engineering/feature_engineering.html) - to be updated)
 : **Lecture Participation 14**{: .label .label-survey } Lecture Participation 14
-<!-- : **Exam Prep 6**{: .label .label-examprep } OLS, Gradient Descent -->
+: **Exam Prep 6**{: .label .label-examprep } [OLS, Gradient Descent](https://drive.google.com/file/d/1EhkplzSAcEC9E4Z194dRjtm9nnzfuxBm/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1u_r-jtM2FBoxFZXXHklWRFdNtyy51EAo/view?usp=sharing){:target="_blank"}
 
 Fri Mar 7
 : **NO Homework**{: .label .label-hw }
