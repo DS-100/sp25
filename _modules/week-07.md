@@ -7,7 +7,8 @@ Tue Mar 4
     : [Note 13](https://ds100.org/course-notes/gradient_descent/gradient_descent.html)
 : **Lecture Participation 13**{: .label .label-survey } [Lecture Participation 13](https://app.sli.do/event/c4DNqXkM2r27joQ7AFMn4u){:target="_blank"}
 : **Discussion 6**{: .label .label-disc } [Models, OLS](https://drive.google.com/file/d/1oD5ES5-JAmeMJSseLzaY7GjEQPcXsBtZ/view?usp=sharing){:target="_blank"}
-    : [Mini-Lecture](https://youtu.be/2pStLwJDghc){:target="_blank"}
+    : [Mini-Lecture](https://youtu.be/2pStLwJDghc){:target="_blank"}, 
+    [Solutions](https://drive.google.com/file/d/1octxTr81r0W6UnxEmT8CElA21Ly8v6p-/view?usp=sharing){:target="_blank}
 
 Wed Mar 5
 : **Lab 6**{: .label .label-lab } [OLS](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab06%2Flab06.ipynb&branch=main){:target="_blank"} (due Tue Mar 11)
