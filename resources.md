@@ -33,6 +33,8 @@ Textbook readings are purely optional, and may contain material that is not in s
 {: .important }
 > Please refer to **[Data 100: Past Exam Common Questions](https://docs.google.com/document/d/e/2PACX-1vQm6iUDd-S2reyCNVHNgHKQTr7AqBQTbTEVew2POSvSAQLdpSPJb1OlYWsQ5wuFkVf1yHSVGXcta4Tv/pub)**, curating common exam-related questions we've seen on Ed over the past couple semesters, and corresponding staff responses. Feel free to make use of this resource when reviewing past exam questions.
 
+You can also review [Exam Questions by Topic here.](https://docs.google.com/document/d/1RMdewH0H0cJHfFykzf4_NsdnfEEo5qNxJBqFNc4UbLQ/edit?tab=t.0){:target="_blank}
+
 | Semester | Midterm 1 | Midterm 2  | Final | Reference Sheet |
 | -- | -- | -- | -- | -- |
 |Fall 2024| [Exam](assets/exams/fa24/fa24_mt.pdf) [(Solutions)](assets/exams/fa24/fa24_midterm_sol.pdf)| | [Exam](assets/exams/fa24/fa24_finals_qs.pdf) [(Solutions)](assets/exams/fa24/fa24_finals_sols.pdf)| [Midterm](assets\exams\fa24\fa24_mt_reference_sheet.pdf), [Final](assets\exams\fa24\fa24_final_reference_sheet.pdf) |
@@ -72,8 +74,8 @@ become part of the history of Data 100 at Berkeley.
 
 ## Coding and Mathematics Resources
 
-{: .note }
-> This section is currently under construction -- we will be adding more resources down below!
+<!-- {: .note }
+> This section is currently under construction -- we will be adding more resources down below! -->
 
 ### Pandas
 
@@ -227,7 +229,7 @@ The [Care Line](https://care.berkeley.edu/care-line/) (510-643-2005) is a 24/7, 
 ### For finding community on campus
 {:.no_toc}
 
-The mission of the [Berkeley International Office](BIO, http://internationaloffice.berkeley.edu/) (2299 Piedmont Avenue, 510-642-2818) is to provide support with all the essential resources needed to not only survive, but thrive here at UC Berkeley. Their mission is to support you and work together towards justice and belonging for all. They define Basic Needs as the essential resources that impact your health, belonging, persistence, and overall well being. It is an ecosystem that includes: nutritious food, stable housing, hygiene, transportation, healthcare, mental wellness, financial sustainability, sleep, and emergency dependent services. They refuse to accept hunger, homelessness, and all other basic needs injustices as part of our university.
+The mission of the [Berkeley International Office](https://internationaloffice.berkeley.edu) is to provide support with all the essential resources needed to not only survive, but thrive here at UC Berkeley. Their mission is to support you and work together towards justice and belonging for all. They define Basic Needs as the essential resources that impact your health, belonging, persistence, and overall well being. It is an ecosystem that includes: nutritious food, stable housing, hygiene, transportation, healthcare, mental wellness, financial sustainability, sleep, and emergency dependent services. They refuse to accept hunger, homelessness, and all other basic needs injustices as part of our university.
 
 The [Gender Equity Resource Center](https://cejce.berkeley.edu/geneq), fondly referred to as GenEq, is a UC Berkeley campus community center committed to fostering an inclusive Cal experience for all. GenEq is the campus location where students, faculty, staff and Alumni connect for resources, services, education and leadership programs related to gender and sexuality. The programs and services of the Gender Equity Resource Center are focused into four key areas: women; lesbian, gay, bisexual, and transgender (LGBT); sexual and dating violence; and hate crimes and bias driven incidents. GenEq strives to provide a space for respectful dialogue about sexuality and gender; illuminate the interrelationship of sexism, homophobia and gender bias and violence; create a campus free of violence and hate; provide leadership opportunities; advocate on behalf of survivors of sexual, hate, dating and gender violence; foster a community of women and LGBT leaders; and be a portal to campus and community resources on LGBT, Women, and the many intersections of identity (e.g., race, class, ability, etc.).
 
