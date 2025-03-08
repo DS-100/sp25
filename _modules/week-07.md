@@ -21,5 +21,5 @@ Thu Mar 6
     : [Solutions](https://drive.google.com/file/d/1u_r-jtM2FBoxFZXXHklWRFdNtyy51EAo/view?usp=sharing){:target="_blank"}
 
 Fri Mar 7
-: **NO Homework**{: .label .label-hw }
-: **Midterm Review**{: .label .label-review}
+: **No Homework**{: .label .label-hw }
+: **Midterm Review**{: .label .label-review} [Midterm Review Session](lecture/mt-review)
