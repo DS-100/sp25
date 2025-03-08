@@ -11,6 +11,7 @@ Wed Mar 12
 
 Thu Mar 13
 : **Lecture 15**{: .label .label-lecture} Case Study (HCE): CCAO
+    : ([*Fa24 Note*](https://ds100.org/course-notes/case_study_HCE/case_study_HCE.html) - to be updated)
 : **Lecture Participation 15**{: .label .label-survey } Lecture Participation 15
 : **Lab 7**{: .label .label-lab }  Gradient Descent / Sklearn (due Tue Mar 18)
 
