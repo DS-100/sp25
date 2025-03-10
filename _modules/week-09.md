@@ -5,7 +5,7 @@ title: Week 9
 Tue Mar 18
 : **Lecture 16**{: .label .label-lecture} Cross-Validation and Regularization
 : **Lecture Participation 16**{: .label .label-survey } Lecture Participation 16
-: **Discussion 8**{: .label .label-disc } Feature Engineering, Housing
+: **Discussion 7**{: .label .label-disc } Feature Engineering, Housing
 
 Thu Mar 20
 : **Lecture 17**{: .label .label-lecture} Random Variables

@@ -4,7 +4,7 @@ title: Week 8
 
 Tue Mar 11
 : **No Lecture**{: .label .label-lecture}
-: **Discussion 7**{: .label .label-disc } Gradient Descent
+: **No Discussion**{: .label .label-disc }
 
 Wed Mar 12
 : **Midterm Exam**{: .label .label-exam } Midterm (8-10 PM)

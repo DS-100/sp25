@@ -6,7 +6,7 @@ title: Week 15
 Tue Apr 29
 : **Lecture 26**{: .label .label-lecture} Clustering
 : **Lecture Participation 26**{: .label .label-survey} Lecture Participation 26
-: **Discussion 13**{: .label .label-disc } PCA + Clustering
+: **Discussion 12**{: .label .label-disc } PCA + Clustering
 
 Thu May 1
 : **Lecture 27**{: .label .label-lecture} LLMs + Guest + Closing

@@ -6,7 +6,7 @@ title: Week 11
 Tue Apr 1
 : **Lecture 18**{: .label .label-lecture} Estimators, Bias, and Variance
 : **Lecture Participation 18**{: .label .label-survey } Lecture Participation 18
-: **Discussion 9**{: .label .label-disc } Cross-Validation and Regularization
+: **Discussion 8**{: .label .label-disc } Cross-Validation and Regularization
 
 Thu Apr 3
 : **Lecture 19**{: .label .label-lecture} Parameter Inference & the Bootstrap

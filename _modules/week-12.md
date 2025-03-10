@@ -6,7 +6,7 @@ title: Week 12
 Tue Apr 8
 : **Lecture 20**{: .label .label-lecture} SQL I
 : **Lecture Participation 20**{: .label .label-survey} Lecture Participation 20
-: **Discussion 10**{: .label .label-disc } RVs, Bias, and Variance
+: **Discussion 9**{: .label .label-disc } RVs, Bias, and Variance
 
 Thu Apr 10
 : **Lecture 21**{: .label .label-lecture} SQL II

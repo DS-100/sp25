@@ -6,7 +6,7 @@ title: Week 14
 Tue Apr 22
 : **Lecture 24**{: .label .label-lecture} PCA I
 : **Lecture Participation 24**{: .label .label-survey} Lecture Participation 24
-: **Discussion 12**{: .label .label-disc } Logistic Regression
+: **Discussion 11**{: .label .label-disc } Logistic Regression
 
 Thu Apr 24
 : **Lecture 25**{: .label .label-lecture} PCA II
