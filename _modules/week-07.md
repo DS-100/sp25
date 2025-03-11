@@ -2,6 +2,9 @@
 title: Week 7
 ---
 
+Mon Mar 3
+: **Grad Project**{: .label .label-gradproj} Milestone 1: Project Proposal Form due
+
 Tue Mar 4
 : **Lecture 13**{: .label .label-lecture} [Gradient Descent / Sklearn](lecture/lec13)
     : [Note 13](https://ds100.org/course-notes/gradient_descent/gradient_descent.html)

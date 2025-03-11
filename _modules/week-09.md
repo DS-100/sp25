@@ -2,6 +2,9 @@
 title: Week 9
 ---
 
+Mon Mar 17
+: **Grad Project**{: .label .label-gradproj} Milestone 2: EDA Write-Up + Notebook due
+
 Tue Mar 18
 : **Lecture 16**{: .label .label-lecture} Cross-Validation and Regularization
 : **Lecture Participation 16**{: .label .label-survey } Lecture Participation 16

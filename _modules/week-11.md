@@ -2,6 +2,8 @@
 title: Week 11
 ---
 
+Mon Mar 30
+: **Grad Project**{: .label .label-gradproj} Milestone 3: Progress Report + Meeting Booking due
 
 Tue Apr 1
 : **Lecture 18**{: .label .label-lecture} Estimators, Bias, and Variance

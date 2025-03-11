@@ -2,6 +2,8 @@
 title: Week 13
 ---
 
+Mon Apr 14
+: **Grad Project**{: .label .label-gradproj} Milestone 4: Final Report Draft Write-Up + Notebook due
 
 Tue Apr 15
 : **Lecture 22**{: .label .label-lecture} Logistic Regression I
