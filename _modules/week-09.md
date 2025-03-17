@@ -10,6 +10,7 @@ Tue Mar 18
     : ([*Fa24 Note*](https://ds100.org/course-notes/cv_regularization/cv_reg.html) - to be updated)
 : **Lecture Participation 16**{: .label .label-survey } Lecture Participation 16
 : **Discussion 7**{: .label .label-disc } Gradient Descent, Feature Engineering, Housing
+    : [Mini-Lecture](https://youtu.be/9-ZfKJX3e14){:target="_blank"}
 
 Thu Mar 20
 : **Lecture 17**{: .label .label-lecture} Random Variables
