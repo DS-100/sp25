@@ -167,7 +167,7 @@ The rubric for this milestone is as follows:
 
 ### Milestone 3: Progress-report Draft (10%) - Monday March 31, 2025
 
-The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 31**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
+The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit a **1-2 page** report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 31**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
 
 For the check-in we would like for you to prepare brief answers to the following questions about the modeling process:
 - What model do you plan on using and why?
