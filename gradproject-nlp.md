@@ -165,9 +165,9 @@ The rubric for this milestone is as follows:
 - Exploratory Data Analysis (3%).
 - Figures (tables, plots, etc.) (3%).
 
-### Milestone 3: Progress-report Draft (10%) - Sunday March 30, 2025
+### Milestone 3: Progress-report Draft (10%) - Monday March 31, 2025
 
-The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 30**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
+The purpose of this milestone is to ensure you are making progress and on schedule to submit the first draft of the project in approximately two weeks time. You will be required to make a document summarizing your progress so far, including your EDA and modeling results. You are required to submit the report to [this Gradescope assignment](https://www.gradescope.com/courses/949942/assignments/5717488){:target="_blank"} by **11:59 pm on March 31**. The staff member will skim the report before the meeting and give you guidance on the project as a whole.
 
 For the check-in we would like for you to prepare brief answers to the following questions about the modeling process:
 - What model do you plan on using and why?
@@ -182,12 +182,12 @@ For the check-in we would like for you to prepare brief answers to the following
 More information about the check-in meeting will be shared on Ed near the check-in meeting week.
 
 The rubric for this milestone is as follows:
-- Report (7%) - due March 30, 2025
+- Report (7%) - due March 31, 2025
   - Exploratory Data Analysis (1%).
   - Feature Engineering (2%).
   - Modeling Approaches (2%).
   - Preliminary Results (2%).
-- Meeting (3%) - Happening through sign-up and will be held between March 31 and April 4, 2025
+- Meeting (3%) - Happening through sign-up and will be held between April 1 and April 4, 2025
   - All members' participation in the meeting and proper explanation of the work completed, as well as a clear plan for future steps the team will take in completing the project.
 
 ### Milestone 4: Project Report First Draft (20%) - Monday April 14, 2025
