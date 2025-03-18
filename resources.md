@@ -37,6 +37,7 @@ You can also review [Exam Questions by Topic here.](https://docs.google.com/docu
 
 | Semester | Midterm 1 | Midterm 2  | Final | Reference Sheet |
 | -- | -- | -- | -- | -- |
+|Spring 2025| [Exam](assets/exams/sp25/sp25_mt.pdf) [(Solutions)](assets/exams/sp25/sp25_mt_sols.pdf)| | | [Midterm](assets\exams\sp25\sp25_mt_reference_sheet.pdf) |
 |Fall 2024| [Exam](assets/exams/fa24/fa24_mt.pdf) [(Solutions)](assets/exams/fa24/fa24_midterm_sol.pdf)| | [Exam](assets/exams/fa24/fa24_finals_qs.pdf) [(Solutions)](assets/exams/fa24/fa24_finals_sols.pdf)| [Midterm](assets\exams\fa24\fa24_mt_reference_sheet.pdf), [Final](assets\exams\fa24\fa24_final_reference_sheet.pdf) |
 |Summer 2024| [Exam](assets/exams/su24/su24_mt.pdf) [(Solutions)](assets/exams/su24/su24_mt_sol.pdf) [[Walkthrough]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfq-uOcGFHW25xUgXeK9b8Ow) | | [Exam](assets/exams/su24/su24_final.pdf) [(Solutions)](assets/exams/su24/su24_final_sol.pdf) | [Midterm](assets\exams\su24\su24_mt_reference_sheet.pdf), [Final](assets\exams\su24\su24_final_reference_sheet.pdf) |
 |Spring 2024| [Exam](assets/exams/sp24/ds100-sp24-midterm.pdf) [(Solutions)](assets/exams/sp24/ds100-sp24-midterm-sol.pdf) | | [Exam](assets/exams/sp24/ds100-sp24-final.pdf) [(Solutions)](https://ds100.org/sp24/resources/assets/exams/sp24/ds100-sp24-final-sol.pdf)| [Midterm](assets/exams/sp24/ds100-sp24-midterm-ref.pdf), [Final](assets/exams/sp24/ds100-sp24-final-ref.pdf) |
