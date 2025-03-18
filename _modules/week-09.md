@@ -6,7 +6,7 @@ Mon Mar 17
 : **Grad Project**{: .label .label-gradproj} Milestone 2: EDA Write-Up + Notebook due
 
 Tue Mar 18
-: **Lecture 16**{: .label .label-lecture} Cross-Validation and Regularization
+: **Lecture 16**{: .label .label-lecture} [Cross-Validation and Regularization](lecture/lec16)
     : ([*Fa24 Note*](https://ds100.org/course-notes/cv_regularization/cv_reg.html) - to be updated)
 : **Lecture Participation 16**{: .label .label-survey } Lecture Participation 16
 : **Discussion 7**{: .label .label-disc } [Gradient Descent, Feature Engineering, Housing](https://drive.google.com/file/d/1wUrf1nwltlBsFgLab1SYM9QnKhjUD5Wq/view?usp=sharing){:target="_blank"}
