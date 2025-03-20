@@ -13,7 +13,7 @@ Tue Mar 18
     : [Mini-Lecture](https://youtu.be/9-ZfKJX3e14){:target="_blank"}
 
 Thu Mar 20
-: **Lecture 17**{: .label .label-lecture} Random Variables
+: **Lecture 17**{: .label .label-lecture} [Random Variables](lecture/lec17)
 : **Lecture Participation 17**{: .label .label-survey } Lecture Participation 17
     : ([*Fa24 Note*](https://ds100.org/course-notes/probability_1/probability_1.html) - to be updated)
 : **Lab 8**{: .label .label-lab }  Model Selection (due Tue Apr 1)
