@@ -18,7 +18,8 @@ Thu Mar 20
 : **Lecture Participation 17**{: .label .label-survey } Lecture Participation 17
     : ([*Fa24 Note*](https://ds100.org/course-notes/probability_1/probability_1.html) - to be updated)
 : **Lab 8**{: .label .label-lab }  Model Selection (due Tue Apr 1)
-<!-- : **Exam Prep 7**{: .label .label-examprep } Cross Validation and Regularization -->
+: **Exam Prep 7**{: .label .label-examprep } [Cross Validation and Regularization](https://drive.google.com/file/d/1_e8hPjz0u6aRic8xw0yIZ9w21Tx2syKU/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1hvagKYAhbNdZeU9OLaesnq0D9K0xHlxE/view?usp=sharing){:target="_blank"}
 
 Fri Mar 21
 : **Project A2**{: .label .label-proj } Housing II (due Thu Apr 3)
