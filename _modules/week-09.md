@@ -19,7 +19,7 @@ Thu Mar 20
     : ([*Fa24 Note*](https://ds100.org/course-notes/probability_1/probability_1.html) - to be updated)
 : **Lab 8**{: .label .label-lab }  [Model Selection](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab08%2Flab08.ipynb&branch=main){:target="_blank"} (due Tue Apr 1)
 : **Exam Prep 7**{: .label .label-examprep } [Cross Validation and Regularization](https://drive.google.com/file/d/1_e8hPjz0u6aRic8xw0yIZ9w21Tx2syKU/view?usp=sharing){:target="_blank"}
-    : [Solutions](https://drive.google.com/file/d/1hvagKYAhbNdZeU9OLaesnq0D9K0xHlxE/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1hvagKYAhbNdZeU9OLaesnq0D9K0xHlxE/view?usp=sharing){:target="_blank"}, [Walkthrough](https://youtu.be/lyN7_YCFdNw){:target="_blank"}
 
 Fri Mar 21
 : **Project A2**{: .label .label-proj } Housing II (due Thu Apr 3)
