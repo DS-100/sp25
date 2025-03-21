@@ -15,7 +15,7 @@ Tue Mar 18
 
 Thu Mar 20
 : **Lecture 17**{: .label .label-lecture} [Random Variables](lecture/lec17)
-: **Lecture Participation 17**{: .label .label-survey } Lecture Participation 17
+: **Lecture Participation 17**{: .label .label-survey } [Lecture Participation 17](https://app.sli.do/event/8abN7VT4TVVY56S2hPw56q){:target="_blank"}
     : ([*Fa24 Note*](https://ds100.org/course-notes/probability_1/probability_1.html) - to be updated)
 : **Lab 8**{: .label .label-lab }  [Model Selection](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab08%2Flab08.ipynb&branch=main){:target="_blank"} (due Tue Apr 1)
 : **Exam Prep 7**{: .label .label-examprep } [Cross Validation and Regularization](https://drive.google.com/file/d/1_e8hPjz0u6aRic8xw0yIZ9w21Tx2syKU/view?usp=sharing){:target="_blank"}
