@@ -22,4 +22,4 @@ Thu Mar 20
     : [Solutions](https://drive.google.com/file/d/1hvagKYAhbNdZeU9OLaesnq0D9K0xHlxE/view?usp=sharing){:target="_blank"}, [Walkthrough](https://youtu.be/lyN7_YCFdNw){:target="_blank"}
 
 Fri Mar 21
-: **Project A2**{: .label .label-proj } Housing II (due Thu Apr 3)
+: **Project A2**{: .label .label-proj } [Housing II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fproj%2FprojA2%2FprojA2.ipynb&branch=main){:target="_blank"} (due Thu Apr 3)
