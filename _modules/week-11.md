@@ -2,7 +2,7 @@
 title: Week 11
 ---
 
-Mon Mar 30
+Mon Mar 31
 : **Grad Project**{: .label .label-gradproj} Milestone 3: Progress Report + Meeting Booking due
 
 Tue Apr 1
