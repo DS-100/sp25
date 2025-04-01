@@ -7,6 +7,7 @@ Mon Mar 31
 
 Tue Apr 1
 : **Lecture 18**{: .label .label-lecture} Estimators, Bias, and Variance
+    : ([*Fa24 Note*](https://ds100.org/course-notes/probability_2/probability_2.html) - to be updated)
 : **Lecture Participation 18**{: .label .label-survey } Lecture Participation 18
 : **Discussion 8**{: .label .label-disc } Cross-Validation and Regularization
 
