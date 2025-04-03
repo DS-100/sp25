@@ -13,7 +13,7 @@ Tue Apr 1
     : [Mini-Lecture](https://youtu.be/fii089-AWeA){:target="_blank"}
 
 Thu Apr 3
-: **Lecture 19**{: .label .label-lecture} Parameter Inference & the Bootstrap
+: **Lecture 19**{: .label .label-lecture} [Parameter Inference & the Bootstrap](lecture/lec19)
     : ([*Fa24 Note*](https://ds100.org/course-notes/inference_causality/inference_causality.html) - to be updated)
 : **Lecture Participation 19**{: .label .label-survey} Lecture Participation 19
 : **Lab 9**{: .label .label-lab }  Probability (due Tue Apr 8)
