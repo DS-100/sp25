@@ -18,7 +18,8 @@ Thu Apr 3
     : ([*Fa24 Note*](https://ds100.org/course-notes/inference_causality/inference_causality.html) - to be updated)
 : **Lecture Participation 19**{: .label .label-survey} Lecture Participation 19
 : **Lab 9**{: .label .label-lab }  [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab09%2Flab09.ipynb&branch=main){:target="_blank"} (due Tue Apr 8)
-<!-- : **Exam Prep 8**{: .label .label-examprep } Probability and Bias-Variance -->
+: **Exam Prep 8**{: .label .label-examprep } [Probability and Bias-Variance](https://drive.google.com/file/d/196erOtH8dlZNossFrvAe2NveuHQHfV5G/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1AjP6Z6E_VyHG6765DSYISziMPezdJIeT/view?usp=sharing){:target="_blank"}
 
 Fri Apr 4
 : **Homework 6**{: .label .label-hw } Probability (due Thu Apr 10)
