@@ -10,7 +10,8 @@ Tue Apr 1
     : ([*Fa24 Note*](https://ds100.org/course-notes/probability_2/probability_2.html) - to be updated)
 : **Lecture Participation 18**{: .label .label-survey } [Lecture Participation 18](https://app.sli.do/event/tHSzn2X4tjs7gXGa8eDQ2u){:target="_blank"}
 : **Discussion 8**{: .label .label-disc } [Cross-Validation and Regularization](https://drive.google.com/file/d/1MzlQBHS9HLZE0fl6rRw7hJlplp7ynMNv/view?usp=sharing){:target="_blank"}
-    : [Mini-Lecture](https://youtu.be/fii089-AWeA){:target="_blank"}
+    : [Mini-Lecture](https://youtu.be/fii089-AWeA){:target="_blank"}, 
+    [Solutions](https://drive.google.com/file/d/1hcGRHIWwt7CqgQzTwbfPX08S-ox2Yx8c/view?usp=sharing){:target="_blank"}
 
 Thu Apr 3
 : **Lecture 19**{: .label .label-lecture} [Parameter Inference & the Bootstrap](lecture/lec19)
