@@ -4,7 +4,7 @@ title: Week 12
 
 
 Tue Apr 8
-: **Lecture 20**{: .label .label-lecture} SQL I
+: **Lecture 20**{: .label .label-lecture} [SQL I](lecture/lec20)
 : **Lecture Participation 20**{: .label .label-survey} Lecture Participation 20
 : **Discussion 9**{: .label .label-disc } [RVs, Bias, and Variance](https://drive.google.com/file/d/1CzXF8UIulqHJb2-kVXBoMCNTzScBlwop/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://youtu.be/bp7-OwxdGwg){:target="_blank"}
