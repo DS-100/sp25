@@ -22,5 +22,5 @@ Thu Apr 3
     : [Solutions](https://drive.google.com/file/d/1AjP6Z6E_VyHG6765DSYISziMPezdJIeT/view?usp=sharing){:target="_blank"}, [Walkthrough](https://youtu.be/BOmuxmNOdQE){:target="_blank"}
 
 Fri Apr 4
-: **Homework 6**{: .label .label-hw } [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw06%2Fhw06.ipynb&branch=main){:target="_blank"} and [Statistics](https://drive.google.com/file/d/1Ry07Yh0KKL7OTIHecwNMhlpOt4cG3sH_/view?usp=sharing){:target="_blank"} (due Thu Apr 10)
+: **Homework 6**{: .label .label-hw } [Probability](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw06%2Fhw06.ipynb&branch=main){:target="_blank"} and [Statistics](https://drive.google.com/file/d/1Ry07Yh0KKL7OTIHecwNMhlpOt4cG3sH_/view?usp=sharing){:target="_blank"} ([LaTeX](https://static.us.edusercontent.com/files/UJ19inei7kkvrfstCjAscqZd)) (due Thu Apr 10)
 : **Grade Option Change**{: .label .label-deadline } 11:59 PM
