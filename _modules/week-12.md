@@ -12,7 +12,7 @@ Tue Apr 8
 Thu Apr 10
 : **Lecture 21**{: .label .label-lecture} [SQL II](lecture/lec21)
 : **Lecture Participation 21**{: .label .label-survey} Lecture Participation 21
-: **Lab 10**{: .label .label-lab } SQL (due Tue Apr 15)
+: **Lab 10**{: .label .label-lab } [SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab10%2Flab10.ipynb&branch=main){:target="_blank"} (due Tue Apr 15)
 <!-- : **Exam Prep 9**{: .label .label-examprep } SQL -->
 
 Fri Apr 11
