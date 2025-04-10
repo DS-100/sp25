@@ -10,7 +10,7 @@ Tue Apr 8
     : [Mini-Lecture](https://youtu.be/bp7-OwxdGwg){:target="_blank"}
 
 Thu Apr 10
-: **Lecture 21**{: .label .label-lecture} SQL II
+: **Lecture 21**{: .label .label-lecture} [SQL II](lecture/lec21)
 : **Lecture Participation 21**{: .label .label-survey} Lecture Participation 21
 : **Lab 10**{: .label .label-lab } SQL (due Tue Apr 15)
 <!-- : **Exam Prep 9**{: .label .label-examprep } SQL -->
