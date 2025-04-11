@@ -17,4 +17,4 @@ Thu Apr 10
     : [Solutions](https://drive.google.com/file/d/1ywDc5HERTSMAiZ9z0rZEku0qbWJo6woz/view?usp=sharing){:target="_blank"}
 
 Fri Apr 11
-: **Homework 7**{: .label .label-hw } SQL (due Thu Apr 17)
+: **Homework 7**{: .label .label-hw } [SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fhw%2Fhw07%2Fhw07.ipynb&branch=main){:target="_blank"} (due Thu Apr 17)
