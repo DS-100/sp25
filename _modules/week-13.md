@@ -8,7 +8,7 @@ Mon Apr 14
 Tue Apr 15
 : **Lecture 22**{: .label .label-lecture} Logistic Regression I
 : **Lecture Participation 22**{: .label .label-survey} Lecture Participation 22
-: **Discussion 10**{: .label .label-disc } SQL
+: **Discussion 10**{: .label .label-disc } [SQL](https://drive.google.com/file/d/1wUdZ9zO8whJfw8cz3rzET1JZUtNT3q_y/view?usp=sharing){:target="_blank"}
     
 Thu Apr 17
 : **Lecture 23**{: .label .label-lecture} Logistic Regression II
