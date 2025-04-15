@@ -6,7 +6,7 @@ Mon Apr 14
 : **Grad Project**{: .label .label-gradproj} Milestone 4: Final Report Draft Write-Up due
 
 Tue Apr 15
-: **Lecture 22**{: .label .label-lecture} Logistic Regression I
+: **Lecture 22**{: .label .label-lecture} [Logistic Regression I](lecture/lec22)
 : **Lecture Participation 22**{: .label .label-survey} Lecture Participation 22
 : **Discussion 10**{: .label .label-disc } [SQL](https://drive.google.com/file/d/1wUdZ9zO8whJfw8cz3rzET1JZUtNT3q_y/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://youtu.be/ZFq_yelFhDY){:target="_blank"}, [Notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fdisc%2Fdisc10%2Fdisc10_blank.ipynb&branch=main){:target="_blank"}
