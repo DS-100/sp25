@@ -17,7 +17,8 @@ Thu Apr 17
     : ([*Fa24 Note*](https://ds100.org/course-notes/logistic_regression_2/logistic_reg_2.html) - to be updated)
 : **Lecture Participation 23**{: .label .label-survey} Lecture Participation 23
 : **Lab 11**{: .label .label-lab } Logistic Regression (due Tue Apr 22)
-<!-- : **Exam Prep 10**{: .label .label-examprep } Logistic Regression -->
+: **Exam Prep 10**{: .label .label-examprep } [Logistic Regression](https://drive.google.com/file/d/1-Sao8s4VblNk6U4qH5y1GiDyw8OlADRs/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1WJI0Uh55l03UNgGFCG1oo59IGELuEBp_/view?usp=sharing){:target="_blank"}
 
 Fri Apr 18
 : **Project B1**{: .label .label-proj } Spam & Ham I (due Thu Apr 24)
