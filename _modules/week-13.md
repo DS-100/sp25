@@ -18,7 +18,7 @@ Thu Apr 17
 : **Lecture Participation 23**{: .label .label-survey} [Lecture Participation 23](https://app.sli.do/event/bjJCKm4d79NjyRAQrnonSy)
 : **Lab 11**{: .label .label-lab } [Logistic Regression](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab11%2Flab11.ipynb&branch=main){:target="_blank"} (due Tue Apr 22)
 : **Exam Prep 10**{: .label .label-examprep } [Logistic Regression](https://drive.google.com/file/d/1-Sao8s4VblNk6U4qH5y1GiDyw8OlADRs/view?usp=sharing){:target="_blank"}
-    : [Solutions](https://drive.google.com/file/d/1WJI0Uh55l03UNgGFCG1oo59IGELuEBp_/view?usp=sharing){:target="_blank"}
+    : [Solutions](https://drive.google.com/file/d/1WJI0Uh55l03UNgGFCG1oo59IGELuEBp_/view?usp=sharing){:target="_blank"}, [Walkthrough](https://youtu.be/VOOCYnHLaX4){:target="_blank"}
 
 Fri Apr 18
 : **Project B1**{: .label .label-proj } [Spam & Ham I](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fproj%2FprojB1%2FprojB1.ipynb&branch=main){:target="_blank"} (due Thu Apr 24)
