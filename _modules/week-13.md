@@ -14,7 +14,7 @@ Tue Apr 15
     
 Thu Apr 17
 : **Lecture 23**{: .label .label-lecture} [Logistic Regression II](lecture/lec23)
-    : ([*Fa24 Note*](https://ds100.org/course-notes/logistic_regression_2/logistic_reg_2.html) - to be updated)
+    : [Note 23](https://ds100.org/course-notes/logistic_regression_2/logistic_reg_2.html)
 : **Lecture Participation 23**{: .label .label-survey} [Lecture Participation 23](https://app.sli.do/event/bjJCKm4d79NjyRAQrnonSy)
 : **Lab 11**{: .label .label-lab } [Logistic Regression](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab11%2Flab11.ipynb&branch=main){:target="_blank"} (due Tue Apr 22)
 : **Exam Prep 10**{: .label .label-examprep } [Logistic Regression](https://drive.google.com/file/d/1-Sao8s4VblNk6U4qH5y1GiDyw8OlADRs/view?usp=sharing){:target="_blank"}
