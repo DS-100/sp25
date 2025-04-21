@@ -7,11 +7,13 @@ Mon Apr 21
 
 Tue Apr 22
 : **Lecture 24**{: .label .label-lecture} PCA I
+    : ([*Fa24 Note*](https://ds100.org/course-notes/pca_1/pca_1.html) - to be updated)
 : **Lecture Participation 24**{: .label .label-survey} Lecture Participation 24
 : **Discussion 11**{: .label .label-disc } Logistic Regression
 
 Thu Apr 24
 : **Lecture 25**{: .label .label-lecture} PCA II
+    : ([*Fa24 Note*](https://ds100.org/course-notes/pca_2/pca_2.html) - to be updated)
 : **Lecture Participation 25**{: .label .label-survey} Lecture Participation 25
 : **Lab 12**{: .label .label-lab }  PCA (due Tue Apr 29)
 <!-- : **Exam Prep 11**{: .label .label-examprep } PCA and Clustering -->
