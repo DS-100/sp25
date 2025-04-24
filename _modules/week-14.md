@@ -13,7 +13,7 @@ Tue Apr 22
     : [Mini-Lecture](https://youtu.be/fseH10rEg3w){:target="_blank"}
 
 Thu Apr 24
-: **Lecture 25**{: .label .label-lecture} PCA II
+: **Lecture 25**{: .label .label-lecture} [PCA II](lecture/lec25)
     : ([*Fa24 Note*](https://ds100.org/course-notes/pca_2/pca_2.html) - to be updated)
 : **Lecture Participation 25**{: .label .label-survey} Lecture Participation 25
 : **Lab 12**{: .label .label-lab }  PCA (due Tue Apr 29)
