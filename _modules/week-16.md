@@ -6,14 +6,13 @@ Mon May 5
 : RRR
 
 Tue May 6
-: RRR
-: **Final Review**{: .label .label-review} TBD
+: **Final Review**{: .label .label-review} Post-Midterm Content
 
 Wed May 7
 : RRR
 
 Thu May 8
-: RRR
+: **Final Review**{: .label .label-review} Problem-Solving Practice
 
 Fri May 9
 : RRR
