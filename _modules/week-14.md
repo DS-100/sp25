@@ -7,7 +7,7 @@ Mon Apr 21
 
 Tue Apr 22
 : **Lecture 24**{: .label .label-lecture} [PCA I](lecture/lec24)
-    : ([*Fa24 Note*](https://ds100.org/course-notes/pca_1/pca_1.html) - to be updated)
+    : [Note 24](https://ds100.org/course-notes/pca_1/pca_1.html)
 : **Lecture Participation 24**{: .label .label-survey} [Lecture Participation 24](https://app.sli.do/event/pBqkvCMSzTt7CwvB1hQtoo){:target="_blank"}
 : **Discussion 11**{: .label .label-disc } [Logistic Regression](https://drive.google.com/file/d/1RItucVnsJT651_x0X4CKd4aFmf_pUBCP/view?usp=sharing){:target="_blank"}
     : [Mini-Lecture](https://youtu.be/fseH10rEg3w){:target="_blank"}
