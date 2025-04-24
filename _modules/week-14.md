@@ -10,7 +10,7 @@ Tue Apr 22
     : [Note 24](https://ds100.org/course-notes/pca_1/pca_1.html)
 : **Lecture Participation 24**{: .label .label-survey} [Lecture Participation 24](https://app.sli.do/event/pBqkvCMSzTt7CwvB1hQtoo){:target="_blank"}
 : **Discussion 11**{: .label .label-disc } [Logistic Regression](https://drive.google.com/file/d/1RItucVnsJT651_x0X4CKd4aFmf_pUBCP/view?usp=sharing){:target="_blank"}
-    : [Mini-Lecture](https://youtu.be/fseH10rEg3w){:target="_blank"}
+    : [Mini-Lecture](https://youtu.be/fseH10rEg3w){:target="_blank"}, [Solutions](https://drive.google.com/file/d/13YkpAMItn6ufxqs80y3NYNjPfjmZJVwV/view?usp=sharing){:target="_blank"}
 
 Thu Apr 24
 : **Lecture 25**{: .label .label-lecture} [PCA II](lecture/lec25)
