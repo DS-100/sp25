@@ -200,7 +200,6 @@ The external peer review is also a great chance to learn from other people's wor
 
 ```
 [your studentIDs joined by _]/
-    data/[all datasets used]
     analysis/[analysis notebooks]
     narrative/[narrative PDF]
     figures/[figures included in the narrative PDF]
