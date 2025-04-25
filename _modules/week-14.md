@@ -21,4 +21,4 @@ Thu Apr 24
     : [Solutions](https://drive.google.com/file/d/1CxOYYCuGNQNGBjF7_W-sYQWLCYQerwA-/view?usp=sharing){:target="_blank"}
 
 Fri Apr 25
-: **Project B2**{: .label .label-proj } Spam & Ham II (due Thu May 1)
+: **Project B2**{: .label .label-proj } [Spam & Ham II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Fproj%2FprojB2%2FprojB2.ipynb&branch=main){:target="_blank"} (due Thu May 1)
