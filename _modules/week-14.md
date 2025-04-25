@@ -15,7 +15,7 @@ Tue Apr 22
 Thu Apr 24
 : **Lecture 25**{: .label .label-lecture} [PCA II](lecture/lec25)
     : [Note 25](https://ds100.org/course-notes/pca_2/pca_2.html)
-: **Lecture Participation 25**{: .label .label-survey} Lecture Participation 25
+: **Lecture Participation 25**{: .label .label-survey} [Lecture Participation 25](https://app.sli.do/event/7dvAq9NCuNMpG6gjdkf9mD){:target="_blank"}
 : **Lab 12**{: .label .label-lab }  [PCA](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab12%2Flab12.ipynb&branch=main){:target="_blank"} (due Tue Apr 29)
 : **Exam Prep 11**{: .label .label-examprep } [PCA and Clustering](https://drive.google.com/file/d/1b_9xqm8FV-GqAysPb91WStmlO4tRA7UL/view?usp=sharing){:target="_blank"}
     : [Solutions](https://drive.google.com/file/d/1CxOYYCuGNQNGBjF7_W-sYQWLCYQerwA-/view?usp=sharing){:target="_blank"}
