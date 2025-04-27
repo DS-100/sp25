@@ -304,7 +304,7 @@ The test sets for both tasks are named as follows:
 4. `arena-test-set-model_b_response-embeddings.npy`
 5. `arena-test-set-topic-modeling.jsonl.gz`
 
-All files are located in `shared/course/data100-shared-readwrite/sp25_grad_project_data/nlp-chatbot-analysis_data/test-set` directory on Data 100 Datahub.
+All files are located in `shared/course/data100-shared-readwrite/fa24_grad_project_data/nlp-chatbot-analysis_data/test-set` directory on Data 100 Datahub.
 
 Submit a single CSV file with three columns named `question_id`, `winner`, `hardness_score` to [the predictions assignment](https://www.gradescope.com/courses/949942/assignments/5717482){:target="_blank"}.
 
