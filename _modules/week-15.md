@@ -7,6 +7,7 @@ Mon Apr 28
 
 Tue Apr 29
 : **Lecture 26**{: .label .label-lecture} Clustering
+    : ([*Fa24 Note*](https://ds100.org/course-notes/clustering/clustering.html) - to be updated)
 : **Lecture Participation 26**{: .label .label-survey} Lecture Participation 26
 : **Discussion 12**{: .label .label-disc } PCA + Clustering
     : [Mini-Lecture](https://youtu.be/kZzhgzMFnDU){:target="_blank"}
