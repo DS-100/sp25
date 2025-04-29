@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 28 – LLMs + closing
+title: Lecture 28 – LLMs + Closing
 nav_exclude: true
 ---
 
-# Lecture 28 – LLMs + closing
+# Lecture 28 – LLMs + Closing
 
 <!-- Presented by Joseph E. Gonzalez
 

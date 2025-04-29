@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 27 – Intro to LLMs and Conclusion
+title: Lecture 27 – LLMS + Closing
 nav_exclude: true
 ---
 
