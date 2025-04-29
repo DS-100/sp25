@@ -6,7 +6,7 @@ Mon Apr 28
 : **Grad Project**{: .label .label-gradproj} Final Submission: Final Project Report + Presentation Video due
 
 Tue Apr 29
-: **Lecture 26**{: .label .label-lecture} Clustering
+: **Lecture 26**{: .label .label-lecture} [Clustering](lecture/lec26)
     : ([*Fa24 Note*](https://ds100.org/course-notes/clustering/clustering.html) - to be updated)
 : **Lecture Participation 26**{: .label .label-survey} Lecture Participation 26
 : **Discussion 12**{: .label .label-disc } [PCA + Clustering](https://drive.google.com/file/d/1djAFq8JmodUXbY1FKHtnj8JoaG6t4Jkf/view?usp=sharing){:target="_blank"}
