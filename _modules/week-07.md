@@ -17,7 +17,7 @@ Wed Mar 5
 : **Lab 6**{: .label .label-lab } [OLS](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab06%2Flab06.ipynb&branch=main){:target="_blank"} (due Tue Mar 11)
 
 Thu Mar 6
-: **Lecture 14**{: .label .label-lecture} [Feature Engineering](lecture/lec14)
+: **Lecture 14**{: .label .label-lecture} [Gradient Descent, Feature Engineering](lecture/lec14)
     : [Note 14](https://ds100.org/course-notes/feature_engineering/feature_engineering.html)
 : **Lecture Participation 14**{: .label .label-survey } [Lecture Participation 14](https://app.sli.do/event/ayXJcNf51YUf6LVSS1upZY){:target="_blank"}
 : **Exam Prep 6**{: .label .label-examprep } [OLS, Gradient Descent](https://drive.google.com/file/d/1EhkplzSAcEC9E4Z194dRjtm9nnzfuxBm/view?usp=sharing){:target="_blank"}
