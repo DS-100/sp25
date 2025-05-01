@@ -25,7 +25,7 @@ Lecture notes will be updated on a weekly basis, prior to the lecture. If you sp
 
 ## Optional Supplementary Textbook
 Here are optional textbook readings, [Learning Data Science](https://learningds.org/intro.html), supplementary to the Data 100 lecture material.  
-Textbook readings are purely optional, and may contain material that is not in scope (and may also not be comprehensive).  If you find issues with the textbook, email Prof. Gonzalez directly.
+Textbook readings are purely optional, and may contain material that is not in scope (and may also not be comprehensive). If you find issues with the textbook, please make a post on Ed.
 
 
 ## Exam Resources
