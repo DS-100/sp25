@@ -14,5 +14,5 @@ Tue Apr 29
 
 Thu May 1
 : **Lecture 27**{: .label .label-lecture} [LLMs + Closing](lecture/lec27)
-: **Lecture Participation 27**{: .label .label-survey} Lecture Participation 27
+: **Lecture Participation 27**{: .label .label-survey} [Lecture Participation 27](https://app.sli.do/event/8cAriGxioRRfViczqbcu3v){:target="_blank"}
 : **Lab 13**{: .label .label-lab } [Clustering](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp25-student&urlpath=lab%2Ftree%2Fsp25-student%2Flab%2Flab13%2Flab13.ipynb&branch=main){:target="_blank"} (due Tue May 6)
