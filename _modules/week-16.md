@@ -6,7 +6,7 @@ Mon May 5
 : RRR
 
 Tue May 6
-: **Final Review**{: .label .label-review} Post-Midterm Content
+: **Final Review**{: .label .label-review} [Post-Midterm Content](lecture/post-mt-review)
 
 Wed May 7
 : RRR
