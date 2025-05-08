@@ -12,7 +12,7 @@ Wed May 7
 : RRR
 
 Thu May 8
-: **Final Review**{: .label .label-review} Problem-Solving Practice
+: **Final Review**{: .label .label-review} [Problem-Solving Practice](lecture/problem-solving-practice)
 
 Fri May 9
 : RRR
