@@ -16,7 +16,7 @@ Jump to:
 {:toc}
 
 ## Reference Sheet
-Here is the Spring 2025 Midterm [Reference Sheet](https://drive.google.com/file/d/17q_oSn17ifoDm7M8NS3-kL9yAE0j2KkD/view).
+Here is the Spring 2025 Final [Reference Sheet](resources/assets/other/final_ref_sheet.pdf){:target="_blank"}.
 
 ## Supplementary Course Notes
 Alongside each lecture are supplementary [Course Notes](https://ds100.org/course-notes/). 
