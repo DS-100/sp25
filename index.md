@@ -36,7 +36,8 @@ currWeekNumber: 17
 
 {: .highlight }
 
-> Welcome to [Week {{page.currWeekNumber}}](#week-{{page.currWeekNumber}}) of Data 100!
+<!-- > Welcome to [Week {{page.currWeekNumber}}](#week-{{page.currWeekNumber}}) of Data 100! -->
+> Have a great summer!
 > 
 > Lectures will be webcast at: [https://berkeley.zoom.us/j/97347722542](https://berkeley.zoom.us/j/97347722542){:target="\_blank"}.
 
